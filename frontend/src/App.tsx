@@ -37,6 +37,7 @@ const CHAT_STORAGE_KEY = "bit-professor-agent:conversation:v1";
 const STORAGE_VERSION = 1;
 const MAX_CONTEXT_MESSAGES = 12;
 const GITHUB_REPOSITORY_URL = "https://github.com/khajiev13/bit-international-students";
+const BIT_ISC_URL = "https://isc.bit.edu.cn/";
 
 const quickStarts: QuickStart[] = [
   { labelKey: "quickResearch", promptKey: "quickResearchPrompt" },
@@ -188,16 +189,28 @@ function App() {
     <main className={`app ${hasMessages ? "is-chatting" : ""}`}>
       <section className="title-band">
         <div className="title-copy">
-          <p className="breadcrumb">{t("breadcrumb")}</p>
           <div className="title-row">
             <div className="title-heading">
-              <h1>{t("title")}</h1>
+              <div className="title-text">
+                <h1>{t("title")}</h1>
+                <p className="project-kicker">{t("projectKicker")}</p>
+              </div>
               <img className="title-logo" alt="BIT logo" src={bitLogo} />
             </div>
             <div className="title-actions">
               <a
+                aria-label={t("iscLabel")}
+                className="title-link official-link"
+                href={BIT_ISC_URL}
+                rel="noreferrer"
+                target="_blank"
+                title={t("iscLabel")}
+              >
+                {t("iscLink")}
+              </a>
+              <a
                 aria-label={t("githubLabel")}
-                className="github-link"
+                className="title-link github-link"
                 href={GITHUB_REPOSITORY_URL}
                 rel="noreferrer"
                 target="_blank"
@@ -223,7 +236,6 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="red-rule" />
         </div>
       </section>
 

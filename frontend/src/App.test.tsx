@@ -25,7 +25,13 @@ describe("BIT Professor Agent frontend", () => {
     const { container } = render(<App />);
 
     expect(screen.getByText("Knowing the Professors")).toBeInTheDocument();
+    expect(screen.queryByText("HOME» SCHOOLS» PROFESSOR EXPLORATION»")).not.toBeInTheDocument();
+    expect(screen.getByText("BIT International Students")).toBeInTheDocument();
     expect(screen.getByText("Find BIT professors by research topic, department, or name.")).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "Official BIT ISC website" })).toHaveAttribute(
+      "href",
+      "https://isc.bit.edu.cn/"
+    );
     expect(screen.getByRole("link", { name: "Contribute on GitHub" })).toHaveAttribute(
       "href",
       "https://github.com/khajiev13/bit-international-students"

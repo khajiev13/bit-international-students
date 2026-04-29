@@ -113,19 +113,19 @@ textarea:disabled {
 
 .title-band {
   width: 100%;
-  min-height: 204px;
+  min-height: 104px;
   display: flex;
-  align-items: flex-end;
-  padding: 30px 36px 0;
-  background: var(--bit-panel) var(--seal) no-repeat left -130px top -28px;
+  align-items: center;
+  padding: 14px 36px;
+  background: var(--bit-panel) var(--seal) no-repeat left -158px top -82px;
   color: white;
   overflow: hidden;
   border-bottom: 4px solid var(--bit-red);
 }
 
 .title-logo {
-  width: 68px;
-  height: 68px;
+  width: 50px;
+  height: 50px;
   object-fit: contain;
   flex: 0 0 auto;
   filter: drop-shadow(0 12px 20px rgba(0, 0, 0, 0.34));
@@ -139,7 +139,7 @@ textarea:disabled {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 28px;
+  gap: 24px;
 }
 
 .title-actions {
@@ -154,11 +154,25 @@ textarea:disabled {
 .title-heading {
   display: flex;
   align-items: center;
-  gap: 22px;
+  gap: 16px;
   min-width: 0;
 }
 
-.github-link {
+.title-text {
+  min-width: 0;
+}
+
+.project-kicker {
+  margin: 4px 0 0;
+  color: #b8c9ad;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+
+.title-link {
   display: inline-grid;
   place-items: center;
   min-height: 38px;
@@ -175,20 +189,11 @@ textarea:disabled {
   white-space: nowrap;
 }
 
-.github-link:hover,
-.github-link:focus-visible {
+.title-link:hover,
+.title-link:focus-visible {
   border-color: #666666;
   background: var(--bit-grey);
   color: white;
-}
-
-.breadcrumb {
-  margin: 0 0 18px;
-  color: var(--bit-link);
-  font-size: 18px;
-  line-height: 1.2;
-  font-weight: 700;
-  text-transform: uppercase;
 }
 
 h1,
@@ -200,8 +205,8 @@ h3 {
 }
 
 h1 {
-  font-size: 44px;
-  line-height: 1.18;
+  font-size: 38px;
+  line-height: 1.1;
 }
 
 h2 {
@@ -209,11 +214,23 @@ h2 {
   line-height: 1.15;
 }
 
-.red-rule {
-  width: 280px;
-  height: 4px;
-  margin-top: 24px;
-  background: var(--bit-red);
+.app.is-chatting .title-band {
+  min-height: 78px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.app.is-chatting .title-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.app.is-chatting h1 {
+  font-size: 31px;
+}
+
+.app.is-chatting .project-kicker {
+  display: none;
 }
 
 .workspace {
@@ -929,28 +946,27 @@ h2 {
 
 @media (max-width: 900px) {
   .title-band {
-    min-height: 166px;
-    padding: 16px 18px 0;
-    background-position: left -210px top -58px;
+    min-height: 88px;
+    padding: 12px 18px;
+    background-position: left -224px top -96px;
   }
 
   .title-logo {
-    width: 60px;
-    height: 60px;
-  }
-
-  .breadcrumb {
-    margin-bottom: 10px;
-    font-size: 13px;
+    width: 44px;
+    height: 44px;
   }
 
   h1 {
-    font-size: 34px;
+    font-size: 30px;
   }
 
-  .red-rule {
-    width: 220px;
-    margin-top: 14px;
+  .project-kicker {
+    font-size: 10px;
+  }
+
+  .title-link {
+    min-height: 34px;
+    padding: 0 10px;
   }
 
   .workspace {
@@ -1006,56 +1022,60 @@ h2 {
 
 @media (max-width: 680px) {
   .title-actions {
-    margin-left: auto;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 6px;
+    margin-left: 0;
   }
 
   .language-switch button {
-    min-width: 42px;
+    min-width: 38px;
+    height: 24px;
+    font-size: 10px;
   }
 
   .title-band {
-    min-height: 148px;
-    padding: 14px 16px 0;
-    background-position: left -238px top -70px;
+    min-height: 92px;
+    padding: 9px 12px;
+    background-position: left -254px top -104px;
   }
 
   .title-row {
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
-    gap: 14px;
+    gap: 8px;
   }
 
   .title-logo {
-    width: 52px;
-    height: 52px;
-  }
-
-  .breadcrumb {
-    margin-bottom: 7px;
-    font-size: 12px;
-    line-height: 1.25;
+    display: none;
   }
 
   h1 {
-    font-size: 30px;
-    line-height: 1.12;
+    font-size: 25px;
+    line-height: 1.08;
   }
 
-  .red-rule {
-    width: 170px;
-    height: 3px;
-    margin-top: 10px;
+  .project-kicker {
+    margin-top: 3px;
+    font-size: 9px;
+  }
+
+  .title-link {
+    min-height: 28px;
+    padding: 0 8px;
+    font-size: 10px;
   }
 
   .app.is-chatting .title-band {
-    min-height: 98px;
-    padding-top: 10px;
+    min-height: 74px;
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
 
   .app.is-chatting .title-row {
     align-items: center;
-    flex-wrap: nowrap;
-    gap: 12px;
+    flex-wrap: wrap;
+    gap: 6px;
   }
 
   .app.is-chatting .title-heading {
@@ -1071,22 +1091,13 @@ h2 {
     margin-left: 0;
   }
 
-  .app.is-chatting .github-link {
-    display: none;
-  }
-
-  .app.is-chatting .breadcrumb {
-    display: none;
-  }
-
   .app.is-chatting h1 {
-    font-size: 24px;
-    line-height: 1.12;
+    font-size: 22px;
+    line-height: 1.08;
   }
 
-  .app.is-chatting .red-rule {
-    width: 120px;
-    margin-top: 7px;
+  .app.is-chatting .project-kicker {
+    display: none;
   }
 
   .agent-window.has-messages {

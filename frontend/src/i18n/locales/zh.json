@@ -1,6 +1,8 @@
 {
-  "breadcrumb": "首页» 学院» 教授探索»",
   "title": "认识教授",
+  "projectKicker": "BIT 国际学生",
+  "iscLink": "ISC",
+  "iscLabel": "北京理工大学留学生中心官方网站",
   "githubLink": "GitHub",
   "githubLabel": "在 GitHub 上贡献",
   "agentTitle": "教授智能体",
