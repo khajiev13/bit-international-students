@@ -28,11 +28,12 @@ describe("BIT Professor Agent frontend", () => {
     expect(screen.queryByText("HOME» SCHOOLS» PROFESSOR EXPLORATION»")).not.toBeInTheDocument();
     expect(screen.getByText("BIT International Students")).toBeInTheDocument();
     expect(screen.getByText("Find BIT professors by research topic, department, or name.")).toBeInTheDocument();
+    expect(screen.getByText("Helpful? Star us on GitHub.")).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "Official BIT ISC website" })).toHaveAttribute(
       "href",
       "https://isc.bit.edu.cn/"
     );
-    expect(screen.getByRole("link", { name: "Star this project on GitHub" })).toHaveAttribute(
+    expect(screen.getByRole("link", { name: "GitHub repository" })).toHaveAttribute(
       "href",
       "https://github.com/khajiev13/bit-international-students"
     );
@@ -57,7 +58,8 @@ describe("BIT Professor Agent frontend", () => {
 
     expect(screen.getByText("可以这样问")).toBeInTheDocument();
     expect(screen.getByText("认识教授")).toBeInTheDocument();
-    expect(screen.getByRole("link", { name: "在 GitHub 为项目点星" })).toHaveTextContent("GitHub 点星");
+    expect(screen.getByRole("link", { name: "GitHub 代码仓库" })).toHaveTextContent("GitHub");
+    expect(screen.getByText("有帮助？欢迎在 GitHub 点星。")).toBeInTheDocument();
     expect(screen.getByText("按研究主题、院系或姓名查找北京理工大学教授。")).toBeInTheDocument();
     expect(screen.queryByText("比较教授")).not.toBeInTheDocument();
   });

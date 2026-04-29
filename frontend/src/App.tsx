@@ -247,6 +247,7 @@ function App() {
               <div>
                 <h2>{t("agentTitle")}</h2>
                 <p>{t("agentSubtitle")}</p>
+                <p className="support-note">{t("githubSupportNote")}</p>
               </div>
             </div>
 
