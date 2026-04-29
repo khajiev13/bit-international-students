@@ -1,0 +1,226 @@
+# LIU Hao
+- detail_url: https://isc.bit.edu.cn/schools/mae/knowingprofessors13/b188640.htm
+- school: Management
+- page_count: 13
+
+## Basic Information
+- Name: LIU Hao
+- BA: ae seAR(Title)
+- ##: LIU Hao @/Professor
+- 2% (School): sk (Discipline) |
+- #E55R2R L # € PBusiness A
+- Management x al
+
+## Research Interests
+- Aerospace Law and Management, Digital Economy | (a9) g9913457
+- Regulation and Governance, Air Traffic
+- Management, Unmanned System Regulation and
+- Standard making s:48(Emai
+- liuhaosme@bit edu.cn
+
+## Biography
+- 2m, PRRMLRPRARHE SASS TSARRARAREHS RH, KREABHRABRA
+- SAAR (A82RS S484, GHRAMZA). THEA. BHREA (HRSMEA) SHS
+- Professor LIU Hao is an expert on air and space law and management, his works are quite focusing
+- on the emerging operations, such as Unmanned Aircraft System (Pilotless
+- AircrafYUAS/RPAS/Drones), sub-orbital flight, near space/upper level operation, and commercial
+- space.
+- He graduated from the leading law education University of China, China University of Political
+- Science and Law with a PhD degree on international law.
+- To promote and facilitate the emerging technology and aerospace operation, Professor LIU Hao
+- works actively as the Acting Chair of the JARUS (Joint Authorities for Rulemaking on Unmanned
+- Systems), Chair of the ICAO Asia Pacific UAS Task Force, Chair of the Legal sub-Group of
+- ICAO/UNOOSA Space Leaming Group, and also the Vice Chair of the Space Safety Laws and
+- Regulations Committee of IAASS (International Association for the Advancement of Space Safety).
+- Besides the work on emerging new operation, Professor LIU is also involved in the air and space
+- legislation and policy making, he is the member of Drafting Committees of Aviation Law, Space Law,
+- Regulation on Airspace, Regulation on the UAS, Regulation on the Satellite Navigation, Regulation
+- on the Promotion of Civil Aviation Industry, etc
+- Professor LIU Hao works as the Deputy Director of the National Research Center of ATM Law and
+- Standard, a think tank founded by the State Air Traffic Control Commission of China (SATCCC) ,
+- Director of Institute of Aviation Law and Standard, Beihang University (BUAA) and Executive Director
+- of Global Aviation Development Academy.
+
+## Education
+- 2005.09-2008.06 +ZKeAS SERLAAS
+- 2002.09-2005.06 +EKSAS SERLAAS
+- 1998.09-2002.06 +EReAY 2ES+
+- 2005,09-2008.06 China University of Political Science and Law, Ph.D. of Law
+- 2002,09-2008.06 China University of Political Science and Law, Master of Law
+- 1998.09-2002.06 China University of Political Science and Law, Bachelor of Law
+
+## Work Experience
+- 2019.05- SELEIMSASRRAR
+- 2019.05- ARHFSEARRA RA
+- 2019.02-202002 LRH AMSHLRASBRRS DEE
+- 2019.07- AFBLASSRMSRRAAPO ATE
+- 2019.04- DJl|F#xSERSRER PEER
+- 2019.02- ARBLASFERAFSR ARHR
+- 2017.11- HLASERRAS ESHER RK
+- 2014.04-2014.07 SRR TABRSER THES. HeeE
+- 2013.06-2013.08 FRRTABRSER THES. HAT
+- 2013.03- AEMEMARASMRESP ROR GK
+- 2012.09-2012.10 FRRTABRSER TES. HeF
+- 2011.10- ERESRAPRAATO HSE
+- 2009.01-2009.06 ZE¥SASERMSRAAM TASS
+- 2008. 06 ARMEMRAPMEREPPRAAM SK
+- 2019.05- Visiting Professor, National Aviation University, Ukraine
+- 2020.02-2020.08 Advisor to the Ping-gu District People's Government, Beijing Municipality
+- 2019.02-2020.02 Deputy Director, Administrative Commission, General Aviation Base of Beijing Municipal
+- Government
+- 2019.04-present Chair Professor, School of Aeronautics and Astronautics, Xihua University
+- 2019.02-present Adjunct Professor, School of Management and Economics, Beijing Institute of
+- Technology (BIT)
+- 2017.11-present Vice President, Academy of International Strategy and Law, Zhejiang University
+- 2014.04-2014.07 Visiting Fellow, Hong Kong City University School of Law
+- 2013.06-2017.08 Visiting Fellow, Hong Kong City University School of Law
+- 2013.03-present Director, Institute of Space Law and Strategy, Beihang University (BUAA)
+- 2012.09-2017.10 Visiting Fellow, Hong Kong City University School of Law
+- 2011-present Deputy Director, National Research Centre of ATM Law and Standard of China
+- 2009.01-2009.06 Visiting Scholar, International Aviation Law Institute, DePaul University, USA
+- 2008.06-present Director of Aviation Law and standard, Beihang University (BUAA)
+
+## Academic Service and Memberships
+- ARAL
+- kK
+- R
+- (UAS-AG) 4K
+- Journal of International and Comparative Law #8
+- Aviation and Space Journal #2 5
+- 2020.05- Advisor, ICAO ADAP
+- 2020.04- Fellow, Royal Aeronautical Society
+- 2020.03- Advisor, ICAO AVSECP.
+- 2020.01- Member, GASOS Study Group
+- 2019.11- Acting Chair, JARUS (Joint Authorities for Rulemaking on Unmanned Systems)
+- 2019.11- Member, ICAO RPAS Panel
+- 2019.04- Member, IAASS Board and Representative of China
+- 2019.03- Member of the UAS OPS WG, CAAC UAS Panel
+- 2019.03- Member of the UAS ATM WG, CAAC UAS Panel
+- 2018.11- Member, ICAO Secretariat Study Group on Cybersecurity Research Subgroup on Legal
+- 2018.07- Deputy Secretary-General, Subcommittee on the Unmanned Aircraft System of the
+- National Standardization Administration Committee
+- 2018.05- Member of Peer-review Committee, Safety Capacity Building Foundation of Civil
+- Aviation Administration of China (CAAC)
+- 2017.12- Member of the Expert Committee, High-Resolution Earth Observation System Project of
+- the Equipment Development Department of Central Military Commission
+- 2017.10-2019.11 Vice-Chair, JARUS (Joint Authorities for Rulemaking on Unmanned Systems)
+- 2017.08- Chair, Legal Sub-group ICAO/UNOOSA
+- 'Space Learning Group
+- 2017.06- Member, ICAO UAS Advisor Group
+- 2017.04- Chair. ICAO Asia Pacific UAS Task Force
+- 2016.08- Secretary General, Unmanned Aircraft Systems
+- (UAS) Commission of Chinese Society of Aeronautics and
+- Astronautics (CSA)
+- 2016.07- 2017.07 Founder and Board member, GUTMA (Global UTM Association)
+- 2016.03-2017.06 Member, ICAO SUAS Advisor Group
+- 2015.03-2019.11 Advisor, ICAO RPAS Panel
+- 2015.09-2017.10 Co-Chair, Concept of Operation Working Group and Operation Group of JARUS (Joint
+- Authorities for Rulemaking on Unmanned Systems)
+- 2015.03- Member, ICAO/UNOOSA Space Learning Group
+- 2011.04- Deputy Director, State Air Traffic Management (ATM) Law and Education Experts
+- Working Group
+- 2013.04-2018.06 Managing Editor, the Journal of International
+- and Comparative Law
+- 2012.05- Board Editor, Aviation and Space Journal,
+- Bologna University, Italy
+- 2012.05- Foreign Research Fellow, Korea Legisiation
+- Research Institute
+
+## Awards
+- 2015 +, SERLESRAPSRS She: FLSAK
+- 201 #, BRR FRERS$RESMARS: LRESTR
+- 2011s State Expert of Air Traffic Management
+
+## Publications
+- 1. Regulating Near-space activities: using the precedent of the Exclusive Economic Zone as a model?
+- Ocean Development and International Law, 2019. SSCI
+- 2. The Exclusive Utilization Space: a new approach to the management and utilization of the near
+- 'space, Pennsylvania Journal of International Law, 2019, SCI.
+- 3. The American Space Commerce Free Enterprise Act of 2017: The latest step in regulating the space
+- resources utilization industry or something more? Space Policy, (2018). SSCI
+- 4. The Trump administration and outer space: promoting US leadership or heading towards isolation?
+- Australian Journal of International Affairs, 2018, SSCI
+- 5. Should the Red Dragon arise? Assessing China's options vis-a-vis the enactment of a domestic
+- space resources utilization law" Space Policy, May, 2017, Vol 39-40, pp 9-13, SSCI
+- 6. United Nations Resolution 69/32 on the 'No first placement of weapons in outer space': a step
+- forward in the prevention of an arms race in outer space? Space Policy, Nov 2016, Vol 38, pp 64-67,
+- SSCI
+- 7. The 2014 updated Draft PPWT: hitting the spot or missing the mark? Space Policy, August 2015, Vol
+- 33, pp 38-49, SSCI
+- 8 "On the Punishment of Unruly/Disruptive Passengers and the Modemization of the Tokyo
+- Convention", China Legal Science, Vol.2, 2015, pp.109-122. CSSCI
+- 9 "EUR ERRAS SRR LS AER 2014 E58 4 HA, 38 107-1111, CSSCI
+- 10. Territorial Dispute over the Diaoyu Islands under the Scrutiny of International Law ( ERAS Fa)
+- IG SHH}, Kyung Hee Law Journal, 2014 4738 6 #8, CLSCI $f].
+- 11. "SSB SNA REAL a EMTS WKAR, CASED, 2014 2S 4 HA, HB 41-497, CLSClo
+- 12. RALEAA, EIR CPL SASH, 20144558 2A, BB 103-1137, CSSClo
+- 13. "FRARTSESS LAMAR TTA, ALR AASESAR CLS ASERD > 2014 ESB 3 HAS
+- 14. "PERE SABCAMA, CBaUED ASR GLE ASEM, 2015 4658 5 BASE 56-630, CSSClo
+- 1. Arbitration Law of China, Revision and Improvement, Global Legal Issues 2012, 3 337-350 Ti»
+- 16. "PAA PIE SST VIS SIE < EPA > , 2007 E58 2 BAe
+- 17. Lawand Practice of Export Control in China (PEMACB lie) (BEX), Korean Journal
+- of Security and Trade, 2007 4F58 4 Hae
+- 18. "CER REEA RDA OETA AMA <A LAR BFL SAS
+- 2004 238 449, 58 59-656
+- 19. REM RRBUR (-), <> 2014 ES 1 HA.
+- 20. SAEES EYRE (-) ",<PEPE > 2013 E58 6 Hae
+- 21. SHEEP ERRIBER (-) ",< PEEPS > 2013 FS 5 HR.
+- 22. SAREE ARIE (-) *, <RIPE > 2013 E58 4 HA.
+- 23. SRA RES ERIE (-) *, <B> 2013 E58 3 HA.
+- 24. "Fa ABIRE (-) *, <P> 2013 E58 2 Ao
+- 25. "FHSAA (-) *, <BR> 2013 E58 1 HA.
+- 26. "SEES BAAR (-) *, <PRE> 2012 5 6 HA.
+- 27. "SEES BAAR (-) *, <PRE> 2012 58 5 A.
+- 28. "SEP R ses", < PEPE > 2012 eH 4 BAL
+- 29, EPS SHARIA, <HESEE> 2012 258 3 HA.
+- 30. "RSE BER", < PEE 58 2012 E58 2 He
+- 31. "EDMEERABIER Ba", < PEPE > 2012 258 1 Hae
+- 1. Regulating Near-space activities: using the precedent of the Exclusive Economic Zone as a model?
+- Ocean Development and International Law, 2019. SSCI
+- 2. The Exclusive Utilization Space: a new approach to the management and utilization of the near
+- 'space, Pennsylvania Journal of International Law, 2019, SCI.
+- 3. The American Space Commerce Free Enterprise Act of 2017: The latest step in regulating the space
+- resources utilization industry or something more? Space Policy, (2018). SSCI
+- 4. The Trump administration and outer space: promoting US leadership or heading towards isolation?
+- Australian Journal of International Affairs, 2018, SSCI
+- 5. Should the Red Dragon arise? Assessing China's options vis-a-vis the enactment of a domestic
+- space resources utilization law" Space Policy, May, 2017, Vol 39-40, pp 9-13, SSCI
+
+## Uncertain or Illegible Text
+- PALARGBMMRRAK (JARUS) ATER, PRRMBREARLABZRMSRARERE
+- MRARARARR. BARB.
+- KRESS ERERFZAMKE, PEMAMRKAPREA RAL, CHEERS MMSE MR
+- > RAMEE EABRMESRRSRAID KARAM M HAMS CAEHAMD KER
+- PHSA (RACE LRRD KLESEMED SALAZRMSSSAAE
+- HEPASPLS REKSSRAPLAA SOME, MERSPPEAALHKPSRMSRE
+- FRPORTEE.
+- REEKUSSSHRSR
+- ERRMERERERRSSAATKA (RPASP) AA. MERSHSRARA. MERRER
+- ERRGERLARAASRASSRRL CESS
+- RASRANARRAK (JARUS) ATER, WETMSH (CONOPS) #RTA (OPS) RAH
+- FERAMSRSLABRMSSTERE. SHTRERR
+- PRELRERRHERELBSENAMMRAEATH (ZEHD) SREASHASATHAS
+- FERAMS EERE RKATEREA EAR
+- ERPEKPESRSSERSSPELKRERSLARRMSERALRRERSARHK
+- FERMSPSAN SRUSSRARTIARSRTSE
+- ERRGBRESSRUSSRRAR
+- ERRMBABRAZRMZRRAEWA (SUASAG) PEAZRMSRRRSHERA
+- ERRALRPRARH ESM SSTSATRARELES
+- ERASER, SPRRHGAHEK
+- SESFRRSBTAR
+- Aspects (SSGC-RSGLEG)
+
+## Source Pages
+- page 1: https://isc.bit.edu.cn/images/2022-05/20201029062135818623.png
+- page 2: https://isc.bit.edu.cn/images/2022-05/20201029062148125757.png
+- page 3: https://isc.bit.edu.cn/images/2022-05/20201029062159602858.png
+- page 4: https://isc.bit.edu.cn/images/2022-05/20201029062209300914.png
+- page 5: https://isc.bit.edu.cn/images/2022-05/20201029062219431076.png
+- page 6: https://isc.bit.edu.cn/images/2022-05/20201029062229663128.png
+- page 7: https://isc.bit.edu.cn/images/2022-05/20201029062238692364.png
+- page 8: https://isc.bit.edu.cn/images/2022-05/20201029062248774405.png
+- page 9: https://isc.bit.edu.cn/images/2022-05/20201029062257149566.png
+- page 10: https://isc.bit.edu.cn/images/2022-05/20201029062313663686.png
+- page 11: https://isc.bit.edu.cn/images/2022-05/20201029062323490701.png
+- page 12: https://isc.bit.edu.cn/images/2022-05/20201029062331864864.png
+- page 13: https://isc.bit.edu.cn/images/2022-05/20201029062340433999.png

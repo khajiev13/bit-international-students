@@ -1,0 +1,278 @@
+# Raafat George Saade
+- detail_url: https://isc.bit.edu.cn/schools/Economics1/KnowingtheProfessors333/df1392af818e410f8d2a7cdaab01fdaa.htm
+- school: Economics
+- page_count: 13
+
+## Basic Information
+- Email: saade@gmail.com
+- 姓名:Raafat George Saade 职称(Title)
+- 拼音 教授 Professor
+- 学院(School) 专业(Discipline
+- 管理与经济学院 管理学
+- School of Management and Economics Management
+
+## Research Interests
+- 研究方向(Research Interests) 旧话(TeD) 后
+- 管理信息系统; 计算机科学; 运营管理; 工程学
+- 邮箱(Email)
+- Management 。 Information 。 Systems: 。 Computer
+- Science: Operations Management Engineering raafatsaade@gmail co
+- 也
+
+## Biography
+- 个人简历(Biography)
+- Raafat Saade 教授也 1987 年获得康考过亚大学工程学学十学位,1990 年获得了康考违亚大学应
+- 用科学硕士学位，1995 年获得了康考亿亚大学工程学博士学位。
+- 1996 至 1998 年期间，Raafat Saade 获得加拿大国家研究委员会资助，从事卓越博士后研究，
+- 该资助录取率低于 296。
+- Raafat Saade 教授已发才 130 会篇文章, 包括 62 篇国际顶级期刊文章、77 篇会议文章。坊止目
+- 前,Raafat Saade 教授个人影响因子为 21, 文章引用已超过 3400 次, 坊止到 2020 年 10 月底，
+- 最高单篇引用已经超过 1000 次。
+- Professor Raafat Saade received the bachelors degree in engineering from Concordia University in
+- 1987. the masters degree in Applied Science from Concordia University in 1990, and the doctors
+- degree in engineering from Concordia University in 1995
+- Between 1996 and 1998. Raafat Saade was funded by the CNRC to engage in outstanding
+- postrdoctoral research, with an admission rate of less than 294
+- Professor Raafat Saade has published more than 130 articles. including 62 articles in international top
+- journals and 77 articles in conferences Up to now the personal impact 包ctor of Professor Raafat
+- Saade is 21. and the number of citations in this article has exceeded 3400. By the end of October
+- 2020 the highest single citation has exceeded 1000
+
+## Education
+- 数育背景:(Educational Background)
+- MeGill University 。 1996.9-1998.8 NSERC 博士后
+- Concordia University 。 1992.9-1995.6 ”工程学博士
+- Concaordia University 。 1988.1-1990.12 。 应用科学项十
+- Concordia University 1983.9-1987.12 工程学学士
+- MeGill University ”Sept1996 - Aug 1998 NSERC Post-Doctoral Fellowship
+- Concaordia University ”Sept1992 - June 1995 。 Ph D_ Engineering
+- Concordia University Jan_ 1988 - Dec 1990 ”Masters of Applied Sciences. M_A_Sc
+- Concaordia University ”Sept1983 - Dec. 1987 ”Bachelors of Engineering. B Eng
+
+## Work Experience
+- 工作经历: (Working Experience)
+- 1. Concordia University 2017.7-2020 讲席教溉，系主任
+- Concaordia University 。 JuL 2017 - 2020 ”Professor (2018): Department Chair
+- 2. Concordia University 2010.7-2017 副教抽
+- Concaordia University 。 JuL 2010 - 2017 ”Associate Professor
+- 3. Concordia University 2007.8-2010.6 讲师 (长期任用)
+- Concaordia University 。 Aug 2007 - Jan 2010 Lecturer Extended Term Appointment
+- 4 Concordia University 2004.8-20075 动青教授 (有限期任用)
+- Concaordia University 。 Aug 2004 - May 2007 Assistant Professor Limited Term Appointment
+- 5.Concordia University 2002.8-2004.5 ”专业兼职教授
+- Concordia University Aug 2002 - May 2004 Professional Adjunct Professor
+- 6. Concordia University ”1999.9-2002.5 动理教扫 (有限期任用)
+- Concaordia University 。 Sept 1999 - May 2002 Assistant Professor Limited Term Appointment
+
+## Academic Service and Memberships
+- 学术兼职:(Parttime Academic Jobs)
+- 1 Interational Journal of Community Development and Management Studies (New Journal - 2016)
+- 主编
+- Senior Editor in Chief of Intermnational Journal of Community Development and Management Studies
+- CNewJoumal - 2016)
+- 了2 ICAO NGAP Scientific Research- Analytics and Management Research (New Journal - 2019) 主
+- 纺
+- Senior Editor in Chief of ICAO NGAP Scientific Research: Analytics and Management Research
+- CNew Joumal - 2019)
+- 3. Informing Science Institute 研究员
+- Jnforming Science Institute.ISI (informingscience org) ”Fellow
+
+## Awards
+- 所获荣誉:CAwards)
+- 1. 1996-1998 年获得 CNRC 博士后奖学金。
+- CNRC PostDoctoral Fellowship 。 1996-1998
+- 2. 分别于 2005、2006 以及 2009 年，获得《Informing Sciences Conference》杂志景佳论文。
+- Best Paper Informing Sciences Conference 2005、2006、2009
+- 3. 2007 年获得决策科学学生协会 (DSMISA) 奖。
+- Decision Sciences Student Association (DSMISSA) award ”2007
+- 4 2012 年，获得《International Journal of Information Systems and Social Change》 杂志年度景佳
+- BestPaper，“International Journal of Information Systems and Social Change”2012
+
+## Publications
+- 发表文章 (Publications)
+- 1 Wan.T. Saade. R .and Wang.工 2019) Deriving Significant Factors for Managing Change in
+- UN Jourmal 。 of 。 Organizational 。 Change 。 Management Early Cite
+- https-Jidoiorg/10.1108/JOCM-10-2018-0288
+- 2 Abou Jaoude. J. and Saade，G- R_ (2019). Blockchain Applications - Usage in Different
+- Domains IEEE Access, 7. pp. 45360 - 45381. Doi 10.1109/ACCESS .2019.2902501
+- 3， Abou Jaoude. J. and Saade,G. R_(2019) Blockchain Factors for Consumer Acceptance The
+- International Journal of Business Management and Technology, 3 (1). pp_ 16 - 29
+- 4。 Rezai, G.。 Jones, M.. Saade, GR . Roschk H.。 and Hosseinpour ML (2019). Urban agriculture as
+- cooperative service and its contribution to food security- Participants and nonparticipants
+- perspective， Springer Book Chapter https-/wwwspringercomjde/bock/9783658224257 (2018
+- edition)
+- 5。 Kira DRezai G.。and Saade，G. R_ (2019) Importance of Aviation Management Research
+- ICAO Aviation Management Research. 1. pp_ 1一15
+- 6。 Morin D .Safaee, 了,and Saade，G. R_(2019)， Understanding Online Learmning Based on
+- Different Age Categories Issues in Informing Science and Information Technology 16_
+- 7 Wan,丁有& Saade.R_ G. (2018). Investigating critical factors for project success and the impact of
+- certification/training -The United Nations context，International Journal of Information
+- Technology Project Management 9 (])
+- 8。 Morin. D.. Thomas. J, Saade. R_, Petrachi, D. (2018)_ Survey of online perspectives and gender
+- International Journal of Management and Applied Science. 4 (8)
+- 9。 Morin, D_ Saade. R.G_ & Dadras. S. (2018) Beliefs and Confidence in Online Learming TOJET:
+- The Turkish Online Journal of Educational Technology, November 2018，Special Issue for
+- INTEITICAMLIDEC Volume 1 244-253
+- http-wwwtojetnetfspecial/2018 12 2.pdf (Previously published in Proceedings of the
+- Intermnational Conference on New Horizons in Education Conference (INTE) INTE - ITICAM -
+- IDEC 2018. Volume 1. 285-294. July 20-22. Paris, France)
+- 10. Morin。D.，Thomas JD E. Saade。R.G，& Petrachi，D，(2018)，Survey of Online User
+- 了Perspectives and Gender International Journal of Management and Applied Science (UMAS)
+- 4(8)，86-93，(Previously published in Proceedings of ISERD -International Society for
+- Engineering Research and Development - 385th International Conference on Education and
+- ELearming (ICEEL), Budapest Hungary June 10-11)
+- 11. Morin。 D Thomas. JDE.. Saade。R.G，& Petrachi， D，(2018) A Survey of Online User
+- 了Perspectives and Age Profile in an Undergraduate Fundamental Business Technology
+- Course International Journal of Educational and Pedagogical Sciences。12(6)，689-694
+- Previously published in Proceedings of ICSEET - Intermnational Conference on Science
+- Education and Effective Teaching， World Academy of Science. Engineering and Technology
+- (WASET) Conference, Vienna Austria June 14-15)
+- 12. LY S.L.S-。 Saade. R_G-. & Morin D (2017). Immersive leaming- Using a web-based learming
+- tool in a PhD course to enhance the learmning experience Journal of Information Technology
+- Education - Research. 16. 227-246
+- 13.Vahidov R. Saade, R_G.. & 如. B. (2017) The effects of interplay between negotiation tactics
+- and task complexity in software agent to human negotiations Electronic Commerce Research
+- and Applications. doi- https:ydoi orgl110.1016/ielerap 2017.09.007
+- 14. Saade. R_G. && Nijher 于 (2016)，Critical success 包ctors in enterprise resource planning
+- implementation: Areview of case studies_ Journal of Enterprise Information Management 29 (1)
+- 72-96.
+- 15.，Saade. R_G-. Vahidov R， Tsoukas. G. ML., & Tsoukas. A_(2015). Informing physicians using a
+- situated decision support system- Disease management for the smart city Knowledge
+- Management & E-Learmning- An International Journal (KM&EL) - Special Issue: Smart Cities of
+- the Future: How to Design and Facilitate Tomorrows Education Toward Effective Skills and
+- Career Development 6(9). 472-492
+- 16. SaadE. R_G. Dong. 村. & Wan. 芽 (2015) Factors of project manager success Interdisciplinary
+- Journal of Information Knowledge and Management 10
+- 17. Valverde. R. && Saad&. R_G. (2015) The effect of E-supply chain management systems in the
+- north american electronic manufacturing services industry Journal of theoretical and applied
+- electronic commerce research. 10(1). 79-98
+- 18. Morin. D 。 Thomas J D 。& Saade. R_G.(2015) Fostering Problem-Solving in a Virtual
+- Environment Journal of Information Technology Education: Research. 14. 339-362
+- 19 Saad& R_G 及AlSharhan JA_ (2015) Discovering the Motivations of Students when Using an
+- Online Learming Tool Journal of Information Technology Education. 14. pp- 283-296.
+- 20. Rustam，V。Kersten。G.。& Saade，R (2014)，An Experimental Study of Software Agent
+- Negotiations with Humans, Decision Support Systems. Vol 66. pp_ 135-145
+- 21. Valverde, R，Saade，G. R TallaM (2014)，The Effect of E-Supply Chain Management
+- Systems in the North American Electronic Manufacturing Services Industry，Journal of
+- Theoretical and Applied Electronic Commerce Research. Vol 9. Issue 3. pp_ 1-15
+- 22.， Valverde, R。 & Saad& G. R_ (2014). ITIL_based IT Service Support Process Reengineering
+- Intelligent Decision Technologies. Vol 8. Number 2. pp _ 111-130
+- 23. SaadE，G. RMorin D 。& Thomas，D，E._ 了T (2012)，Critical Thinking and E-Learming
+- Environments. Computers in Human Behavior Vol 28. Issue 5. pp_ 1608-1617
+- 24.SaadE. R_ (2012). Exploring the E-Supply Chain of Information Products. Iaternational Journal
+- of Information Systems and Supply Chain Management Vol 5. Issue 1
+- 25.SaadE. R ,Kira D .and *Otrakji C._ (2012), Gender Differences in Interface Type Task Analysis
+- International Journal of Information Systems and Social Change， Vol 3. Issue 2 (Best Paper
+- Award 2012)
+- 26.Vahidov R. SaadE.R_, and *Eldiwany A_(2012). Value ofRecommendation Systems for Online
+- Investors, International Journal of IJnnovation in the Digital Economy Vol 3, Issue 2
+- 27. SaadE. R. Vidyarthi, N-。 *Ahmed. A_. and Sharma. M (2012) Preliminary Analysis of Green
+- Supply Chain Research Output Special Issue Indore Management Journal, Vol 3. Issue 2. pp
+- 116-128
+- 28.SaadE. Rand *Ahmed. A_ (2012). Process Analysis of Knowledge Production。 International
+- Journal ofApplied Logistics, VoL 2. Issue 3. pp. 49-66
+- 29. Morin. D. Thomas. JD E.。 and Saade. R.G. (2012) Deep Leaming and Virtual Environment
+- International Scholarly and Scientific Research and Innovation. Special Issue of the International
+- Journal of Social, Education. Economics and Management Engineering. 6 (10). pp- 1551-1557
+- 30.，Saade. R_, and Vahidov R_ (2011). Situated Service-Oriented Modeling. International Journal of
+- Service Science. Management Engineering. and Technology Vol 2. Issue 1. 52-72
+- 31. Saade，R。Buyukkurt ML，and *Alkhori，C，(201D)，Technology Mediated Leaming
+- Observations 训 Two Technologies, Issues in Informing Science and Information Technology
+- Vol 8. 395-408.
+- 32. Saad&. 及. Nebebe. F. and *Elgaly. S. (2011). Examining a Flow-Usage Model to Understand
+- Multimedia-Based Learmning。 Interdisciplinary Journal of Information， Knowledge and
+- Management Vol 6. 231-243
+- 33，Saade. R .Nebebe. F_and Mak 了 (2011), Knowledge Management Systems Development
+- Theory and Practice. Interdisciplinary Journal of Information, Knowledge and Management Vol
+- 6.35-72
+- 34. Saade. R_(2010).Cognitive Mapping Decision Support for the Design of Web-based Learming
+- Environments. International Journal of Web-Based Learning and Teaching Technologies. Vol 5
+- Tssue 3. 36-53
+- 35. Saade. 及. Nebebe. F_ and Mak T (2009). The Role of Intrinsic Motivation in System Adoption:
+- 人 Cross-Cultural Perspective。 Jourmnal of Information。 Information Technology and
+- Organizations. Vol 4. 107-126
+- 36. Saade. R ，and Huang，Q，(2009)，Meaningful Leaming in Discussion Forums- Towards
+- Discourse Analyvsis_ Issues in Informing Science and Information Technology Vol 6. pp 87 -99
+- 37. Saade&. R. and KiraD. (2009). Computer Anxiety in E-Learming- The Effect of Computer
+- Self Efficacy Journal of Information Technalogy in Education. Vol 8. pp. 177 - 191
+- 38.， Saade. R_and Kira D. (2009). The e-motional Factor of e-learning, Journal of Asynchronous
+- Leaming Networks. Vol 13. Issue 4. 57-72
+- 39，Saade.R_and Kira. D_ (2008). IS Usage Predictable Using Belief- Attitude Intention Paradigm?
+- Issuesin Informing Science and Information Technology Vol 3. pp 591-599
+- 40 SaadE. G. R. Nebebe. FE .and *Tan. W (2007). Viability of “Technology Acceptance Model
+- Multimedia Learning Environments。A Comparative Study，Interdisciplinary Journal of
+- Learning and Learmning Objects, Vol 3. pp_ 175-184
+- 41. Saad& G. R (2007). Dimensions to Perceived Usefulness: Towards an Enhanced Assessment
+- Decision Sciences Institute - Decision Sciences Journal of Innovative Education. Vol 5. Issue 2
+- 42. SaadE. R_and *Otrakji C._ (2007). First Impressions Last a Lifetime: EfRect of Disorientation and
+- Cognitive Load. Computers in human behavior Vol 23. Issue 1. pp. 525-535
+- 43. SaadE，G. 了， *He, 又，and Kira，D，(2007)，Exploring Dimensions to Online Learming
+- Computers in human behavior Issue 23. pp.1721-1739
+- 44. SaadE. R_and Kira. D. (2007). Mediating the Impact of Technology Usage on Perceived Ease of
+- Use by Anxiety Computers and education. Vol 49. Issue 4. pp_ 1189-1204
+- 45.SaadE&. G. R_(2006). Behaviour in Virtual Environments, WSEAS Transactions on Advances 训
+- Engineering Education. Vol 3. Issue 5. pp 403-409
+- 46. SaadE&. 有Rand Kira。D，(2006)，The Emotional State of Technalogy Acceptance，Issues in
+- Informing Science and Information Technology. Vol 3. pp. 529-539，
+- 47. SaadE，G. R，Tsoukas。G.。 and Caminis 本 (2006)，Understanding Velocity of Sound in
+- Trabecular Bone via Computer Simulations. Computers in Biology and Medicine. Vol 36. Issue
+- 5. pp_ 439-447
+- 48. SaadE.R_and *Galloway.I (2005). Understanding the Intentions to Use Multimedia Information
+- Systems for Leaming， Issues in IJnforming Science and Information Technology Vol 2. pp
+- 287-296
+- 49.，SaadE. R_and Bahli B. (2005), The Impact of Cognitive Absorption on Perceived Usefulness
+- and Perceived Ease of Use in On-Line Learning: An Extension of the Technology Acceptance
+- Model, Information and Management, Vol 42. pp. 317-327
+- 30. Saade. G. R.“Tsoukas. A._ and Tsoukas. G_ (2004). Prototyping a Decision Support System in
+- the Clinical Environment。 Assessment of Patients with Osteoporosis OSTEODSS，Expert
+- Systems with Applications, VolL 27. pp_ 427-438
+- 51. Saade.R_G. (2004). Test of an Interactive Application to Assist Learmning: A Case Study Journal
+- of Information System Education. Vol 15. No 4. pp. 357-363. [IF 0.17]
+- 52. Bouchaib。 B.。and Saad&. R_ (2004), Linking a Web-based Instructional System Usage- The
+- Application of the Technology Acceptance Model Journal of Information Science and
+- Technology 1(D). pp. 1-15
+- 53，Saade. R_G. (2003). Web-based educational information system for enhanced learmning. EISEL
+- Student assessment Journal of Information Technology Education. Vol 2. pp. 267-277
+- 54. Saade. R_. Kozinski, JA_. (2000). Numerical Modeling and TGAJFTIR/GCMS Investigation of
+- Fibrous Residue Combustion, Biomass & Bioenergy 18, pp 391-404
+- 55. Saade. R .Kozinski, JA 。(2000)， Investigations of High-Temperature Oxidation of Sludge
+- Fibers Fuel Processing & Technologwv 68 121-138
+- 56. Kozinski 本. & Saade, R. (1998). Effect of Biomass Burning on the Formation of Soot Particles
+- and Heavy Hydrocarbons. An Experimental Study Fuel 77. pp 225-237
+- 57. Saade.R_ .and Kozinski, 芽A.. (1998). Dynamics of Physical Characteristics of Biowaste During
+- Pyrolysis, Journal of Analytical and Applied Pyrolysis. 45. pp 9-22
+- 58. Kozinski. .Zheng, G . Saade. R_ && Dilalla S.. (1997). On the Clean and Thermal Treatment of
+- De-Inking Salid Residues. The Canadian Journal of Chemical Engineering. 75. pp .113-120，
+- 59. Kozinski， JSaade。R_，人& Zheng，G.、(1996)，Transformations of Sludge Waste During
+- Combustion ia Lowr-High-Low Temperature Reactor Proceedings of the Combustion Institute,
+- 26. pp 2495-2502，
+- 60，Saade. R_ && Sarraf S.. (1996). Phreatic Water Levels Along Ice Jams - An Experimental Study。
+- Nordic Hydrology 27 (3). pp.185-201
+- 61. Saade. R_& Sarraf S.. (1995). Simulation of Ice Cover Melting in Turbulent Flow Intermational
+- Journal of Numerical Methods in Heat and Fluid Flow 5 (7
+- 62，Saade. R_, Troitsky, M., Ramamurthy A_. & Sarraf S.. (1995). Numerical Modeling of Ice Jam
+- Resistance to Main Channel Flow, Intemational Journal of Numerical Methods in Fluid Flow
+- Volume 21 (11). pp.1109-1120
+- 请列举5 篇左右代表性论文或著作。(Please list 5 representative publications)
+- 1. Saade. R_and Bahli B. (2005). The Impact of Cognitive Absorption on Perceived Usefulness and
+- 了erceived Ease of Use in On-Line Leaming: An Extension of the Technology Acceptance Model
+- Information and Management Vol 42. pp. 317-327
+- 2. Abou Jaoude.T. and Saade. G.R_ (2019). Blockchain Applications - Usage in Different Domains
+- IEEE Access. 7. pp. 45360 - 45381. Doi- 10.1109/ACCESS .2019.2902501
+- 3. Wan 丁 . Saade. R_. && Wang, 工 (2019) Deriving significant factors for managing change in
+- un.Jourmnal of Organizational Change Management 33(1). 114-126
+
+## Source Pages
+- page 1: https://isc.bit.edu.cn/pub/lxszx/images//content/2020-10/792560efa9d94521b36cb327dce9e333.png
+- page 2: https://isc.bit.edu.cn/pub/lxszx/images//content/2020-10/9aee9e4ab15e4769916d51ce80f517d5.png
+- page 3: https://isc.bit.edu.cn/pub/lxszx/images//content/2020-10/cbce8b0cd26941a2a371be4db832403a.png
+- page 4: https://isc.bit.edu.cn/pub/lxszx/images//content/2020-10/28725bc515e74e0aaf67e0a349fc5cad.png
+- page 5: https://isc.bit.edu.cn/pub/lxszx/images//content/2020-10/f659a22e12024811ae729064ebdee8fe.png
+- page 6: https://isc.bit.edu.cn/pub/lxszx/images//content/2020-10/bf6c12b72d5c46fea70de787b84aa25c.png
+- page 7: https://isc.bit.edu.cn/pub/lxszx/images//content/2020-10/805e053914e24c5383a1a29952ddb88e.png
+- page 8: https://isc.bit.edu.cn/pub/lxszx/images//content/2020-10/ef8ff1407b59451cbbeffc8d12eaf93e.png
+- page 9: https://isc.bit.edu.cn/pub/lxszx/images//content/2020-10/7a55a798515d41f289a23664c0536200.png
+- page 10: https://isc.bit.edu.cn/pub/lxszx/images//content/2020-10/26fd9ec4798e4e4c8aac32d8a692c04e.png
+- page 11: https://isc.bit.edu.cn/pub/lxszx/images//content/2020-10/2426c9f5f57147d58a3499b8797828f4.png
+- page 12: https://isc.bit.edu.cn/pub/lxszx/images//content/2020-10/7e13293649e446298bf0f616b7f1360d.png
+- page 13: https://isc.bit.edu.cn/pub/lxszx/images//content/2020-10/2211591311024c9ebbf5533a0dfc1da5.png

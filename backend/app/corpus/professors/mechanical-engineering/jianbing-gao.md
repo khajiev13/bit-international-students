@@ -1,0 +1,142 @@
+# Jianbing Gao
+- detail_url: https://me-english.bit.edu.cn/people/facultydept/energype2/xs9/aaf41e4aed0245cbbbaa3684c6890e8d.htm
+- school: Mechanical Engineering
+- page_count: 1
+
+## Basic Information
+- Name: Jianbing Gao
+- Department listing: Energy and Power Engineering
+- Faculty group: Institute of Turbomachinery
+- Position: Associate Professor
+- School: Mechanical Engineering
+- Office: Turbomachinery Building,Beijing Institute of Technology,Beijing 100081,China
+- Post Code: 10081
+- Mobile: +86(0)18801470936
+- Email: gaojianbing@bit.edu.cn/ 6120210208@bit.edu.cn redonggaojianbing@163.com
+
+## Research Interests
+- Opposed rotary piston engines
+- Application of clean fuel to opposed rotary piston engine
+- Physicochemical properties of soot and exhaust emission control
+- Enhanced after-treatment system
+- Work Experience & Educational Background
+- 2022.09-Now Beijing Institute of Technology,Associate Professor
+- 2019.01-2021.08 University of Leeds,Research Fellow
+- 2017.10-2018.12 University of Surrey,Research Fellow
+- 2012.09-2017.07 Beijing Institute of Technology,PhD
+- 2008.09-2012.07 Beijing University of Technology,Bachelor
+- Editor Board & Membership
+- Chemosphere (SCI,IF:7.086,ISSN: 0045-6535),leading Guest Editor
+- Environmental Research (SCI,IF:6.498,ISSN: 0013-9351),leading Guest Editor
+- Processes (SCI,IF: 2.753,ISSN: 2227-9717),leading Guest Editor
+- Advances in Mechanical Engineering (SCI,IF: 1.161,ISSN: 1687-8132),leading Guest Editor
+- Energies (SCI,IF: 3.003,ISSN: 1996-1073),Guest Editor,3/3
+- Sustainability (SCI,IF: 3.251,ISSN:2071-1050),Guest Editor,2/3
+- Energies (SCI,IF: 3.003,ISSN: 1996-1073)，Editor Board Member
+- Frontier in Mechanical Engineering: Engine and Automotive Engineering,Associate Editor
+- Thermal Science and Engineering,Editor Board Member
+- Current Chinese Engineering Science,Editor Board Member
+- Progress in Energy & Fuels,Editor Board Member
+- American Journal of Applied Sciences,Editor Board Member
+
+## Publications
+- ResearchGate：https://www.researchgate.net/profile/Jianbing-Gao
+- Google scholar：https://sc.panda321.com/citations?user=KtzQjoYAAAAJ&hl=zh-CN&oi=ao
+- SCI Publications in English：
+- Gao Jianbing,Wang Yufeng,Wang Shanshan,et al. Effect of catalytic reactions on soot feature evolutions in oxidation process. Chemical Engineering Journal,2022,443: 136392. (SCI,JCR 1,IF:13.27)
+- Gao Jianbing,Huang Junfeng,Li Xiaopan,et al. Challenges of the UK government and industries regarding emission control after ICE vehicle bans. Science of The Total Environment,2022,835: 155406. (SCI,JCR 1,IF:7.963)
+- Gao Jianbing,Li Xiaopan,Li Juxia,et al. Changes of diesel particle diameter and surface area distributions by non-thermal plasma. Chemosphere,2022,300: 134533. (SCI,JCR 1,IF:7.086)
+- Gao Jianbing,Wang Yufeng,Li Xiaopan,et al. Catalytic effect of diesel PM derived ash on PM oxidation activity. Chemosphere,2022,299: 134445. (SCI,JCR 1,IF:7.086)
+- Gao Jianbing,Zhang Huijie,Li Juxia,et al. Simulation on the effect of compression ratios on the performance of a hydrogen fueled opposed rotary piston engine. Renewable Energy,2022,187: 428-439. (SCI,JCR 1,IF:8.001)
+- Gao Jianbing*,Wang Yufeng,Chen Haibo,et al. Variations of significant contribution regions of NOx and PN emissions for passenger cars in the real-world driving. Journal of Hazardous Materials,2022,424: 127590 (SCI,JCR 1,IF: 10.588)
+- Gao Jianbing,Wang Xiaochen,Song Panpan*,et al. Review of the backfire occurrences and control strategies for port hydrogen injection internal combustion engines. Fuel,2022,307: 121553. (SCI,JCR 1,IF: 6.609)
+- Gao Jianbing*,Wang Xiaochen,Tian Guohong,et al. Effect of hydrogen direct injection strategies and ignition timing on hydrogen diffusion,energy distributions and NOx emissions from an opposed rotary piston engine. Fuel,2021,306: 121656. (SCI,JCR 1,IF: 6.609)
+- Gao Jianbing*,Chen Haibo,Liu Ye,et al. Impacts of De-NOx system layouts of a diesel passenger car on exhaust emission factors and monetary penalty. Energy Science & Engineering,2022,9(12): 2268-2280 (SCI,JCR 2,IF:4.17)
+- Gao Jianbing*,Tian Guohong,Ma Chaochen,et al. Simulation of the impacts on a direct hydrogen injection opposed rotary piston engine performance by the injection strategies and equivalence ratios. Renewable Energy,2021,179: 1204-1216. (SCI,JCR 1,IF:8.001)
+- Gao Jianbing*,Chen Haibo,Liu Ye,et al. Comparison of NOx and PN emissions between Euro 6 petrol and diesel passenger cars under real-world driving conditions. Science of The Total Environment,2021: 149789. (SCI,JCR 1,IF:7.963)
+- Li Juxia,Gao Jianbing*,Tian Guohong,et al. An effective approach of dropping the backfire possibilities of a hydrogen fuelled opposed rotary piston engine. Energy Science & Engineering,2021. (SCI,JCR 2,IF:4.17)
+- Chen Junyan,Chen Haibo,Gao Jianbing*,et al. Business models and cost analysis of automated valet parking and shared autonomous vehicles assisted by internet of things. Proceedings of the Institution of Mechanical Engineers,Part D: Journal of Automobile Engineering,2021. (SCI,JCR 3,IF: 1.484)
+- Gao Jianbing*,Tian Guohong*,Ma Chaochen,et al. Performance explorations of a naturally aspirated opposed rotary piston engine fuelled with hydrogen under part load and stoichiometric conditions using a numerical simulation approach. Energy,2021,222: 120003. (SCI,JCR 1,IF:7.147)
+- Gao Jianbing*,Tian Guohong,Ma Chaochen,et al. Explorations of the impacts on a hydrogen fuelled opposed rotary piston engine performance by ignition timing under part load conditions. International Journal of Hydrogen Energy,2021 (SCI,JCR 1,IF: 5.816)
+- Gao Jianbing*,Chen Haibo*,Ye Liu,et al. The effect of after-treatment techniques on the correlations between driving behaviours and NOx emissions of a passenger car. Journal of Cleaner Production,2021,288: 125647 (SCI,JCR 1,IF:9.297)
+- Gao Jianbing*,Tian Guohong*,Ma Chaochen,et al. Three-dimensional numerical simulations on the effect of ignition timing on combustion characteristics,NOx emissions,and energy loss of a hydrogen fuelled opposed rotary piston engine over wide open throttle conditions. Fuel,2021,288: 119722 (SCI,JCR 1,IF: 6.609)
+- Gao Jianbing*,Tian Guohong*,Ma Chaochen,et al. Numerical simulation on lean-burn characteristics of a naturally aspirated opposed rotary piston engine fuelled with hydrogen at wide open throttle conditions. Journal of Cleaner Production,2021,285: 124887 (SCI,JCR 1,IF:9.297)
+- Gao Jianbing*,Tian Guohong*,Ma Chaochen,et al. Lean-burn characteristics of a turbocharged opposed rotary piston engine fuelled with hydrogen at low engine speed conditions. International Journal of Hydrogen Energy,2021,46: 1219-1233 (SCI,JCR 1,IF: 5.816)
+- Gao Jianbing*,Ma Chaochen,Tian Guohong*,et al. Numerical investigations of an opposed rotary piston expander for the purpose of the applications to a small-scale Rankine cycle. Applied Thermal Engineering,2021,182: 116157 (SCI,JCR 1,IF: 5.295)
+- Gao Jianbing,Xing Shikai*,Tian Guohong*,et al. Numerical simulation on the combustion and NOx emission characteristics of a turbocharged opposed rotary piston engine fuelled with hydrogen under wide open throttle conditions. Fuel,2021,285: 119210. (SCI,JCR 1,IF: 6.609)
+- Xing Shikai,Gao Jianbing*,Tian Guohong,et al. Preliminary Investigations of an Opposed Rotary Piston Compressor for the Air Feeding of a Polymer Electrolyte Membrane Fuel Cell System. ACS Omega,2020,38(5): 24733–24745. (SCI,JCR 3,IF: 3.512)
+- Chen Junyan,Chen Haibo*,Gao Jianbing*,et al. A business model and cost analysis of automated platoon vehicles assisted by the Internet of things. Proceedings of the Institution of Mechanical Engineers,Part D: Journal of Automobile Engineering,2020: 0954407020949726. (SCI,JCR 3,IF: 1.484)
+- Gao Jianbing*,Tian Guohong*,Ma Chaochen,et al. Three-dimensional numerical investigations of combustion and emissions characteristics of a novel small scale opposed rotary piston engine fuelled with hydrogen at wide open throttle conditions. Energy Conversion and Management. 2020: 113178. (SCI,JCR 1,IF:9.709)
+- Gao Jianbing*,Chen Haibo*,Chen Junyan,et al. Driving behaviours analysis of truck drivers using motorway tests. Proceedings of the Institution of Mechanical Engineers,Part D: Journal of Automobile Engineering,2020. (SCI,JCR 3,IF: 1.484)
+- Gao Jianbing*,Tian Guohong*,Phil Jenner,et al,et al. Intake characteristics and pump loss in the intake stroke of a novel small scale opposed rotary piston engine. Journal of Cleaner Production,2020: 121180. (SCI,JCR 1,IF:9.297)
+- Gao Jianbing*,Chen Haibo*,Dave Kaushali,et al. Fuel economy and exhaust emissions of a diesel vehicle under real traffic conditions. Energy Science & Engineering,2020,8(5): 1781-1792. (SCI,JCR 2，IF:4.17)
+- Gao,Jianbing*,Guohong Tian*,Phil Jenner,et al. Preliminary explorations of the performance of a novel small scale opposed rotary piston engine. Energy,2020: 116402. (SCI,,JCR 1,IF:7.147).
+- Gao Jianbing*,Tian Guohong*,Aldo Sorniotti. On the emission reduction through the application of an electrically heated catalyst to a diesel vehicle. Energy Science & Engineering,2019,7(6): 2383-2397. (SCI,JCR 2，IF:4.17)
+- Gao Jianbing*,Chen Haibo,Tian Guohong,Ma Chaochen*,et al. Oxidation kinetic analysis of diesel particulate matter using single- and multi-stage methods. Energy & Fuels,2019,33(7): 6809-6816. (SCI,JCR 2,IF:3.605)
+- Gao Jianbing*,Chen Haibo*,Li Ying,et al. Fuel consumption and exhaust emissions of diesel vehicles in worldwide harmonized light vehicles test cycles and their sensitivities to eco-driving factors. Energy conversion and management,2019,196: 605-613 (SCI,JCR 1,IF:9.709)
+- Gao Jianbing,Chen Haibo*,Chen Junyan,Ma Chaochen*,et al. Explorations on the continuous oxidation kinetics of diesel PM from heavy-duty vehicles using a single ramp rate method. Fuel,2019,248: 254-257 (SCI,JCR 1,IF: 6.609)
+- Gao Jianbing,Chen Haibo*,Ma Chaochen*,et al. An analysis of energy flow in a turbocharged diesel engine of a heavy truck and potentials of improving fuel economy and reducing exhaust emissions. Energy conversion and management,2019,184: 456-465 (SCI,JCR 1,IF:9.709)
+- Gao Jianbing,Tian Guohong*,Aldo Sorniotti,et al. Review of thermal management of catalytic converters to decrease engine emissions during cold start and warm up. Applied thermal engineering,2019,147: 177-187. (SCI,JCR 1,IF: 5.295)
+- Gao Jianbing*,Ma chaochen*,Tian Guohong,et al. Oxidation activity restoration of diesel particulate matter by aging in air. Energy & Fuels,2018,32: 2450-2457. (SCI,JCR 2,IF:3.605)
+- Gao Jianbing*,Tian Guohong,Ma Chaochen*,et al. Physicochemical property changes during oxidation process for diesel PM sampled at different tailpipe positions. Fuel,2018,219: 62-68. (SCI,JCR 1,IF: 6.609)
+- Gao Jianbing*,Ma Chaochen,Xing Shikai,et al. A review of fundamental factors affecting diesel PM oxidation behaviors. Science China Technological Sciences,2018,61: 330-345. (SCI,JCR 2,IF: 3.572).
+- Gao Jianbing,Ma Chaochen*,Xing Shikai,et al. Oxidation behaviours of particulate matter emitted by a diesel engine equipped with a NTP device. Applied thermal engineering,2017,119:593-602. (SCI,JCR 1,IF: 5.295).
+- Gao Jianbing,Ma Chaochen*,Xing Shikai,et al. Nanostructure analysis of particulate matter emitted by a diesel engine equipped with a NTP reactor. Fuel,2017,192: 35-44. (SCI,JCR 1,IF: 6.609)
+- Gao Jianbing,Ma Chaochen*,Xia Fei,et al. Raman characteristics of PM emitted by a diesel engine equipped with a NTP reactor. Fuel,2016,185: 289-297. (SCI,JCR 1,IF: 6.609)
+- Ma Chaochen*,Gao Jianbing,Zhong Lei,et al. Experimental investigation of the oxidation behaviour and thermal kinetics of diesel particulate matter with non-thermal plasma. Applied Thermal Engineering,2016,99: 1110-1118. (SCI,JCR 1,IF: 5.295)
+- Gao Jianbing,Ma Chaochen*,Xing Shikai,et al. Particle-and gas-phase PAHs toxicity equivalency quantity emitted by a non-road diesel engine with non-thermal plasma technology. Environmental Science and Pollution Research,2016,23: 20017-20026. (SCI,JCR 2,IF:4.223)
+- Gao Jianbing,Ma Chaochen*,Xing Shikai,et al. Polycyclic aromatic hydrocarbon emissions of non-road diesel engine treated with non-thermal plasma technology. Korean Journal of Chemical Engineering,2016,33: 3425-3433. (SCI,JCR 2,IF:3.309)
+- Liyong Huang,Chaochen Ma*,Yanzhao Li,Jianbing Gao,et al. Applying neural networks (ANN) to the improvement of gasoline turbocharger heat transfer modeling. Applied Thermal Engineering,2018,141: 1080-1091. (SCI,JCR 1,IF: 5.295)
+- Yang Yuxin,Zhang Hongguang*,Tian Guohong*,Xu Yonghong,Gao Jianbing. Performance Analysis of a Multistage Centrifugal Pump Used in an Organic Rankine Cycle (ORC) System under Various Condensation Conditions. Journal of Thermal Science,2019. (SCI,JCR 3,IF:2.438)
+- Li Yukuan,Chu Liang,Zhang Yuanjian,Guo Chong,Fu Zicheng,Gao Jianbing. Intelligent transportation video tracking technology based on computer and image processing technology. Journal of Intelligent & Fuzzy Systems,2019,37(3): 3347-3356. (SCI,JCR 3,IF:1.851)
+- SCI Publications in Chinese：
+- 高建兵,马朝臣*,邢世凯,等. 装有NTP装置的柴油机排放的颗粒物的热重特性. 哈尔滨工业大学学报,2017,7: 125-130. (EI)
+- 高建兵,马朝臣*,邢世凯,等. 装有等离子体装置的柴油机颗粒物的氧化特性. 北京理工大学学报,2017,37: 446-450. (EI)
+- 高建兵,马朝臣*,邢世凯,等. 经过预处理后柴油机颗粒物氧化活性的变化. 北京理工大学学报,2017,37: 913-918. (EI)
+- 马朝臣*,高建兵,仲蕾,等. 经过低温等离子体后柴油机颗粒物氧化反应机理函数的确定. 内燃机工程. 2017,38: 97-101 (核心期刊,导师一作)
+- 马朝臣*,高建兵,杨文芳,等. 低温等离子体净化尾气中的颗粒相多环芳烃,环境工程学报,2017,11: 392-397.（核心期刊,导师一作)
+- 邢世凯,马朝臣,胡辽平,潘航宇,高建兵. 蜗壳周向流动非均匀性对可调向心涡轮性能的影响. 内燃机学报,2015 (3): 265-271.
+- 邢世凯,李聚霞,马朝臣,高建兵. 新型可调向心涡轮增压器导叶调节机构设计. 内燃机学报,2018,36(2): 166-172.
+- 邢世凯,马朝臣,高建兵. 可变喷嘴涡轮增压器与柴油机匹配的数值模拟. 内燃机工程,2016,37(3): 139-143.
+- Conference Papers：
+- Huang Liyong,Ma Chaochen*,Li Yanzhao,Gao Jianbing et al. Improved Heat Transfer Correction Method for Turbocharger Compressor Performance Measurements. January 2019 IOP Conference Series Materials Science and Engineering 470:012002.
+- Gao Jianbing,Chen Haibo*,Chen Junyan,Kaushali Dave,et al. A New Simulation Approach of Estimating the Real-World Vehicle Performance. SAE Technical Conference,2020.
+- Gao Jianbing,Kaushali Dave,Haibo Chen*,et al. An approach for scaling up vehicle fuel and exhaust emission reduction across European motorways. European ITS Congress,2020.
+- Xu Na,Ma Chaochen*,Gao Jianbing,et al. A Test Bench for the Turbocharger Fatigue Life Based on the Self-Circulation. SAE Technical Conference,2015.
+- 马朝臣*,高建兵,杨文芳,等. NTP对柴油机尾气中多环芳香烃的作用. 燃烧节能净化分会2013年学术年会. (导师一作)
+- 马朝臣*,高建兵,徐娜,等. 增压汽油机空气涡轮再冷的仿真模拟. 中国内燃机学会2013年学术年会暨油品与清洁燃料分会和山西省内燃机学会联合学术年会. (导师一作)
+- Works：
+- Gao Jianbing,Liu Ye*. Particles from compression and spark ignition engines//Petrodiesel Fuels. 2021
+- Gao Jianbing,Tian Guohong*. Physico-chemical Properties of Diesel Exhaust Particulates//Engine Exhaust Particulates. Springer,Singapore,2019: 121-137.
+- Patents in Chinese：
+- 高建兵，等. 一种旋转对置活塞发动机双轴支撑方法. (1/3)
+- 高建兵，等. 一种旋转对置活塞发动机齿圈动力输出装置. (1/8)
+- 高建兵，等. 一种旋转对置活塞发动机同心双轴连接装置. (1/8)
+- 高建兵,马朝臣,等. 一种旋转对置活塞发动机动力输出装置. (1/5)
+- 高建兵,马朝臣. 一种点燃式缸内直喷旋转对置活塞发动机. (1/2)
+- 邢世凯,马朝臣,李聚霞,高建兵. 柴油机尾气低温等离子体辅助催化转化净化装置. (授权)
+- 邢世凯,高建兵,马朝臣,李聚霞. 一种动态电加热催化器柴油机后处理装置.
+- 邢世凯,高建兵,马朝臣,李聚霞. 一种低温等离子体协同颗粒捕集器的柴油机后处理装置.
+- Honor
+- 2022年,“源创杯”颠覆性技术创新创意大赛优胜奖（中部赛区），军科委，1/3
+- 2021年，国际会议优秀口头报告，Magnus Group Conference and Organizing Committee,加拿大，1/1
+- 2018年，首届中国内燃机学会优秀博士学位论文，中国内燃机学会，1/1
+- 2017年，英国利兹大学优秀研究员，利兹大学，1/1
+- 2017年，北京市优秀毕业生，北京市，1/1
+- 2012年，全国大学生节能减排大赛二等奖，教育部，1/5
+
+## Research Projects
+- 北京理工大学，高价值专利支持项目，2022-06至2024-05,3.0万元，主持，在研。
+- 北京理工大学，青年教师学术启动基金（XSQD-202203001）,2022-01至2024-12,60.0万元，主持，在研。
+- 陕西省交通新能源开发、应用与汽车节能重点实验室开放基金（300102222509），2022-01至2023-12,3.0万元，主持，在研。
+- University of Leeds,Personal Development Funding,Simulation on the performance of the opposed rotary piston engines,2019-01至2022-07,结题,主持。
+- European Commission,Horizon 2020,nPETS (nanoparticle emissions from the transport sector),2021-06至2024-05,约300万英镑,Co-I。
+- European Commission,Horizon 2020,MODALES (modify drivers behaviour to adapt for lower emissions),2019-09至2022-08,约540万英镑,参加,在研。
+- Engineering and Physical Sciences Research Council,Impact Acceleration Account,Numerical simulation of a rotary range extender,2018-04至2018-10,约2万英镑,参加,已结题。
+- European Commission,Horizon 2020,ELVITEN (Electrified L category Vehicles Integrated into Transport and Electricity Networks),2017-11至2020-10,约960万英镑,参加,已结题。
+- European Commission,Horizon 2020,ADVICE (advancing user acceptance of general purpose hybridized vehicles by improved cost and efficiency),2017-04至2020-03,约1200万英镑,参加,已结题。
+- European Commission,Horizon 2020,optiTruck (optimal fuel consumption with predictive powertrain control and calibration for intelligent Truck),2016-09至2019-08,约540万英镑,参加,已结题。
+- 河北省科技厅,河北省科技计划项目资助,低温等离子体与催化剂协同脱除柴油机排气微粒及NOx后处理器的开发,2015-01至2016-12,40万人民币,参加,已结题。
+
+## Source Pages
+- page 1: https://me-english.bit.edu.cn/people/facultydept/energype2/xs9/aaf41e4aed0245cbbbaa3684c6890e8d.htm

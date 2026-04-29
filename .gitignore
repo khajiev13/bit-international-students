@@ -1,0 +1,32 @@
+# Local environment and deployment secrets
+.env
+.env.*
+!.env.example
+.wrangler/
+
+# Python
+backend/.venv/
+backend/.pytest_cache/
+backend/**/__pycache__/
+backend/**/*.py[cod]
+backend/scratch/
+backend/analytics/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/coverage/
+frontend/.vite/
+
+# Runtime data
+scratch/
+analytics/
+*.sqlite
+*.sqlite3
+*.db
+*.log
+
+# Operating system and editor files
+.DS_Store
+.idea/
+.vscode/

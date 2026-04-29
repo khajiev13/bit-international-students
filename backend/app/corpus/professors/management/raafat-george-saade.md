@@ -1,0 +1,268 @@
+# Raafat George Saade
+- detail_url: https://isc.bit.edu.cn/schools/mae/knowingprofessors13/b188671.htm
+- school: Management
+- page_count: 13
+
+## Basic Information
+- Name: Raafat George Saade
+- 324: Raafat George Saade HR aK (Title):
+- He 42% Professor
+- %5&Gchool) ¥ J Discipline):
+- PSSSFSR eee
+- School of Management and Economics Management
+
+## Research Interests
+- +H) 4Email):
+- Management Information Systems; Computer
+- Science; Operations Management; Engineering raafat saade@gmail.co
+- m
+
+## Biography
+- Raafat Saade AF 1987 FRA RARULASLESS+ SH, 1900 FRAT RSRLASH
+- ARPRLSH, 1995 FRAT RERLAPLASEL SH.
+- 1996 Z 1998 34 /H, Raafat Sade KRG MSADRHARASHEH, MSRRBLERA,
+- RRDRRAS ALT 2%.
+- Raafat Saade KR LAK VV ABAS, HE O2 MEGKABUARH. 77 RSRRE. RA
+- 'W, Raafat Saade ARPA BAAFH 21, RH#S| A CMA 3400 K, RES] 2020 # 10 AR,
+- RSL 4A LAM 1000 x.
+- Professor Raafat Saade received the bachelor's degree in engineering from Concordia University in
+- 1987, the master's degree in Applied Science from Concordia University in 1990, and the doctor's
+- degree in engineering from Concordia University in 1995
+- Between 1996 and 1998, Raafat Saade was funded by the CNRC to engage in outstanding
+- post-doctoral research, with an admission rate of less than 2%.
+- Professor Rafat Saade has published more than 130 articles, including 62 articles in international top
+- journals and 77 articles in conferences. Up to now, the personal impact factor of Professor Raafat
+- Sade is 21, and the number of citations in this article has exceeded 3400. By the end of October
+- 2020, the highest single citation has exceeded 1000.
+
+## Education
+- McGill University 1996.9-1998.8 NSERC #2
+- Concordia University 1992.9-1995.6 L# 3+
+- Concordia University 1988.1-199012 SABSARL
+- Concordia University 1983.9-1987.12 Leee+
+- McGill University Sept.1996 - Aug. 1998 NSERC Post-Doctoral Fellowship
+- Concordia University Sept.1992- June 1995 Ph.D. Engineering
+- Concordia University Jan.1988 - Dec. 1990 Masters of Applied Sciences, MASc.
+- Concordia University Sept.1983 - Dec. 1987 Bachelors of Engineering, BEng
+
+## Work Experience
+- 1. Concordia University 2017.7-2020 #RHR, AEE
+- Concordia University Jul. 2017-2020 Professor (2018); Department Chair
+- 2. Concordia University 2010.7-2017 Blatae
+- Concordia University Jul. 2010-2017 Associate Professor
+- 3. Concordia University 2007.8-2010.6 #18 (KHEA)
+- Concordia University Aug. 2007 - Jun. 2010 Lecturer, Extended Term Appointment
+- 4. Concordia University 20048-20075 #2 (AREER)
+- Concordia University Aug. 2004 - May. 2007 Assistant Professor, Limited Term Appointment
+- 5. Concordia University 20028-20045 L3H
+- Concordia University Aug. 2002 - May. 2004 Professional Adjunct Professor
+- 6. Concordia University 1999.9-20025 B#aR (HRREM)
+- Concordia University Sept. 1999 - May. 2002 Assistant Professor, Limited Term Appointment
+
+## Awards
+- 1, 1996-1998 44 CNRC B+ ERES.
+- CNRC Post-Doctoral Fellowship 1996-1998
+- 2. HEF 2005. 2006 U.K 2009, HR «Informing Sciences Conference? HERKEN.
+- Best Paper, Informing Sciences Conference 2005. 2006. 2009
+- 3.2007 FRARAA SS 2 the (DSMISA) 2.
+- 4.2012 &, & "Intemational Journal of Information Systems and Social Change» #A# ERE
+- Best Paper, "International Journal of Information Systems and Social Change" 2012
+- 26. Vahidov, R., Saadé, R., and *Eldiwany, A. (2012), Value of Recommendation Systems for Online
+- Investors, International Journal of Innovation in the Digital Economy, Vol.3, Issue 2
+- 27. Saadé, R., Vidyarthi, N., *Ahmed, A., and Sharma, M. (2012). Preliminary Analysis of Green
+- Supply Chain Research Output, Special Issue Indore Management Journal, Vol. 3, Issue 2. pp.
+- 116-128
+- 28. Saadé, R., and *Ahmed, A. (2012), Process Analysis of Knowledge Production, International
+- Journal of Applied Logistics, Vol. 2, Issue 3, pp. 49-66
+- 29. Morin, D., Thomas, JDE., and Saade, R.G. (2012). Deep Learning and Virtual Environment,
+- Intemational Scholarly and Scientific Research and Innovation, Special Issue of the International
+- Journal of Social, Education, Economics and Management Engineering, 6 (11), pp. 1551-1557
+- 30. Saadé, R., and Vahidov, R. (2011), Situated Service-Oriented Modeling, International Journal of
+- Service Science, Management, Engineering, and Technology, Vol. 2, Issue 1, 52-72
+- 31. Saadé, R, Buyukkurt, M., and *Alkhori, C. (2011), Technology Mediated Leaming:
+- Observations in Two Technologies, Issues in Informing Science and Information Technology,
+- Vol. 8, 395-408.
+- 32. Saadé, R., Nebebe, F., and *Elgaly, S. (2011), Examining a Flow-Usage Model to Understand
+- Moultimedia-Based Learning, Interdisciplinary Journal of Information, Knowledge and
+- 'Management, Vol. 6, 231-243
+- 33. Saadé, R., Nebebe, F. and Mak, T. (2011), Knowledge Management Systems Development:
+- Theory and Practice, Interdisciplinary Journal of Information, Knowledge and Management, Vol.
+- 6, 35-72,
+- 34. Saadé, R. (2010), Cognitive Mapping Decision Support for the Design of Web-based Learning
+- Environments, International Journal of Web-Based Learning and Teaching Technologies, Vol. 5
+- Issue 3, 36-53
+- 35. Saadé, R,, Nebebe, F. and Mak, T. (2009). The Role of Intrinsic Motivation in System Adoption:
+- A Cross-Cultural Perspective, Joumal of Information, Information Technology and
+- Organizations, Vol. 4, 107-126
+- 36. Saadé, R., and Huang, Q. (2009), Meaningful Learning in Discussion Forums: Towards
+- Discourse Analysis, Issues in Informing Science and Information Technology, Vol. 6, pp. 87 - 99.
+- 37. Saadé, R., and Kira, D. (2009), Computer Anxiety in E-Learning: The Effect of Computer
+- Self-Efficacy, Journal of Information Technology in Education, Vol. 8, pp. 177 - 191.
+- 38. Saadé, R. and Kira, D. (2009), The e-motional Factor of e-learning, Joumal of Asynchronous
+- Leaming Networks, Vol. 13, Issue 4, 57-72
+- 39. Saadé, R. and Kira, D. (2008), IS Usage Predictable Using Belief-Attitude-Intention Paradigm?
+- Issues in Informing Science and Information Technology, Vol. 3, pp. 591-599
+- 40. Saadé, G. R., Nebebe, F, and *Tan, W. (2007), Viability of "Technology Acceptance Model"
+- Multimedia Learning Environments: A Comparative Study, Interdisciplinary Journal of
+- E-Learning and Leaming Objects, Vol. 3, pp. 175-184
+- 41. Saadé, G. R.(2007), Dimensions to Perceived Usefulness: Towards an Enhanced Assessment,
+- Decision Sciences Institute - Decision Sciences Journal of Innovative Education, Vol. 5, Issue 2
+- 42. Saadé, R. and *Otrakji, C. (2007), First Impressions Last a Lifetime: Effect of Disorientation and
+- Cognitive Load, Computers in human behavior, Vol. 23, Issue 1, pp. 525-535.
+- 43. Saadé, G. R, *He, X., and Kira, D. (2007), Exploring Dimensions to Online Learning,
+- Computers in human behavior, Issue 23, pp.1721-1739
+- 44, Saadé, R. and Kira, D. (2007), Mediating the Impact of Technology Usage on Perceived Ease of
+- Use by Anxiety, Computers and education, Vol. 49, Issue 4, pp. 1189-1204.
+- 45. Saadé, G. R. (2006), Behaviour in Virtual Environments, WSEAS Transactions on Advances in
+- Engineering Education, Vol. 3, Issue 5, pp. 403-409.
+- 46. Saadé, R. and Kira, D. (2006), The Emotional State of Technology Acceptance, Issues in
+- Informing Science and Information Technology, Vol. 3, pp. 529-539.
+- 47. Saadé, G. R., Tsoukas, G., and Caminis, J. (2006), Understanding Velocity of Sound in
+- Trabecular Bone via Computer Simulations, Computers in Biology and Medicine, Vol. 36, Issue
+- 5, pp. 439-447
+- 48. Saadé, R. and *Galloway, I. (2005), Understanding the Intentions to Use Multimedia Information
+- Systems for Leaming, Issues in Informing Science and Information Technology, Vol. 2, pp.
+- 287-296.
+- 49. Saadé, R. and Babli, B. (2005), The Impact of Cognitive Absorption on Perceived Usefulness
+- and Perceived Ease of Use in On-Line Learning: An Extension of the Technology Acceptance
+- Model, Information and Management, Vol. 42, pp. 317-327.
+- 50. Saadé, G. R.. *Tsoukas, A. and Tsoukas, G. (2004). Prototyping a Decision Support System in
+- the Clinical Environment: Assessment of Patients with Osteoporosis OSTEODSS, Expert
+- Systems with Applications, Vol. 27, pp. 427-438.
+- 51. Saadé, R. G. (2004), Test of an Interactive Application to Assist Learning: A Case Study. Journal
+- of Information System Education, Vol. 15, No. 4, pp. 357-363. [IF 0.17]
+- 52. Bouchaib, B., and Saadé, R. (2004), Linking a Web-based Instructional System Usage: The
+- Application of the Technology Acceptance Model. Journal of Information Science and
+- Technology, 1(1), pp. 1-15
+- 53. Saadé, R.G. (2003), Web-based educational information system for enhanced leaming, EISEL:
+- Student assessment. Journal of Information Technology Education, Vol. 2, pp. 267-277
+- 54. Sade, R., Kozinski, J.A., (2000), Numerical Modeling and TGA/FTIR/GCMS Investigation of
+- Fibrous Residue Combustion, Biomass & Bioenergy, 18, pp.391-404.
+- 55. Sade, R., Kozinski, J.A., (2000), Investigations of High-Temperature Oxidation of Sludge
+- Fibers. Fuel Processing & Technology. 68. 121-138.
+- 56. Kozinski J., & Saade, R, (1998), Effect of Biomass Burning on the Formation of Soot Particles
+- and Heavy Hydrocarbons. An Experimental Study, Fuel, 77, pp.225-237
+- 57. Sade, R., and Kozinski, J. A., (1998), Dynamics of Physical Characteristics of Biowaste During
+- Pyrolysis, Journal of Analytical and Applied Pyrolysis, 45, pp 9-22
+- 58. Kozinski, J., Zheng, G , Saade, R. &. Dilalla S., (1997), On the Clean and Thermal Treatment of
+- De-Inking Solid Residues, The Canadian Journal of Chemical Engineering, 75, pp.113-120.
+- 59. Kozinski, J, Saade, R. & Zheng, G., (1996), Transformations of Sludge Waste During
+- Combustion in a Low-High-Low Temperature Reactor, Proceedings of the Combustion Institute,
+- 26, pp.2495-2502.
+- 60. Saade, R. & Sarraf, S., (1996), Phreatic Water Levels Along Ice Jams - An Experimental Study,
+- Nordic Hydrology, 27 (3), pp-185-201
+- 61. Sade, R. & Sarraf, S., (1995), Simulation of Ice Cover Melting in Turbulent Flow, International
+- Journal of Numerical Methods in Heat and Fluid Flow, 5 (7).
+- 62. Sade, R., Troitsky, M., Ramamurthy, A., & Sarraf, S., (1995), Numerical Modeling of Ice Jam
+- Resistance to Main Channel Flow, Intemational Journal of Numerical Methods in Fluid Flow,
+- Volume 21 (11), pp-1109-1120.
+
+## Publications
+- 1. International Journal of Community Development and Management Studies (New Jounal - 2016)
+- 28
+- Senior Editor in Chief of International Journal of Community Development and Management Studies
+- (New Jounal - 2016)
+- 2. ICAO NGAP Scientific Research: Analytics and Management Research (New Journal - 2019) =
+- 8
+- Senior Editor in Chief of ICAO NGAP Scientific Research: Analytics and Management Research
+- (New Journal - 2019)
+- 3. Informing Science Institute #2 A
+- Informing Science Institute, ISI (informingscience.org) Fellow
+- 1. Wan, J, Saade, R., and Wang, L. (2019). Deriving Significant Factors for Managing Change in
+- UN. Joumal of ~- Organizational += Change © Management, Early _-Ciite,
+- hittps://doi.org/10.1108/JOCM-10-2018-0288
+- 2. Abou Jaoude, J., and Saade, G. R. (2019). Blockchain Applications - Usage in Different
+- Domains. IEEE Access, 7, pp. 45360 - 45381. Doi: 10.1109/ACCESS.2019.2902501
+- 3. Abou Jaoude, J, and Sade, G. R. (2019). Blockchain Factors for Consumer Acceptance The
+- Intemational Journal of Business Management and Technology, 3 (1), pp. 16 - 29
+- 4. Rezai, G., Jones, M., Sade, G-R., Roschk, H., and Hosseinpour, M. (2019). Urban agriculture as
+- cooperative service and its contribution to food security: Participants and nonparticipants
+- perspective, Springer Book Chapter, https://www-springer.com/de/book/9783658224257 (2018
+- edition)
+- 5. Kira, D., Rezai, G., and Sade, G. R. (2019). Importance of Aviation Management Research.
+- ICAO Aviation Management Research, 1, pp. 1-15
+- 6. Morin, D., Safaee, H., and Saade, G. R. (2019). Understanding Online Leaming Based on
+- Different Age Categories. Issues in Informing Science and Information Technology, 16,
+- 7. Wan, J. & Saade, R. G. (2018). Investigating critical factors for project success and the impact of
+- certification/training - The United Nations context. International Jounal of Information
+- Technology Project Management, 9 (1).
+- 8. Morin, D., Thomas, J., Sade, R., Petrachi, D. (2018). Survey of online perspectives and gender.
+- International Journal of Management and Applied Science, 4 (8).
+- 9. Morin, D. Sade, R.G. & Dadras, S. (2018) Beliefs and Confidence in Online Learning. TOJET:
+- The Turkish Online Journal of Educational Technology, November 2018, Special Issue for
+- INTE-ITICAM-IDEC Volume 4 244-253.
+- https/vww:tojet.net/special/2018 12 2.pdf Previously published in Proceedings of the
+- Intemational Conference on New Horizons in Education Conference (INTE) INTE - ITICAM -
+- IDEC 2018, Volume 1, 285-294. July 20-22, Paris, France)
+- 10. Morin, D., Thomas IDE.,Saade, RG. & Petrachi, D. (2018). Survey of Online User
+- Perspectives and Gender. International Journal of Management and Applied Science (IJMAS),
+- 4(8), 86-93. Previously published in Proceedings of ISERD - International Society for
+- Engineering Research and Development - 385th International Conference on Education and
+- E-Learning (ICEEL), Budapest, Hungary, June 10-11)
+- 11. Morin, D., Thomas, JDE., Sade, RG. & Petrachi, D. (2018). A Survey of Online User
+- Perspectives and Age Profile in an Undergraduate Fundamental Business Technology
+- Course. International Journal of Educational and Pedagogical Sciences, 12(6), 689-694.
+- (Previously published in Proceedings of ICSEET - Intemational Conference on Science
+- Education and Effective Teaching, World Academy of Science, Engineering and Technology
+- (WASET) Conference, Vienna, Austria, June 14-15)
+- 12. Ly, 8. L. S., Saade, R.G., & Morin, D. (2017). Immersive learning: Using a web-based leaning
+- tool in a PhD course to enhance the learning experience. Journal of Information Technology
+- Education - Research, 16, 227-246
+- 13. Vahidov, R., Sade, R. G., & Yu, B. (2017). The effects of interplay between negotiation tactics
+- and task complexity in software agent to human negotiations. Electronic Commerce Research
+- and Applications, doi: https://doi.org/10.1016/j.elerap.2017.09.007
+- 14, Saade, R. G., & Nijher, H. (2016). Critical success factors in enterprise resource planning
+- implementation: A review of case studies. Journal of Enterprise Information Management, 29 (1).
+- 72-96.
+- 15. Saade, R. G., Vahidov, R., Tsoukas, G. M_, & Tsoukas, A. (2015). Informing physicians using a
+- situated decision support system: Disease management for the smart city. Knowledge
+- 'Management & E-Learning: An International Journal (KM&EL) ~ Special Issue: Smart Cities of
+- the Future: How to Design and Facilitate Tomorrows Education Toward Effective Skills and
+- Career Development, 6(4), 472-492
+- 16. Saadé, R. G., Dong, H., & Wan, J. (2015). Factors of project manager success. Interdisciplinary
+- Journal of Information Knowledge and Management, 10
+- 17. Valverde, R., & Saadé, R. G. (2015). The effect of E-supply chain management systems in the
+- north american electronic manufacturing services industry. Journal of theoretical and applied
+- electronic commerce research, 10(1), 79-98.
+- 18. Morin, D., Thomas, J. D., & Saadé, R. G. (2015). Fostering Problem-Solving in a Virtual
+- Environment. Journal of Information Technology Education: Research, 14, 339-362.
+- 19. Saadé RG. & AlSharhan. J. A. (2015). Discovering the Motivations of Students when Using an
+- Online Learning Tool. Journal of Information Technology Education, 14, pp. 283-296.
+- 20. Rustam, V., Kersten, G., & Sade, R.(2014), An Experimental Study of Software Agent
+- Negotiations with Humans, Decision Support Systems, Vol. 66, pp. 135-145.
+- 21. Valverde, R., Saadé, G. R, Talla, M. (2014), The Effect of E-Supply Chain Management
+- Systems in the North American Electronic Manufacturing Services Industry, Journal of
+- Theoretical and Applied Electronic Commerce Research, Vol. 9, Issue 3, pp. 1-15
+- 22. Valverde, R, & Saadé, G. R. (2014), ITIL-based IT Service Support Process Reengineering,
+- Intelligent Decision Technologies, Vol. 8, Number 2, pp. 111-130.
+- 23. Saadé, G. R, Morin, D., & Thomas, D. E. T. (2012), Critical Thinking and E-Learning
+- Environments, Computers in Human Behavior, Vol. 28, Issue 5, pp. 1608-1617
+- 24, Saadé, R. (2012), Exploring the E-Supply Chain of Information Products, International Journal
+- of Information Systems and Supply Chain Management, Vol. 5, Issue 1
+- 25. Saadé, R., Kira, D., and *Otrakji, C. (2012), Gender Differences in Interface Type Task Analysis,
+- Intemational Journal of Information Systems and Social Change, Vol. 3, Issue 2. (Best Paper
+- 1. Saadé, R. and Babli, B. (2005), The Impact of Cognitive Absorption on Perceived Usefulness and
+- Perceived Ease of Use in On-Line Learning: An Extension of the Technology Acceptance Model,
+- Information and Management, Vol. 42, pp. 317-327.
+- 2. Abou Jaoude, J., and Sade, G. R. (2019). Blockchain Applications - Usage in Different Domains.
+- IEEE Access, 7, pp. 45360 ~ 45381. Doi: 10.1109/ACCESS.2019.2902501
+- 3. Wan, J. , Sade, R., & Wang, L. . (2019). Deriving significant factors for managing change in
+- un. Journal of Organizational Change Management, 33(1), 114-126
+
+## Uncertain or Illegible Text
+- SSPSAR; WENA, BHPS;, LAS
+
+## Source Pages
+- page 1: https://isc.bit.edu.cn/pub/lxszx/mediaDir/images/content/2020-10/20201027004154327713.png
+- page 2: https://isc.bit.edu.cn/pub/lxszx/mediaDir/images/content/2020-10/20201027004203359880.png
+- page 3: https://isc.bit.edu.cn/pub/lxszx/mediaDir/images/content/2020-10/20201027004212461942.png
+- page 4: https://isc.bit.edu.cn/pub/lxszx/mediaDir/images/content/2020-10/20201027004221040059.png
+- page 5: https://isc.bit.edu.cn/pub/lxszx/mediaDir/images/content/2020-10/20201027004228925147.png
+- page 6: https://isc.bit.edu.cn/pub/lxszx/mediaDir/images/content/2020-10/20201027004237876274.png
+- page 7: https://isc.bit.edu.cn/pub/lxszx/mediaDir/images/content/2020-10/20201027004245240302.png
+- page 8: https://isc.bit.edu.cn/pub/lxszx/mediaDir/images/content/2020-10/20201027004253110450.png
+- page 9: https://isc.bit.edu.cn/pub/lxszx/mediaDir/images/content/2020-10/20201027004301312528.png
+- page 10: https://isc.bit.edu.cn/pub/lxszx/mediaDir/images/content/2020-10/20201027004309045691.png
+- page 11: https://isc.bit.edu.cn/pub/lxszx/mediaDir/images/content/2020-10/20201027004316466776.png
+- page 12: https://isc.bit.edu.cn/pub/lxszx/mediaDir/images/content/2020-10/20201027004323889885.png
+- page 13: https://isc.bit.edu.cn/pub/lxszx/mediaDir/images/content/2020-10/20201027004332624950.png

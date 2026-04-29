@@ -1,0 +1,139 @@
+# Lin Sheng-Lun
+- detail_url: https://me-english.bit.edu.cn/people/faculty/l/b187770.htm
+- school: Mechanical Engineering
+- page_count: 1
+
+## Basic Information
+- Name: Lin Sheng-Lun
+- Editor： SME
+- Listing source: Faculty by A-Z
+- A-Z letter: L
+- Name: Sheng-Lun Lin
+- Position: Associate Professor / Special Researcher
+- School: Mechanical Engineering
+- Department: Energy and Power Engineering
+- Office Add: Room 413,Build 1,Beijing Institute of Technology,Beijing 100081,China
+- Post Code: 100081
+- Email Add: sllin@bit.edu.cn
+
+## Research Interests
+- Dr. Lin’s research field includes mechanical engineering,power engineering,chemical engineering,environmental engineering,and aerosol science.
+- Multi-component fuel technologies for diesel engine and boilers.
+- Advanced thermal treatment for energy and material circulation from wastes.
+- Emission,transport,and deposition of aerosol particles and their temporal-spatial variation and source apportionment by simulation and real-time measurement.
+- Emission,control technologies,transport,deposition,and source apportionment of persistent organic pollutants.
+
+## Publication and Project Lists
+- SCI paper
+- Dr. Lin has published 56 papers in SCI journals,including 27 papers those worked as First/Corresponding author.
+- 2020
+- Syu-Ruei Jhang,Yuan-Chung Lin*,Kang-Shin Chen,Sheng-Lun Lin,Stuart Batterman. Evaluation of fuel consumption,pollutant emissions and well-to-wheel GHGs assessment from a vehicle operation fueled with bioethanol,gasoline and hydrogen. Energy,OCT 2020,209 118436 (IF=6.082).
+- Meng-Ching Chung,Kuo-Lin Huang*,Japheth L. Avelino,Lemmuel L. Tayo,Chih-Chung Lin*,Ming-Hsien Tsai,Sheng-Lun Lin,Wan Nurdiyana Wan Mansor,Ching-Kai Su,Sen-Ting Huang. Toxic Assessment of Heavily Traffic-Related Fine Particulate Matter Using an In-vivo Wild-Type Caenorhabditis Elegans Model. Aerosol and Air Quality Research,20(9): 1974-1986 (IF=2.735).
+- How-Ran Chao*,Danielle E. Que,Alisha C. Aquino,Yan-You Gou,Lemmuel L. Tayo,Yi-Hsien Lin,Ming-Hsien Tsai,Fu-Lin Hsu,I-Cheng Lu,Sheng-Lun Lin,Natwat Srikhao,Cherng-Gueih Shy,Kuo-Lin Huang*. Toxicity Assessment of Electrochemical Advanced Oxidation Process-1 treated Groundwater from a Gas Station with Petrochemical Contamination. Environmental Monitoring and Assessment,30 JUN 2020,192(7): 473,(IF=1.959).
+- Hung-Hong Chen,Yun-Hwei Shen+,Hsi-Hsien Yang,Jau-Huai Lu,Lin-Chi Wang*,Yen-Kung Hsieh+,Chia-Fon Lee,Sheng-Lun Lin*. Newer Generation of Scooters: Polychlorinated Dibenzo-p-dioxin and Dibenzofuran and Polychlorinated Biphenyl Reductions. Aerosol and Air Quality Research,JUN 2020,20(6): 1495-1509 (IF=2.735).
+- Wan Nurdiyana Wan Mansor*,Samsuri Abdullah,Che Wan Mohd Noor Che Wan Othman,Mohamad Nor Khasbi Jarkoni,How-Ran Chao,and Sheng-Lun Lin. Data on greenhouse gases emission of fuels in power plants in Malaysia during the year of 1990-2017. Data in Brief,JUN 2020,30: 105440 (SCI).
+- Yi‐Ming Kuo*,Kuo‐Lin Huang,Jian‐Wen Wang,Cheng‐Hsien Tsai,Sheng‐Lun Lin. An alternative approach to reclaim spent nickel–metal hydride batteries. Environmental Progress & Sustainable Energy,MAY 2020,early access e13433 (IF=1.989).
+- Yi-Ming Kuo*,Jhong-Lin Wu**,Sheng-Lun Lin**. Using a State-of-the-art Air Pollution Control System to Lower Pollutant Emissions. Aerosol and Air Quality Research,MAY 2020,20(5): 1145-1154 (IF=2.735).
+- Jen-Hsiung Tsai,Yue-Rou Chen,Shui-Jen Chen*,Sheng-Lun Lin,Kuo-Lin Huang,Chih-Chung Lin,Jue-Iyu Chiu. Characteristics of Emissions from a Portable Two-stroke Gasoline Engine. Aerosol and Air Quality Research,MAR 2020,20(3): 630-642 (IF=2.735).
+- 2019
+- Yi-Ming Kuo*,Yu-Kuan Wang,Sheng-Lun Lin,Li-Te Yin,Yen-Kung Hsieh**. Air Pollution Characteristics of Reclamation of Refuse Derived Fuel (RDF) Recovered from Cutting Oil Waste. Aerosol and Air Quality Research,NOV 2019,19(11): 2576-2584 (IF=2.735).
+- Mei-Ling Fang,Ming-Shean Chou,Cheng-Yu Chang,Hsiao-Yu Chang+,Chih-Hsiang Chen,Sheng-Lun Lin*,Yen-Kung Hsieh. Chemical Adsorption of Nitrogen Dioxide with an Activated Carbon Adsorption System. Aerosol and Air Quality Research,NOV 2019,19(11): 2568-2575 (IF=2.735).
+- Shida Chen,Kangping Cui*,Tai-Yi Yu**,How-Ran Chao***,Yi-Chyun Hsu,I-Cheng Lu,Rachelle D. Arcega,Ming-Hsien Tsai,Sheng-Lun Lin,Wan-Chun Chao,Chunneng Chen,Kwong-Leung J. Yu. A Big Data Analysis of PM2.5 and PM10 from Low Cost Air Quality Sensors near Traffic Areas. Aerosol and Air Quality Research,AUG 2019,19(8): 1721-1733 (IF=2.735).
+- Sheng-Lun Lin*,Kuan-Lin Lee,Jhong-Lin Wu+,Nicholas Kiprotich Cheruiyot. Effects of a Quenching Treatment on PCDD/F Reduction in the Bottom Ash of a Lab Waste Incinerator to Save the Energy and Cost Incurred from Post-thermal Treatment. Waste Management,JUL 2019,95: 316–324 (IF=5.448).
+- Danielle E. Que,How-Ran Chao*,Yi-Chyun Hsu*,Kangping Cui,Shida Chen,Lemmuel L. Tayo,Rachelle D. Arcega,Ying-I Tsai,I-Cheng Lu,Lin-Chi Wang,Li-Hao Young,Kwong-Leung J. Yu,Chane-Yu Lai,Wen-Che Hou,Sheng-Lun Lin. Emission of Carbonyl Compounds from Cooking Oil Fumes in the Night Market Areas. Aerosol and Air Quality Research,JUL 2019,19(7): 1566-1578 (IF=2.735).
+- Jen-Hsiung Tsai,Shui-Jen Chen*,Sheng-Lun Lin,Kuo-Lin Huang,Cheng-Kai Hsueh,Chih-Chung Lin,Po-Min Li. Emissions of PM2.5-bound Polycyclic Aromatic Hydrocarbons and Metals from a Diesel Generator Fueled with Biodiesel Converted from Used Cooking Oil. Aerosol and Air Quality Research,JUL 2019,19(7): 1555-1565 (IF=2.735).
+- Meng-Ching Chung,Ming-Hsien Tsai,Danielle E. Que,Sayre J. Bongo,Wen-Li Hsu,Lemmuel L. Tayo,Yi-Hsien Lin,Sheng-Lun Lin,Yan-You Gou,Yi-Chyun Hsu,Wen-Che Hou,Kuo-Lin Huang,How-Ran Chao*. Fine Particulate Matter-induced Toxic Effects in an Animal Model of Caenorhabditis elegans. Aerosol and Air Quality Research,MAY 2019,19(5): 1068-1078 (IF=2.735).
+- Cheng-Chih Kao,Danielle E. Que,Sayre J. Bongo,Lemmuel L. Tayo,Yi-Hsien Lin,Chun-Wen Lin,Sheng-Lun Lin,Yan-You Gou,Wen-Li Hsu,Cherng-Gueih Shy,Kuo-Lin Huang,Ming-Hsien Tsai+,How-Ran Chao*. Residue Levels of Organochlorine Pesticides in Breast Milk and Its Associations with Cord Blood Thyroid Hormones and the O spring’s Neurodevelopment. International Journal of Environmental Research and Public Health,APR 2019,16: 1438 (IF = 2.849).
+- 2018
+- Yi-Chyun Hsu,Rachelle Anne D. Arcega,Yan-You Gou,Lemmuel L. Tayo,Yi-Hsien Lin,Sheng-Lun Lin,How-Ran Chao*. Levels of Non-PBDE Halogenated Fire Retardants and Brominated Dioxins and Their Toxicological Effects in the Indoor Environment-A Review. Aerosol and Air Quality Research,AUG 2018,18(8): 2047-2063 (IF=2.735).
+- Sheng-Lun Lin*,Ria Aniza,Yen-Yi Lee,Chin-Liang Wang. Reduction of Traditional Pollutants and Polychlorinated Dibenzo-p-Dioxins and Dibenzofurans Emitted from A Diesel Engine Generator Equipped with A Catalytic Ceramic Fiber Filter System. Clean Technologies and Environmental Policy,AUG 2018,20(6): 1297-1309 (SCI,2018 IF = 2.429).
+- Yen-Yi Lee,Sheng-Lun Lin*,Chung-Shin Yuan,Ming-Yeng Lin,Kang-Shin Chen. Reduction of Atmospheric Fine Particle Level by Restricting the Idling-vehicles around a Sensitive Area. Journal of the Air & Waste Management Association,MAY 2018,68(7): 656-670 (IF=2.245).
+- Jen-Hsiung Tsai,Sheng-Lun Lin,Shui-Jen Chen*,Ciao-Jhen Guo,Kuo-Lin Huang,Jia-Twu Lee,Kuei-Jyum C. Yeh,Juei-Yu Chiu,Chih-Chung Lin. Emission Characteristics of Particulate Matter and Particle-bound Metals from a Diesel Engine Generator Fueled with Waste Cooking Oil-based Biodiesel Blended with n-Butanol and Acetone. Aerosol and Air Quality Research,MAY 2018,18(5): 1246-1254 (IF=2.735).
+- Shih-Tsung Tang,Yi Chang+,Jinning Zhu*,Sheng-Lun Lin. Atmospheric Deposition Impact of Polychlorinated Dibenzo-p-dioxin and Dibenzofuran on an Aquatic System in Central Taiwan. Aerosol and Air Quality Research,APR 2018,18(4): 981-993 (IF=2.735).
+- Syu-Ruei Jhang,Kang-Shin Chen,Sheng-Lun Lin,Yuan-Chung Lin*,Kassian T.T. Amesho,Chung-Bang Chen. Evaluation of the Reduction in Carbonyl Emissions and Ozone Formation Potential from the Exhaust of a Heavy-duty Diesel Engine by Hydrogen-diesel dual fuel combustion. Applied Thermal Engineering,MAR 2018,132: 586-594 (IF=4.725).
+- 2017
+- Chung-Ling Chen,Shih-Tsung Tang,Jinning Zhu+,Sheng-Lun Lin*. Atmospheric PM2.5 and Polychlorinated Dibenzo-p-dioxin and Dibenzofuran in a Coastal Area of Central Taiwan. Aerosol and Air Quality Research,NOV 2017,17(11): 2829-2846 (IF=2.735).
+- Yen-Yi Lee,Sheng-Lun Lin*,Ria Aniza,Chung-Shin Yuan. Reduction of Atmospheric PM2.5 Level by Restricting the Idling Operation of Buses in a Busy Station. Aerosol and Air Quality Research,OCT 2017,17(10): 2424-2437 (IF=2.735).
+- Jen-Hsiung Tsai,Sheng-Lun Lin,Shui-Jen Chen*,Guo-Ping Chang-Chien,Bo-Cheng Jheng,Kuo-Lin Huang,Chih-Chung Lin,Juei-Yu Chiu. Persistent Organic Pollutant Reductions from a Diesel Engine Generator Fueled with Waste Cooking Oil-based Biodiesel Blended with Butanol and Acetone. Aerosol and Air Quality Research,AUG 2017,17(8): 2041-2050 (IF=2.735).
+- Chin-Yu Hsu,Hung-Che Chiang,Mu-Jean Chen,Chun-Yu Chuang,Chao-Ming Tsen,Guor-Cheng Fang,Ying-I Tsai,Nai-Tzu Chen,Tzu-Yu Lin,Sheng-Lun Lin,Yu-Cheng Chen*. Ambient PM2.5 in the Residential Area near Industrial Complexes: Spatiotemporal Variation,Source Apportionment,and Health Impact. Science of the Total Environment,JUL 15,2017,590-591: 204-214 (IF=6.551).
+- Sheng-Lun Lin,Jen-Hsiung Tsai,Shui-Jen Chen*,Kuo-Lin Huang,Chih-Chung Lin,Ho-Tsang Huang,Yi-Chin Hsieh,Chuen-Huey Chiu. Emissions of Polycyclic Aromatic Hydrocarbons and Particle-Bound Metals from a Diesel Engine Generator Fueled with Waste Cooking Oil-Based Biodiesel Blends. Aerosol and Air Quality Research,JUN 2017; 17(6): 1679-1689 (IF=2.735).
+- Nicholas Kiprotich Cheruiyot,Lin-Chi Wang*,Sheng-Lun Lin*,Hsi-Hsien Yang. Effects of Selective Catalytic Reduction on the Emissions of Persistent Organic Pollutants from a Heavy-Duty Diesel Engine. Aerosol and Air Quality Research,JUN 2017,17(6): 1558-1565 (IF=2.735).
+- Farran Mack Redfern,Sheng-Lun Lin*,Lin-Chi Wang*,Shun-I Shih+. Influences of Waste Cooking Oil-Based Biodiesel Blends on PAHs and PCDD/F Emissions from Diesel Engines in Durability Testing Cycle. Aerosol and Air Quality Research,MAY 2017,17(5): 1224-1233 (IF=2.735).
+- Farran Mack Redfern,Sheng-Lun Lin*,Lin-Chi Wang*,Jhong-Lin Wu,Endah Mutiara MP+. PBDE Emissions during the Start-Up Procedure of an Industrial Waste Incinerator by the Co-combustion of Waste Cooking Oil and Diesel Fuel. Aerosol and Air Quality Research,APR 2017,17(4): 975-989 (IF=2.735).
+- Chia-Yang Chen,Wen-Jhy Lee,John Kennedy Mwangi*,Lin-Chi Wang+,Jhong-Lin Wu*,Sheng-Lun Lin. Reduction of Persistent Organic Pollutant Emissions during Incinerator Start-up by Using Crude Waste Cooking Oil as an Alternative Fuel. Aerosol and Air Quality Research,MAR 2017,17(3): 899-912 (IF=2.735).
+- 2016
+- Chong-Yu Tseng,Sheng-Lun Lin*,John Kennedy Mwangi*,Chung-Shin Yuan,Yee-Lin Wu. Characteristics of Atmospheric PM2.5 in a Densely Populated City with Multi-Emission Sources. Aerosol and Air Quality Research,SEP 2016,16(9): 2145-2158 (IF=2.735).
+- Syu-Ruei Jhang,Kang-Shin Chen,Sheng-Lun Lin,Yuan-Chung Lin*,Way Lee Cheng. Reducing Pollutant Emissions from a Heavy-duty Diesel Engine by Using Hydrogen Additions. Fuel,15 MAY 2016,172: 89-95 (IF=5.578).
+- Hung-Yi Lu,Sheng-Lun Lin*,John Kennedy Mwangi+,Lin-Chi Wang,Hsin-Yi Lin. Characteristics and Source Apportionment of Atmospheric PM2.5 at a Coastal City in Southern Taiwan. Aerosol and Air Quality Research,APR 2016,16(4): 1022-1034 (IF=2.735).
+- Sheng-Lun Lin,Kuo-Lin Huang,I-Ching Wang,I-Cheng Chou,Yi-Ming,Kuo*,Chung-Hsien Hung,Chitsan Lin. Characterization of Spent Nickel-Metal Hydride Batteries and a Preliminary Economic Evaluation of the Recovery Processes. Journal of Air and Waste Management Association,MAR 2016,66(3): 296-306 (IF=2.245).
+- Chin-Yu Hsu,Hung-Che Chiang,Sheng-Lun Lin,Mu-Jean Chen,Tzu-Yu Lin,Yu-Cheng Chen*. Elemental characterization and source apportionment of PM10 and PM2.5 in the western coastal area of central Taiwan. Science of the Total Environment,JAN 15,2016; 541: 1139-1150 (IF=6.551).
+- 2015
+- Jing-Sing Yang,Sheng-Lun Lin*,Ta-Chang Lin,Yee-Lin Wu,Lin-Chi Wang,Guo-Ping Chang-Chien+. Emissions of Polychlorinated Diphenyl Ethers from a Municipal Solid Waste Incinerator during the Start-up Operation. Journal of Hazardous Material DEC 2015; 299: 206-214 (IF=9.038).
+- Yu-Cheng Chen*,Chin-Yu Hsu,Sheng-Lun Lin,Guo-Ping Chang-Chien,Mu-Jean Chen,Guor-Cheng Fang,Hung-Che Chiang. Characteristics of concentrations and metal compositions for PM2.5 and PM2.5-10 in Yunlin County,Taiwan during air quality deterioration. Aerosol and Air Quality Research,DEC 2015; 15(7): 2571-2583 (IF=2.735).
+- Mao-Sung Wang,Sheng-Lun Lin*,Guo-Ping Chang-Chien,Lin-Chi Wang,Chia-Yang Chen. Utilization and Improvement of the Adsorption Method for Sampling PCDD/Fs from a Sinter Plant. Aerosol and Air Quality Research OCT 2015; 15(5): 1917-1932 (IF=2.735).
+- Jen-Hao Tsai,Sheng-Lun Lin*,John Kennedy Mwangi,Chia-Yang Chen,Tser Son Wu. Energy Saving and Pollution Reduction by Adding Water Containing Iso-Butanol and Iso-Propyl Alcohol in a Diesel Engine. Aerosol and Air Quality Research OCT 2015; 15(5):2115-2128 (IF=2.735).
+- 2014
+- Ting-Wei Wu,Jai-Wei Lee,Hsueh-Yen Liu,Wei-Hsiao Lin,Chun-Yen Chu,Sheng-Lun Lin,Guo Ping Chang-Chien,Chi Yu*. Accumulation and elimination of polychlorinated dibenzo-p-dioxins and dibenzofurans in mule ducks. Science of the Total Environment,NOV 1,2014; 497–498: 260–266 (IF=6.551).
+- Chun-Jou Guo,Mao-Sung Wang,Sheng-Lun Lin*,Hsiao-Hsuan Mi,Lin-Chi Wang,Guo-Ping Chang-Chien. Emissions of PCDD/Fs and PCBs during the Cold Start-up of Municipal Solid Waste Incinerators. Aerosol and Air Quality Research,OCT 2014; 14(6): 1593-604 (IF=2.735).
+- Hsiao-Hsuan Mi,Wan-Ju Wang,Sheng-Lun Lin*,Yi-Chieh Lai,John Kennedy Mwangi,Lin Chi Wang,Guo-Ping Chang-Chien. Long-Term Monitoring and Modeling on Polychlorinated Dibenzo-p-dioxins and Dibenzofurans from Municipal Solid Waste Incinerators and Surrounding Air in Northern Taiwan. Environmental Science and Pollution Research,SEP 3,2014; 21(18): 10751-64 (IF=3.056).
+- Ming Huo,Shenlun Lin,Haifeng Liu,Chia-fon Lee*. Study on the Spray and Combustion Characteristics of Water-Emulsified Diesel. Fuel,MAY 1,2014; 123: 218–229 IF=5.578
+- Edward Ming-Yang Wu,Lin-Chi Wang*,Sheng-Lun Lin,Guo-Ping Chang-Chien. Validation and characterization of persistent organic pollutant emissions from stack flue gases of an electric arc furnace by using a long-term sampling system (AMESA®). Aerosol and Air Quality Research,FEB 2014; 14(1): 185–196 (IF=2.735).
+- 2013
+- Yu-Cheng Chang,Wen-Jhy Lee*,Sheng-Lun Lin*,Lin-Chi Wang. Green Energy: Water-Containing Acetone-Butanol-Ethanol Diesel Blends Fueled in Diesel Engines. Applied Energy,SEP 2013; 109: 182–91 (IF=8.848).
+- Long-Full Lin,Shu Hsien Wu,Sheng-Lun Lin*,John Kennedy Mwangi,Yi-Ming Lin,Chia-Wei Lin,Lin-Chi Wang,Guo-Ping Chang-Chien. Atmospheric Arsenic Deposition in Chiayi County in Southern Taiwan. Aerosol and Air Quality Research,JUN 2013; 13(3): 932–942 (IF=2.735).
+- Research Projects
+- Government-sponsored Projects
+- Major PI 循环经济应用–粗甘油及废溶剂能源化与污排放减量技术研发，中国(台湾)科技部面上项目，MOST 106-2221-E-230-001-MY2，2017/08/01–2019/10/31，主持人(1/3)。 绿色多元油品研发：模式仿真与柴油引擎动力计测试，中国台湾科技部面上项目，MOST 103-2221-E-230-003-MY2，2014/08/01–2016/07/31，主持人(1/2)。 水乳化柴油于不同环境条件下之喷雾、燃烧及污染物排放特性研究：定容燃烧器雷射诊断及柴油引擎实验，中国台湾科学委员会年轻学者项目，NSC 101-2221-E-230-024，2012/10/01–2013/12/31，主持人(1/1)。
+- Co-PI
+- 电子业酸碱气及细悬浮微粒排放系数盘点及控制技术优化，中国台湾科技部/环境保护署，MOST-107-EPA-F-016-001，2019/01/01–2019/12/31，主持人(2/3)。
+- 使用中车辆污染调查研究计划，中国台湾科技部/环境保护署，MOST-106-EPA-F-011-001，2017/09/05–2018/09/04，主持人(3/4)。
+- 建立移动源不同期别燃料有害空气污染物排放系数之研究，中国台湾科技部/环境保护署，MOST 105-EPA-F-008-003，2016/08/08–2017/08/07，主持人(3/3)。
+- 氢气与汽柴油双燃料混烧技术之研究：模式仿真与动力计实程测试，行政院国家科学委员会/环境保护署，NSC 102-EPA-F-009-001，2013/08/02–2014/08/01，主持人(1/1)。
+- Industry-academia Cooperation Projects
+- Major PI
+- 低温SCR触媒滤管之研发测试计划，富利康科技股份有限公司，2019/10/01–2020/06/30，主持人(1/1)。
+- 焚化热熔尾气处理象统中戴奥辛与新型阻燃剂质量及粒径分布，中国台湾成功大学环境资源研究管理中心，2019/04/01–2019/11/31，主持人(1/1)。
+- PM2.5事件日污染特征解析技术移转，立境环境科技股份有限公司，2018/06/01–2019/05/31，主持人(1/1)。
+- 三种触媒戴奥辛去除效率测试，富利康科技股份有限公司，2018/05/01–2018/12/31，主持人(1/1)。
+- 106年嘉义市细悬浮微粒及有害空气污染物调查暨焚化厂周界健康风险评估计划，中国台湾嘉义市政府环境保护局，2017/12/21–2018/12/20，主持人(1/1)。
+- 106–108年度燃料产品测试与环境检测计划，识昌实业有限公司，2017/11/01–2019/02/28，主持人(1/1)。
+- 北台湾细悬浮微粒(PM2.5)调查计划，富联工程顾问股份有限公司，2017/03/01–2017/12/31，主持人(1/1)。
+- 环境新兴污染物与大肠癌相关性研究，中国台湾高雄长庚纪念医院，2017/01/01–2017/12/31，主持人(1/1)。
+- 细悬浮微粒防制及污染源指纹建立计划，环医工程顾问有限公司，2016/10/24–2017/10/23，主持人(1/1)。
+- 陶瓷纤维触媒滤管戴奥辛中温处理测试计划，富利康科技股份有限公司，2016/08/01–2017/12/31，主持人(1/1)。
+- 触媒陶瓷滤材去除戴奥辛及粒状物技术测试，富利康科技股份有限公司，2016/03/01–2016/08/31，主持人(1/1)。
+- 104年度嘉义市大气中细悬浮微粒污染特性分析计划，中国台湾嘉义市政府环境保护局，2015/08/07–2016/08/06，主持人(1/1)。
+- 104年度环境监测案服务，中国台湾高雄市政府环境保护局南区资源回收厂，2015/01/01–2015/12/31，主持人(1/1)。
+- 103–104年戴奥辛、有害金属稽查管理暨细悬浮微粒检测业务，中国台湾高雄市政府环境保护局，2014/09/12–2015/09/11，主持人(1/1)。
+- 103年度台北市内湖、木栅及北投垃圾焚化厂周界空气、土壤及植物戴奥辛含量浓度建立计划，中国台湾台北市政府环境保护局北投垃圾焚化厂，2014/06/24–2014/12/31，主持人(1/1)。
+- 中钢公司烧结工厂烟道排放PM2.5检测及粒径分布分析研究计划，中国钢铁股份有限公司，2014/05/01–2014/09/30，主持人(1/1)。
+- 嘉义县细悬浮微粒(PM2.5)监测、分析与管制策略研拟计划，中国台湾嘉义县政府环境保护局，2013/08/26–2013/12/31，主持人(1/1)。
+- 空污排放風險管理決策支援系統進階應用設計-污染溯源與空污突發事故緊急應變措施最佳化，財團法人日月光文教基金會，2020/02/01–2020/10/31，主持人(2/2)。
+- 中鋼燒結工場及燃煤汽電共生鍋爐重金屬自廠排放係數研究計畫，中國鋼鐵股份有限公司，2019/10/01–2020/02/28，主持人(2/3)。
+- 製程營運情境空污排放風險管理決策支援系統友善快速操作介面之設計，財團法人日月光文教基金會，2019/01/04–2019/11/30，主持人(2/2)。
+- 中鋼三四階燒結礦自動化封閉式建築減量成效研究計畫，中國鋼鐵股份有限公司，2018/08/01–2020/09/30，主持人(2/3)。
+- 中鋼原料儲存場逸散與周界環境關聯性調查計畫，中國鋼鐵股份有限公司，2017/07/01–2018/06/30，主持人(2/2)。
+- 以廢食用油做焚化爐起爐替代燃料之排放與燃燒影響，國立成功大學，2016/03/01–2017/12/31，主持人(2/2)。
+- 103年度嘉義市大氣中細懸浮微粒濃度特性分析計畫，嘉義市政府環境保護局，2014/04/22–2015/04/21，主持人(2/2)。
+- 台塑六輕廠對漁業影響之監測計畫，雲林縣政府，2013/09/09–2014/09/03，主持人(2/2)。
+- 嘉義市細懸浮微粒管制對策及健康風險評估計畫，嘉義市政府環境保護局2013/03/13–2013/12/16，主持人(2/2)。
+- 高雄市重要污染源長期連續採樣分析四年計畫，高雄市政府環境保護局，2010/01/08–2014/01/07，主持人(2/2)。
+- 101年度煙道戴奧辛採樣分析專業服務，高雄市政府環境保護局南區資源回收廠，2012/01–2012/12，主持人(2/2)。
+
+## Research Honor
+- 2019,中国台湾科技部补助大专院校研究奖励
+- 2019,中国台湾教育部高等教育深耕计划补助研究类弹性薪资
+- 2018,中国台湾科技部补助大专院校研究奖励
+- 2018,中国台湾气胶研究学会秋森奖
+- 2015,Highly Cited Research Paper Award,ELSEVIER
+
+## Professional Services
+- 2018–2020,The 14th Deputy Secretary General,Taiwan Association for Aerosol Research
+- 2018–2020,The 14th Director,Taiwan Association for Aerosol Research
+- 2016–2018,The 13rd Director,Taiwan Association for Aerosol Research
+- 2015–2017,Assistant,Committee of Air Environment in The Chinese Institute of Environmental Engineering
+- 2014–2016,The 12nd Deputy Secretary General,Taiwan Association for Aerosol Research
+- 2010– Service as reviewer for SCI journals：20+,includes Chemical Engineering Journal (IF 10.652)、Journal of Hazardous Material (IF 9.038)、Applied Energy (IF 8.848)、Science of the Total Environment (IF 6.551)、Energy (IF 6.082)、Environmental Research (IF 5.715)、Fuel (IF 5.578)、Waste Management (IF 5.448)、Journal of the Energy Institute (IF 4.748)、Atmospheric Research (IF 4.676) etc.
+
+## Source Pages
+- page 1: https://me-english.bit.edu.cn/people/faculty/l/b187770.htm

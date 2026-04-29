@@ -1,0 +1,34 @@
+{
+	admin off
+	auto_https off
+}
+
+# Internal edge router for the deployable BIT Professor Agent.
+# HTTPS is expected to terminate before this container, for example at
+# Cloudflare Tunnel, a load balancer, or a host-level reverse proxy.
+http:// {
+	encode zstd gzip
+
+	header {
+		-Server
+		Referrer-Policy strict-origin-when-cross-origin
+		X-Content-Type-Options nosniff
+		X-Frame-Options DENY
+		Permissions-Policy "camera=(), microphone=(), geolocation=()"
+	}
+
+	respond /healthz "ok" 200
+	respond /readyz "ok" 200
+
+	handle /api/* {
+		reverse_proxy backend:8000
+	}
+
+	handle /healthz {
+		reverse_proxy frontend:80
+	}
+
+	handle {
+		reverse_proxy frontend:80
+	}
+}

@@ -1,0 +1,227 @@
+# LIU Hao
+- detail_url: https://isc.bit.edu.cn/schools/Economics1/KnowingtheProfessors333/15f9ad7b2f774d44b43844495418e6e4.htm
+- school: Economics
+- page_count: 13
+
+## Basic Information
+- Email: liuhaosme@bit.edu.cn
+- 姓名: 刘洛 职称(Title)
+- 填音: LIU Hao 数反/Professor
+- 举院(School) 专业(Discipline) 碟
+- 管理与经济学院 工商管理/Business 多
+- Management 六 -5
+
+## Research Interests
+- 研究方向(Research Interests) 志话(Tel) -一>
+- Aerospace Law and Management Digial Economy | (010) 82313457
+- Regulation ”and ”Govemance， Air 。Trafiic
+- Management Unmanned System Regulation and
+- Standard making 吉Email
+- Iuhaosme@bit.edu.cn
+
+## Biography
+- 个人简历(Biography)
+- 作为无人系统规则制定联合体〔JARUS) 执行主席，国际民航组织亚太区无人罗驶航空内系统专家组
+- 主席，国际民航组织和联合国外层空间事务厅空间研究专家组法律组主席，积家努力推动无人区驶航
+- 空肉系统 〔售壮容航空器系统，俭称元人宙系统)、亚就送飞行、高高良运行 临近空间运行) 等胡空
+- 航天新兴科技的发展、应用和实践。
+- 长期参与国家空域管到体制改革，中国航空航天致策和法律制度制号，包括但不限于《航空法》《航天
+- 法》《民用航空法》?《无人驾驶航空只系统管理条例》《飞行基本规则》《通用航空飞行管制条例》《空域
+- 管理条例》《民用飞机产业发展条例》《卫星导航条例》《警用无人加驶航空器管理规定》等。
+- 担任中央空管委智库国家空管法规标准研究中心副主任，航空法符和标准研究所所长和全球航空发展
+- 研究中心执行主任。
+- Professor LIU Hao is an expert on air and space law and management his works are quite focusing
+- on the emerging 。 operations， such as ”Unmanned Aircraft System (Pilotless
+- AircrafyUASIRPAS/Drones)，sub-orbital fight near space/upper level operation，and commercial
+- space
+- He graduated from the leading law education University of China China University of Political
+- Science and Law with a PhD degree on intemnational law-
+- To promote and facilitate the emerging technology and aerospace operation，Professor LIU Hao
+- works actively as the Acting Chair of the JARUS (Joint Authorities for Rulemaking on Unmanned
+- Systems)，Chair of the ICAO Asia Pacifc UAS Task Force，Chair of the Legal sub-Group of
+- ICAOWUNOOSA Space Leaming Group, and also the Vice Chair of the Space Safety Laws and
+- Regulations Committee of IAASS (Intemational Association for the Advancement of Space Safety)
+- Besides the work on emerging new operation, Professor LIU is also involved in the air and space
+- legislation and policy making, he is the member of Drafting Committees of Aviation Law Space Law，
+- Regulation on Airspace, Regulation on the UAS, Regulation on the Satellte Navigation, Regulation
+- on the Promotion of Civil Aviation Industry etc
+- Professor LIU Hao works as the Deputy Director of the National Research Center of ATM Law and
+- Standard, a think tank founded by the State Air Traffic Control Commission of China (SATCCC) ，
+- Director of Institute ofAviation Law and Standard, Beihang Universiy (BUAA) and Executive Director
+- of Global Aviation DevelopmentAcademy.
+
+## Education
+- 教育背景:Educational Background)
+- 2005.09-2008.06 中国政法大学 法学博十研究生
+- 2002.09-2005.06 中国政法大学 法尝项士研究生
+- 1998.09-2002.06 中国政法大学 法学学十
+- 2005.09-.2008.06 China University of Politcal Science and Law Ph .D of Law
+- 2002.09-2005.06 China University of Political Science and Law Master of Law
+- 1998.09.2002.06 China University of Political Science and Law Bachelor of Law
+
+## Work Experience
+- 工作经历: (Working Experience)
+- 2019.05- 与席兰国立航空大学兼职教授
+- 2019.05- 北京市平谷区人民政府硕问
+- 2019.02-2020.02 ”北京通用航空产业蕉地管理委员会 副主任
+- 2019.07- 北京理工大学全球航空发展研究中心 执行主任
+- 2019.04- 四川西华大学国际空天学院 讲座数授
+- 2019.02- 北京理工大学常理和经济学院 兼职教授
+- 2017.11- 浙江大学国际战略与法律研究院 列院长
+- 2014.04-2014.07 ”香港城市大学法德学院 访问学者、特聘数师
+- 2013.06-2013.08 香港城市大学法德学院 访问学者、特聘数师
+- 2013.03- 北京航空航无大学航无法律和战略研究所 所长
+- 2012.09-2012.10 ”香港城市大学法德学院 访问学者、特了数师
+- 2011.10- 国家空管法规标准研究中心 副主任
+- 2009.01-2009.06 。 美国迪堡大学国际航空法研究所 访问学者
+- 2008. 06 北京航空航天大学航空法德和标准研究所 所长
+- 2019.05- Visiting Professor National Aviation University, Ukraine
+- 2020.02-2020.08 ”Advisorto the Ping-gu District People's Government, Beijing Municipality
+- 2019.02-2020.02 Deputy Director Administrative Commission, General Aviation Base of Beijing Municipal
+- Government
+- 2019.04-present Chair Professor School ofAeronautics and Astronautics, Xihua University
+- 2019.02-present Adjunct Professor School of Management and Economics，Beijing Institute of
+- Technology (BIT)
+- 2017.11-present Vice President, Academy of International Strategy and Law, Zhejiang University
+- 2014.04-2014.07 Visiting Fellow, Hong Kong City University School of Law
+- 2013.06-2017.08 Visiting Fellow, Hong Kong City University School of Law
+- 2013.03-present Director Institute of Space Law and Strategy, Beihang University (BUAA)
+- 2012.09-2017.10 Visiting Fellow, Hong Kong City University School of Law
+- 2011-present Deputy Director National Research Centre ofATM Law and Standard of China
+- 2009.01-2009.06 Visiting Scholar International Aviation Law Institute, DePaul University, USA
+- 2008.06-present Director ofAviation Law and standard, Beihang University (BUAA)
+
+## Academic Service and Memberships
+- 学术兼职:(Part-time Academic Jobs)
+- 英国圣家航空学会高级会员
+- 国际民航组织还控芍驶航空只系统专家绝 (RPASP) 成员、航空数据分析专家组硕问、航空安保专家
+- 组顾问
+- 国际民航组织亚太区无人鸭职航空器系统工作组主席
+- 无人系统规则利害联合体〔JARUS) 执行主席，前运行祝念组 (CONOPS) 和运行组 (OPS) 联合组
+- 长
+- 中国民用圾空局无人芍驶航空运行专家组、空管专家组成员
+- 中央军委装备发展部国家高分状率对地观测系统重大专项 (军事部分) 专家委员会体系综合考家组专
+- 家
+- 中国民用圾空局车批国际化人才培养储备库人员
+- 国家标准化管玫委员会全国航空器标准化技术委员会无人罗驶航空器系统分技术委员会副税书长
+- 中国航空学会无人帮驶航空吴系统专门委员会总干事
+- 国际民航组织逐控罗驶航空器系统教员
+- 国际民航组织小型无人驾驶航空只系统咨询组 (SUAS-AG) 和无人鸭驶航空器系统咨询专家组
+- (UAS-AG) 专家
+- 国际民航组织和联合国外层空间事务厅空间研究组法律小组主席
+- 国家空管专家，空管法规教育组副组长
+- Journal of International and Comparative Law 运营总和
+- Aviation and Space Journal 问委会委员
+- 基国法制研究院将聘研究员
+- 2020.05- Advisor ICAOADAP
+- 2020.04- Fellow RoyalAeronautical Society
+- 2020.03- Advisor ICAO AVSECP
+- 2020.01- Member GASOS Study Group
+- 2019.11- Acting Chair JARUS (JointAuthorities for Rulemaking on Unmanned Systems)
+- 2019.11- Member ICAO RPAS Panel
+- 2019.04- Member IAASS Board and Representative of China
+- 2019.03- Member ofthe UAS OPS WG, CAAC UAS Panel
+- 2019.03- Member ofthe UAS ATM WG, CAAC UAS Panel
+- 2018.11- Member ICAO Secretariat Study Group on Cybersecurity Research Subgroup on Legal
+- 2018.07- Deputy Secretary-General Subcommittee on the Unmanned Aircraft System of the
+- National Standardization Administration Commitee
+- 2018.05- Member of Peerreview Committee，Safety Capacity Building Foundation of Civil
+- Aviation Administration of China (CAAC)
+- 2017.12- Member ofthe Expert Committee, High-Resolution Earth Observation System Project of
+- the Equipment Development Department of Central Miltary Commission
+- 2017.10-2019.11 Vice-Chair JARUS (JointAuthorities for 。 Rulemaking on Unmanned Systems)
+- 2017.08- Chair Legal Sub-group ICAOIUNOOSA
+- Space Leaming Group
+- 2017.06- Member ICAO UAS Advisor Group
+- 2017.04- Chair ICAO Asia Pacific UAS Task Force
+- 2016.08- Secretary General Unmanned Aircraft Systems
+- (UAS) Commission of Chinese Society of Aeronautics and
+- Astronautics (CSAA)
+- 2016.07- 2017.07 Founder and Board member GUTMA (Global UTM Association)
+- 2016.03-2017.06 Member ICAO sUAS Advisor Group
+- 2015.03-2019.11 Advisor ICAO RPAS Panel
+- 2015.09-2017.10 Co-Chair Concept of Operation Working Group and Operation Group of JARUS (Joint
+- Authorities for Rulemaking on Unmanned Systems)
+- 2015.03- Member ICAOIUNOOSA Space Leaming Group
+- 2011.04- Deputy Director State Air Traffic Management (ATM) Law and Education Experts
+- Working Group
+- 2013.04-2018.06 Managing Editor the Journal of Intemnational
+- and Comparatve Law
+- 2012.05- Board Editor，Aviation and Space Journal,
+- Bologna University Italy
+- 2012.05- Foreign Research Felow，Korea Legislation
+- Research Institute
+
+## Awards
+- 所获荣誉:(Awards)
+- 2015 年，全国博士后管委会和香洪学者协会: 香江学者奖
+- 2011 年，国务院中类军委空中交通管剂委员会: 国家空管专家
+- 2016 年，国际无人汐驶航空琶系统协会: Catherine Fargeon Award
+- 2016 Catherine Fargeon Award
+- 2014 ”Hong Kong ScholarAward
+- 2011 State Expert ofAirTraffic Management
+
+## Publications
+- 发表文章 (Publications)
+- 1 Regulating Nearspace activities: Using the precedent of the Exclusive Economic Zone as a model?
+- Ocean Development and Intemational Law, 2019. SSCI
+- 2， The Exclusive Utilization Space: a new approach to the management and utilization of the near
+- space, Pennsylvania Journal of Interational Law 2019, SSCI
+- 3，The American Space Commerce Free Enterprise Act of 2017: The latest step in regulating the space
+- resources utilization industry or something more? Space Policy (2018) SSCI
+- 4 The Trump administration and outer space: promoting US leadership or heading towards isolation?
+- Australian Journal of Intemational Affairs, 2018, SSCI
+- 5 Should the Red Dragon arise? Assessing China's options vis-avis the enactment of a domestic
+- space resources utilization law ,Space Policy, May, 2017, Vol 39-40，pp 9-13，SSCI
+- 6 United Nations Resolution 69/32 on the 'No first placement of weapons in outer space'- a step
+- forward in the prevention ofan arms race in outer space? Space Policy, NOV 2016. Vol 38，pp 64-67，
+- SSCI
+- 7，The2014 updated Draft PPWT hiting the spot or missing the mark? Space Policy August 2015, Vol
+- 33，pp 38-49，SSCI
+- 8 “on the Punishment of UnrulyDisruptive Passengers and the Modemization of the Tokyo
+- Convention, China Legal Science, Vol 2, 2015, pp 109-122 CSSCI
+- 9 “国际航空实保公约中的管辖权条款研究 《社会科学家为 2014 年第 4 期，第 107-111页，CSSCI
+- 10，。 Teritorial Dispute over the Diaoyu lslands under the Scrutiny of Intemational Law ( 国际法视野下的
+- 钓鱼岛领士纠纷)， Kyung Hee Law Journal, 2014年第 6期，CLSCI 等同。
+- 11.， 空间活动发展对发射国概念的挑战《法学为 2014 年第 4 期，第 41-49 页，CLSCI。
+- 12.， “债权转让通知研究 《暨南学报 《哲学社会科学版)为 2014 年第 2期，第 103-113页，CSSCI。
+- 13，“民用航空器上不循规旅客处罚比较研究 《北京航空航天大学学报〈社会科学版)》 2014 年第 3期。
+- 14. “网络谣言的过法规制《首都师范大学学报〈社会科学版)为 2015 年第 5 期,第 56-63页，CSSCI。
+- 15。 Arbitration Law of China, Revision and Improvement，Global Legal lssues 2012，第 337-350 页 。
+- 16.， “甲午战争前钓鱼列屿主权归属再考证-,《 国际法评论》, 2007 年第 2 期。
+- 17， Law and Practice of Export Controlin China 《中国出口管制的法律及实践(英文)，Korean Journal
+- of Security and Trade，2007 年第 4期。
+- 18，“论国际货运代理人的法律地位一以中国现行法律为视角”六北京化工大学学报 (哲学社会科学版)广
+- 2004年第4期， 第 59.65页。
+- 19， 俄罗斯空管体制概况《一)《中国空管>》2014 年第 1期。
+- 20. 法国空管体制概部《二) 《中国空管>》2013 年第 6期。
+- 21. “法国空管体制概况《一) ",科中国空管》2013 年第5期。
+- 22.， “澳大利亚空管体制概况《二) ",《中国空管》2013年第 4期。
+- 23， “澳大利亚空管体制概况《一) ",《中国空管》2013年第3期。
+- 24.，“现士空管体制概况《二) ",《中国空管》2013年第2期。
+- 25。“现士空管体制概况《一) ",《中国空管》2013年第 1期。
+- 26， “德国空管体制基本情况《二) ",《中国空管》2012年第6期。
+- 27， “德国空管体制基本情况《一) ",《中国空管》2012年第5期。
+- 28. “英国空域管理及分类",《中国空管>》2012 年第4期。
+- 29， “英国空管体制基本情况《中国空管》2012 年第 3期。
+- 30. “巴西空管体制概况",《中国空管》第 2012年第 2期。
+- 31. “国外空管体系建设及启示",《中国空管》2012 年第 1期。
+- 请列举5 篇鼎右代表性论文或著作。(Please list 5 representative publications)
+
+## Uncertain or Illegible Text
+- Page 8: Aspects (SSGC-RSGLEG)
+
+## Source Pages
+- page 1: https://isc.bit.edu.cn/images/2022-05/f16bd6f1e8f845b097092fc6b5b80074.png
+- page 2: https://isc.bit.edu.cn/images/2022-05/f3aaa2751fdc45b9b5ad748658d8c51c.png
+- page 3: https://isc.bit.edu.cn/images/2022-05/b52cfe2fea2c497a8d178ffa8120bc45.png
+- page 4: https://isc.bit.edu.cn/images/2022-05/bfeea0084a79454b9ccf2e428105eeb5.png
+- page 5: https://isc.bit.edu.cn/images/2022-05/0284a2a0e2d94ed8b7f8724cf6165e8d.png
+- page 6: https://isc.bit.edu.cn/images/2022-05/eadca424b19f46ebbd1de8b075a3fa91.png
+- page 7: https://isc.bit.edu.cn/images/2022-05/7309f1fe5467426ba4f1f60ff1379af4.png
+- page 8: https://isc.bit.edu.cn/images/2022-05/4cca56b3f5ac467cbb816749fb3fd269.png
+- page 9: https://isc.bit.edu.cn/images/2022-05/fc59418726ed4f628cc0b5d3981b4318.png
+- page 10: https://isc.bit.edu.cn/images/2022-05/e4fd11d016d24fc5bfda590a69a7f47f.png
+- page 11: https://isc.bit.edu.cn/images/2022-05/a051b61bbf824b56a44cf90df9121eee.png
+- page 12: https://isc.bit.edu.cn/images/2022-05/d8441dfeeb4c4474b006b3a84d487c05.png
+- page 13: https://isc.bit.edu.cn/images/2022-05/f04d13034ecf4af6a9953ba932226ba8.png
