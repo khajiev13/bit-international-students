@@ -32,7 +32,7 @@ describe("BIT Professor Agent frontend", () => {
       "href",
       "https://isc.bit.edu.cn/"
     );
-    expect(screen.getByRole("link", { name: "Contribute on GitHub" })).toHaveAttribute(
+    expect(screen.getByRole("link", { name: "Star this project on GitHub" })).toHaveAttribute(
       "href",
       "https://github.com/khajiev13/bit-international-students"
     );
@@ -57,6 +57,7 @@ describe("BIT Professor Agent frontend", () => {
 
     expect(screen.getByText("可以这样问")).toBeInTheDocument();
     expect(screen.getByText("认识教授")).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "在 GitHub 为项目点星" })).toHaveTextContent("GitHub 点星");
     expect(screen.getByText("按研究主题、院系或姓名查找北京理工大学教授。")).toBeInTheDocument();
     expect(screen.queryByText("比较教授")).not.toBeInTheDocument();
   });

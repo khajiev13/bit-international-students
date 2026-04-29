@@ -1,40 +1,206 @@
 # BIT International Students
 
-Open-source tools for helping international students explore Beijing Institute of Technology resources. The first tool in this repository is **Professor Agent**, a deployable chat app that helps students find BIT professors by research topic, department, or name.
+Open-source tools for helping international students explore Beijing Institute of Technology resources.
 
-Professor Agent uses a local corpus of 22 departments and 753 professor profiles, a FastAPI backend, a DeepAgents-powered retrieval workflow, and a React + Vite frontend served behind Caddy.
+The first tool in this repository is **Professor Agent**: a web chat app that helps students explore BIT professors by research topic, department, name, and publication evidence. The repository is open for pull requests. If the project helps you, please star it on GitHub and consider contributing.
 
-## Current Tool
+![DeepAgents architecture](docs/deepagents-architecture.png)
 
-### Professor Agent
+## Professor Agent
 
-Students can ask about:
+Professor Agent searches a local BIT professor corpus containing:
 
-- Research topics, such as machine learning, robotics, materials science, or aerospace.
-- BIT departments and schools.
-- Individual professor profiles in the local corpus.
+- 22 departments
+- 753 professor dossiers
+- 1,485 source pages represented in the corpus metadata
+- Department routing indexes, department rosters, publication indexes, and individual professor Markdown dossiers
 
-The app intentionally does not include the notebook's add-professor workflow, crawler, OCR path, shell execution, upload endpoints, or professor Markdown editing. The public student app is read-focused.
+Students can ask questions such as:
 
-## Structure
+- Which BIT professors work on machine learning and artificial intelligence?
+- Tell me about Li Xin's research profile in Computer Science and Technology.
+- Which professors have publications related to process mining?
+- Compare possible professors for robotics, medical imaging, or cybersecurity.
+
+The public student app is read-focused. It does not expose crawler workflows, uploads, professor Markdown editing, shell execution, or add-professor routes.
+
+## How The Agent Works
+
+The app follows this request path:
 
 ```text
-backend/   FastAPI API, DeepAgents factory, corpus tools, scratch workspace
-frontend/  React + Vite + TypeScript UI served by Nginx
-Caddyfile  Internal reverse proxy: /api/* -> backend, everything else -> frontend
+Student question
+  -> React chat UI
+  -> FastAPI streaming endpoint
+  -> DeepAgents graph
+  -> corpus/index tools
+  -> professor dossier evidence
+  -> streamed Markdown answer
 ```
 
-## Local Deployment
+The frontend sends a student question to:
 
-Copy the example environment file, fill in your model credentials, then run Docker Compose:
+```text
+POST /api/sessions/{thread_id}/runs/stream
+```
+
+FastAPI returns newline-delimited stream events:
+
+- `run_started`
+- `activity`
+- `message_delta`
+- `run_finished`
+- `error`
+
+The UI renders safe high-level activity labels, such as "Reading a department index" or "Searching professor profiles", while the final answer streams as Markdown.
+
+## DeepAgents Design
+
+The DeepAgents setup lives in `backend/app/agent.py`.
+
+At runtime, `ProfessorAgentService` builds one DeepAgent with:
+
+- a configured chat model
+- the system prompt from `backend/app/prompts.py`
+- professor-corpus tools from `backend/app/tools.py`
+- a `CompositeBackend`
+- explicit filesystem permissions
+- an in-memory LangGraph checkpointer
+- middleware that filters the tool list before the model sees it
+
+DeepAgents normally includes a broad default tool suite. This app narrows it deliberately. The model can use:
+
+- `write_todos`
+- `ls`
+- `read_file`
+- `glob`
+- `grep`
+- `write_file`
+- `edit_file`
+- `list_departments`
+- `read_department_index`
+- `list_professors`
+- `search_professors`
+- `read_professor_profile`
+- `compare_professors`
+
+The app does not expose shell `execute`, subagent `task`, delete tools, upload routes, crawler routes, or professor-editing routes.
+
+## Filesystem Model
+
+The DeepAgent sees two important virtual paths:
+
+```text
+/professors  read-only evidence corpus
+/scratch     writable working notes
+```
+
+`/professors` is routed to the local professor corpus with a filesystem backend in virtual mode. `/scratch` is routed to a separate scratch workspace. Permission rules allow corpus reads and scratch writes, then deny writes to `/professors` and deny access outside the approved virtual paths.
+
+This lets the agent inspect source evidence and maintain temporary notes without mutating the corpus or reading server secrets.
+
+## Corpus And Index Files
+
+The professor corpus is under:
+
+```text
+backend/app/corpus/professors/
+```
+
+The agent is prompted to use the corpus in layers:
+
+1. **Root index**
+   `professors/index.md`
+
+   This is the routing map. It lists departments, professor counts, department slugs, and "good for" topic hints. Broad or cross-department questions start here.
+
+2. **Department index**
+   `professors/<department>/index.md`
+
+   This is a department-level roster and topic guide. It helps the agent find likely professor candidates before opening full dossiers.
+
+3. **Publications index**
+   `professors/<department>/publications-index.md`
+
+   This is used for paper, venue, publication, and representative-work questions. It routes the agent toward professors whose dossiers mention relevant publications.
+
+4. **Professor dossier**
+   `professors/<department>/<professor>.md`
+
+   This is the final evidence layer. Candidate-level recommendations should be grounded here, especially when the answer compares fit, summarizes a professor, or cites publication evidence.
+
+The important design choice is that indexes route the search, but individual professor dossiers prove the answer.
+
+## Publication Questions
+
+Publication questions get a stricter workflow:
+
+1. Identify likely departments through the root and department indexes.
+2. Read the department `publications-index.md`.
+3. Use that file as a routing aid, not as the final source of truth.
+4. Open each relevant professor dossier.
+5. Verify the dossier's `## Publications` section before making claims.
+
+The publication indexes are copied from professor dossier publication sections and may contain OCR-derived representative publications. They are useful for search, but they are not guaranteed to be complete publication histories.
+
+## Prompt Policy
+
+The system prompt asks the agent to:
+
+- stay inside BIT professor exploration
+- use department-qualified profile IDs because names can repeat
+- include official profile URLs when available
+- say when evidence is thin, missing, or uncertain
+- be warm, respectful, and non-judgmental
+- frame candidates as good possible fits, not rankings of who is "best"
+- encourage students to verify fit through official profile URLs, publications, and department contact
+
+## Contributing
+
+Pull requests are welcome.
+
+Good contributions include:
+
+- improving professor dossier quality
+- fixing metadata, names, department labels, official URLs, or OCR artifacts
+- improving root, department, or publication indexes
+- adding tests for corpus behavior, DeepAgents safety, streaming, or frontend UI
+- improving bilingual text
+- making the README clearer for students and contributors
+- proposing future tools for international students, such as campus FAQ, scholarship information, course guidance, or department exploration
+
+Before opening a PR:
+
+1. Keep secrets out of the repository.
+2. Keep changes focused.
+3. Explain the student-facing impact.
+4. Preserve the read-only public Professor Agent model.
+5. Run the checks that match your change.
+
+## Run Locally
+
+Copy the example environment file and add model credentials:
 
 ```bash
 cp .env.example .env
+```
+
+Required model settings:
+
+```env
+BIT_PROF_LLM_API_KEY=your-llm-api-key
+BIT_PROF_LLM_BASE_URL=https://api.silra.cn/v1/
+BIT_PROF_LLM_MODEL=deepseek-v4-flash
+```
+
+Run with Docker Compose:
+
+```bash
 docker compose build
 docker compose up -d
 ```
 
-Open the app:
+Open:
 
 ```text
 http://127.0.0.1:8081
@@ -44,107 +210,58 @@ Health checks:
 
 ```bash
 curl http://127.0.0.1:8081/healthz
-curl http://127.0.0.1:8081/api/professors
+curl http://127.0.0.1:8081/readyz
 ```
 
-## Environment
+## Development Checks
 
-The main required model settings are:
-
-```env
-BIT_PROF_LLM_API_KEY=your-llm-api-key
-BIT_PROF_LLM_BASE_URL=https://api.silra.cn/v1/
-BIT_PROF_LLM_MODEL=deepseek-v4-flash
-```
-
-Useful optional settings:
-
-```env
-PUBLIC_PORT=8081
-VITE_API_BASE_URL=/api
-LAB4_ALLOWED_ORIGINS=http://localhost:8081,http://127.0.0.1:8081
-LAB4_ALLOWED_HOSTS=localhost,127.0.0.1,lab4_professor_caddy
-LAB4_MAX_PROMPT_CHARS=2000
-LAB4_ADMIN_USERNAME=admin
-LAB4_ADMIN_PASSWORD=replace-with-a-strong-password
-```
-
-Do not commit `.env`. Use `.env.example` for shared defaults.
-
-## Question Answer Log
-
-The backend stores each raw student question and final agent answer in SQLite. The chat stream schedules the database write in the background after each run, so students do not wait on log I/O.
-
-In Docker Compose, the database lives on the `lab4_professor_analytics` named volume at:
-
-```text
-/app/analytics/question_answer_log.sqlite3
-```
-
-Read recent Q&A rows with the admin credentials from `.env`:
-
-```bash
-curl -u "$LAB4_ADMIN_USERNAME:$LAB4_ADMIN_PASSWORD" \
-  "http://127.0.0.1:8081/api/admin/question-answer-log?limit=50"
-```
-
-## Cloudflare Tunnel
-
-Set `CLOUDFLARE_TUNNEL_TOKEN` in `.env`, then run:
-
-```bash
-docker compose -f docker-compose.yml -f docker-compose.tunnel.yml up -d
-```
-
-## Development
-
-Backend tests:
+Backend:
 
 ```bash
 cd backend
 uv run python -m pytest -v
 ```
 
-Frontend tests:
+Frontend:
 
 ```bash
 cd frontend
 npm test -- --run
-```
-
-Frontend production build:
-
-```bash
-cd frontend
 npm run build
 ```
 
-## Contributing
+## Optional Admin Log
 
-Contributions are welcome. Good first contributions include:
+The backend can store raw student questions and final agent answers in SQLite for basic usage review. Writes happen asynchronously after a run finishes, so log I/O does not block the student response.
 
-- Improving professor profile coverage or fixing profile metadata.
-- Improving bilingual UI text.
-- Adding tests for existing behavior.
-- Improving deployment docs for students who want to run their own instance.
-- Proposing future tools for international students, such as campus FAQ, course guidance, scholarship information, or department exploration.
+Configure:
 
-Before opening a pull request:
+```env
+LAB4_ADMIN_USERNAME=admin
+LAB4_ADMIN_PASSWORD=replace-with-a-strong-password
+LAB4_QA_LOG_DB_PATH=/app/analytics/question_answer_log.sqlite3
+```
 
-1. Keep secrets out of the repository.
-2. Run the relevant backend and frontend checks.
-3. Keep changes focused and explain the student-facing impact.
-4. Preserve the read-only safety model for the public Professor Agent app.
+Read recent rows:
 
-## Security Defaults
+```bash
+curl -u "$LAB4_ADMIN_USERNAME:$LAB4_ADMIN_PASSWORD" \
+  "http://127.0.0.1:8081/api/admin/question-answer-log?limit=50"
+```
 
-- Professor Markdown is copied into the backend image and marked read-only.
-- DeepAgents mounts the corpus at `/professors` for reads and a separate persistent scratch workspace at `/scratch` for working notes.
-- Backend container runs as a non-root user.
-- Compose sets `read_only: true`, drops Linux capabilities, enables `no-new-privileges`, mounts only a small `/tmp` tmpfs, and uses named volumes for `/app/scratch` and `/app/analytics`.
-- The model receives department-aware professor tools plus safe DeepAgents filesystem tools for `/professors` reads and `/scratch` writes.
-- Shell `execute` and subagent `task` tools are not exposed.
-- The DeepAgent system prompt owns BIT-only scope, unrelated-request redirection, read-only corpus behavior, and scratch-only write behavior.
+## Optional Tunnel Deployment
+
+If you want to expose a Docker deployment through Cloudflare Tunnel, set:
+
+```env
+CLOUDFLARE_TUNNEL_TOKEN=your-token
+```
+
+Then run:
+
+```bash
+docker compose -f docker-compose.yml -f docker-compose.tunnel.yml up -d --build
+```
 
 ## License
 
