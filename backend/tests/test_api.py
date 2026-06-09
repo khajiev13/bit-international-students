@@ -50,6 +50,7 @@ def test_professor_api_endpoints() -> None:
     assert ready["context_hub_enabled"] is False
     assert ready["context_hub_configured"] is False
     assert ready["langsmith_tracing_configured"] is False
+    assert client.get("/api/readyz").json() == ready
 
     departments = client.get("/api/departments").json()
     assert len(departments) == 22

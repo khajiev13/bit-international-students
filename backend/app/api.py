@@ -58,6 +58,7 @@ def create_router() -> APIRouter:
         return HealthResponse(status="ok")
 
     @router.get("/readyz", response_model=ReadyResponse)
+    @router.get("/api/readyz", response_model=ReadyResponse)
     def readyz(request: Request) -> ReadyResponse:
         return ReadyResponse(
             status="ready",
