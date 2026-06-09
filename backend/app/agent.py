@@ -9,14 +9,15 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import TYPE_CHECKING, Any
 
+from deepagents.backends import ContextHubBackend
 from langchain.agents.middleware.types import AgentMiddleware
 
 from app.config import Settings
 from app.corpus import ProfessorCorpus
-from app.prompts import DEEP_AGENT_SYSTEM_PROMPT
+from app.prompts import build_deep_agent_system_prompt
 from app.question_answer_log import QuestionAnswerLog
 from app.schemas import HistoryMessage, StreamEvent
-from app.tools import SAFE_TOOL_NAMES, ProfessorToolFactory
+from app.tools import SAFE_TOOL_NAMES
 
 if TYPE_CHECKING:
     from langchain.agents.middleware.types import ExtendedModelResponse, ModelRequest, ModelResponse, ResponseT
@@ -30,14 +31,6 @@ SAFE_ACTIVITY_BY_TOOL = {
     "read_file": "Reading a support file",
     "glob": "Finding support files",
     "grep": "Searching support files",
-    "write_file": "Writing a scratch file",
-    "edit_file": "Editing a scratch file",
-    "list_departments": "Listing departments",
-    "read_department_index": "Reading a department index",
-    "list_professors": "Listing professor profiles",
-    "search_professors": "Searching professor profiles",
-    "read_professor_profile": "Reading a professor profile",
-    "compare_professors": "Reviewing selected professor profiles",
 }
 
 logger = logging.getLogger(__name__)
@@ -63,6 +56,25 @@ class AllowListedToolsMiddleware(AgentMiddleware[Any, Any, Any]):
 
     def _filter_tools(self, tools: list["BaseTool | dict[str, Any]"]) -> list["BaseTool | dict[str, Any]"]:
         return [tool for tool in tools if _tool_name(tool) in self._allowed_tools]
+
+
+class FixedSystemPromptMiddleware(AgentMiddleware[Any, Any, Any]):
+    def __init__(self, system_prompt: str) -> None:
+        self._system_prompt = system_prompt
+
+    def wrap_model_call(
+        self,
+        request: "ModelRequest[Any]",
+        handler: Callable[["ModelRequest[Any]"], "ModelResponse[Any]"],
+    ) -> "ModelResponse[Any]":
+        return handler(request.override(system_prompt=self._system_prompt))
+
+    async def awrap_model_call(
+        self,
+        request: "ModelRequest[Any]",
+        handler: Callable[["ModelRequest[Any]"], Awaitable["ModelResponse[ResponseT]"]],
+    ) -> "ModelResponse[ResponseT] | AIMessage | ExtendedModelResponse[ResponseT]":
+        return await handler(request.override(system_prompt=self._system_prompt))
 
 
 class AgentSessionStore:
@@ -243,10 +255,11 @@ class ProfessorAgentService:
         from langchain_openai import ChatOpenAI
         from langgraph.checkpoint.memory import InMemorySaver
 
-        tools = ProfessorToolFactory(self._corpus).build()
+        system_prompt = build_deep_agent_system_prompt(context_hub_configured=self._settings.context_hub_configured)
+        _register_pure_file_reading_harness_profile(base_system_prompt=system_prompt)
         backend = _build_agent_backend(
             profiles_dir=self._corpus.profiles_dir,
-            scratch_dir=self._settings.agent_scratch_dir,
+            settings=self._settings,
         )
         model = ChatOpenAI(
             model=self._settings.llm_model,
@@ -256,10 +269,17 @@ class ProfessorAgentService:
         )
         return create_deep_agent(
             model=model,
-            tools=tools,
-            system_prompt=DEEP_AGENT_SYSTEM_PROMPT,
-            middleware=[AllowListedToolsMiddleware(SAFE_TOOL_NAMES)],
-            permissions=_filesystem_permissions(FilesystemPermission),
+            tools=[],
+            system_prompt=None,
+            middleware=[
+                AllowListedToolsMiddleware(SAFE_TOOL_NAMES),
+                FixedSystemPromptMiddleware(system_prompt),
+            ],
+            subagents=[],
+            permissions=_filesystem_permissions(
+                FilesystemPermission,
+                context_hub_configured=self._settings.context_hub_configured,
+            ),
             backend=backend,
             checkpointer=InMemorySaver(),
         )
@@ -357,35 +377,85 @@ def _history_char_count(messages: list[dict[str, str]]) -> int:
     return sum(len(message["content"]) for message in messages)
 
 
-def _build_agent_backend(*, profiles_dir: Path, scratch_dir: Path) -> Any:
-    from deepagents.backends import CompositeBackend, FilesystemBackend, StateBackend
+def _register_pure_file_reading_harness_profile(
+    *,
+    base_system_prompt: str,
+    key: str = "openai",
+) -> None:
+    from deepagents import GeneralPurposeSubagentProfile, HarnessProfile, register_harness_profile
 
-    scratch_dir.mkdir(parents=True, exist_ok=True)
-    return CompositeBackend(
-        default=StateBackend(),
-        routes={
-            "/professors/": FilesystemBackend(root_dir=profiles_dir, virtual_mode=True),
-            "/scratch/": FilesystemBackend(root_dir=scratch_dir, virtual_mode=True),
-        },
+    register_harness_profile(
+        key,
+        HarnessProfile(
+            base_system_prompt=base_system_prompt,
+            excluded_tools=frozenset({"write_file", "edit_file", "execute", "task"}),
+            general_purpose_subagent=GeneralPurposeSubagentProfile(enabled=False),
+        ),
     )
 
 
-def _filesystem_permissions(filesystem_permission_cls: type[Any] | None = None) -> list[Any]:
+def _build_agent_backend(*, profiles_dir: Path, settings: Settings) -> Any:
+    from deepagents.backends import CompositeBackend, FilesystemBackend, StateBackend
+
+    routes: dict[str, Any] = {
+        "/professors/": FilesystemBackend(root_dir=profiles_dir, virtual_mode=True),
+    }
+    if settings.context_hub_configured:
+        routes["/wiki/"] = _build_context_hub_backend(settings)
+
+    return CompositeBackend(
+        default=StateBackend(),
+        routes=routes,
+    )
+
+
+def _build_context_hub_backend(settings: Settings) -> Any:
+    from langsmith import Client
+
+    api_key = settings.langsmith_api_key.get_secret_value() if settings.langsmith_api_key else None
+    return ContextHubBackend(
+        settings.context_hub_identifier,
+        client=Client(api_url=settings.langsmith_endpoint, api_key=api_key),
+    )
+
+
+def _filesystem_permissions(
+    filesystem_permission_cls: type[Any] | None = None,
+    *,
+    context_hub_configured: bool = False,
+) -> list[Any]:
     if filesystem_permission_cls is None:
         from deepagents import FilesystemPermission
 
         filesystem_permission_cls = FilesystemPermission
 
-    return [
+    allowed_read_paths = [
+        "/",
+        "/professors",
+        "/professors/**",
+        "/large_tool_results",
+        "/large_tool_results/**",
+        "/conversation_history",
+        "/conversation_history/**",
+    ]
+    if context_hub_configured:
+        allowed_read_paths.extend(["/wiki", "/wiki/**"])
+
+    rules = [
+        filesystem_permission_cls(operations=["read", "write"], paths=["/**/.*"], mode="deny"),
         filesystem_permission_cls(
             operations=["read"],
-            paths=["/", "/professors", "/professors/**", "/scratch", "/scratch/**"],
+            paths=allowed_read_paths,
             mode="allow",
         ),
-        filesystem_permission_cls(operations=["write"], paths=["/scratch", "/scratch/**"], mode="allow"),
         filesystem_permission_cls(operations=["write"], paths=["/professors", "/professors/**"], mode="deny"),
-        filesystem_permission_cls(operations=["read", "write"], paths=["/**", "/**/.*"], mode="deny"),
     ]
+    if context_hub_configured:
+        rules.append(filesystem_permission_cls(operations=["write"], paths=["/wiki", "/wiki/**"], mode="deny"))
+    rules.append(
+        filesystem_permission_cls(operations=["read", "write"], paths=["/**"], mode="deny")
+    )
+    return rules
 
 
 def _encode_event(event: StreamEvent) -> str:
@@ -395,6 +465,8 @@ def _encode_event(event: StreamEvent) -> str:
 def _log_background_question_answer_error(task: asyncio.Task[None]) -> None:
     try:
         task.result()
+    except asyncio.CancelledError:
+        return
     except Exception:
         logger.exception("Failed to write question-answer log row.")
 

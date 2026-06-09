@@ -1,68 +1,22 @@
-# DeepAgents Corpus Filesystem Tutorial
+# DeepAgents Pure File-Reading Corpus Guide
 
-This note explains how DeepAgents file access should work in this app now that the professor corpus is grouped by department.
+This note explains the public Professor Agent file model after the pure file-reading migration.
 
 Useful references:
 
-- DeepAgents overview: https://docs.langchain.com/oss/python/deepagents/overview
 - DeepAgents backends: https://docs.langchain.com/oss/python/deepagents/backends
 - DeepAgents permissions: https://docs.langchain.com/oss/python/deepagents/permissions
+- DeepAgents subagents: https://docs.langchain.com/oss/python/deepagents/subagents
+- DeepAgents profiles: https://docs.langchain.com/oss/python/deepagents/profiles
 
 The core rule is simple:
 
-- `/professors` is read-only source evidence.
-- `/scratch` is the only writable agent workspace.
-- `write_todos` is planning state, not a Markdown file write.
-- `execute` stays unavailable.
+- `/professors` is the local read-only source of truth.
+- `/wiki` is optional read-only Context Hub guidance.
+- `write_todos` is planning state, not a Markdown-file mutation.
+- The public agent should only see `write_todos`, `ls`, `read_file`, `glob`, and `grep`.
 
-## What `write_todos` Really Does
-
-`write_todos` does not create, edit, or delete Markdown files. In the installed stack used by this app, DeepAgents exposes todo management through LangChain's todo middleware. Calling `write_todos` updates the LangGraph `todos` state channel and returns a tool message about the todo list.
-
-Local verification point:
-
-```text
-backend/.venv/lib/python3.12/site-packages/langchain/agents/middleware/todo.py
-```
-
-That means:
-
-- It is safe to expose `write_todos` for multi-step reasoning.
-- It does not write into `backend/app/corpus/professors`.
-- It should be described to the model as an internal planning tool.
-- It should not be treated as a filesystem mutation in tests.
-
-Use it when the user asks a broad or complicated question, for example:
-
-```text
-Find possible advisors across AI, education, and robotics, then compare the strongest candidates.
-```
-
-The agent can create todo items like "read corpus root index", "inspect education index", "inspect computer science index", and "compare candidate dossiers" without creating any corpus files.
-
-## What Filesystem Tools Can Do
-
-DeepAgents filesystem tools are separate from `write_todos`.
-
-The safe filesystem tools exposed in this app are:
-
-- `ls`
-- `read_file`
-- `glob`
-- `grep`
-- `write_file`
-- `edit_file`
-
-Their behavior depends on the configured backend. In this app they must go through a `CompositeBackend`, so paths are virtual app paths, not arbitrary host machine paths.
-
-The unsafe tools for this stage are not exposed:
-
-- `execute`
-- `task`
-
-`execute` is the main deletion and exfiltration risk because shell commands can run things like `rm`, `cat .env`, or network commands when a shell-capable backend is enabled. This app should not use a sandbox or local-shell backend, and the allowlist should keep `execute` hidden from the model.
-
-## Where Corpus Reads Happen
+## What The Agent Reads
 
 The professor source files live in the repository under:
 
@@ -76,211 +30,86 @@ The agent sees that folder as:
 /professors
 ```
 
-The important files are:
+Important files:
 
-```text
-/professors/index.md
-/professors/<department-slug>/index.md
-/professors/<department-slug>/publications-index.md
-/professors/<department-slug>/<professor-slug>.md
+- `/professors/index.md` routes broad questions to likely departments.
+- `/professors/<department>/index.md` gives a department roster and topic guide.
+- `/professors/<department>/publications-index.md` routes paper and publication questions.
+- `/professors/<department>/<professor>.md` is the final evidence layer for summaries, comparisons, and publication claims.
+
+Indexes are routing maps. Individual professor dossiers are the final evidence source.
+
+## Optional Context Hub
+
+When these settings are configured, the app mounts a LangSmith Context Hub repository at `/wiki`:
+
+```env
+LAB4_CONTEXT_HUB_ENABLED=true
+LAB4_CONTEXT_HUB_IDENTIFIER=-/bit-professor-agent
+LANGSMITH_API_KEY=...
 ```
 
-Recommended routing:
+Use `/wiki` for application guidance, migration notes, and operating context. Do not use it as professor-fact evidence. If `/wiki` conflicts with `/professors`, trust `/professors`.
 
-1. Broad query: read `/professors/index.md`.
-2. Department-specific query: read `/professors/<department-slug>/index.md`.
-3. Publication-related query: read `/professors/<department-slug>/publications-index.md`, then verify candidates in the individual professor dossiers.
-4. Candidate evidence: read individual professor dossiers.
-5. Ambiguous name or repeated slug: use department-qualified profile IDs such as `computer-science-and-technology/li-xin`.
+The readiness endpoint reports Context Hub and LangSmith status as booleans:
 
-The custom professor tools follow the same contract:
-
-- `list_departments`
-- `read_department_index`
-- `list_professors`
-- `search_professors`
-- `read_professor_profile`
-- `compare_professors`
-
-## Where Persistent Scratch Files Live
-
-Scratch files should live outside the professor corpus.
-
-The backend setting is:
-
-```text
-LAB4_AGENT_SCRATCH_DIR
+```json
+{
+  "context_hub_enabled": true,
+  "context_hub_configured": true,
+  "langsmith_tracing_configured": true
+}
 ```
 
-If it is not set, the default is:
+## Backend Shape
 
-```text
-backend/scratch
-```
-
-In Docker, the default path becomes:
-
-```text
-/app/scratch
-```
-
-The agent sees scratch as:
-
-```text
-/scratch
-```
-
-This is where the model may create working notes:
-
-```text
-/scratch/search-notes.md
-/scratch/candidate-comparison.md
-/scratch/topic-routing.md
-```
-
-Scratch is persistent by design, but it is not source-of-truth data. It can help the agent continue or inspect its own working notes, but final answers should still be grounded in `/professors` evidence.
-
-## Why Professor Markdown Is Protected
-
-The professor Markdown files are the corpus source of truth. They should not change during user conversations, even if the user asks the agent to:
-
-- fix a typo in a professor dossier
-- add a new professor
-- delete a profile
-- rewrite a department index
-- store notes next to a professor file
-
-Those requests must be refused or redirected. The app can explain that the corpus is read-only and that working notes can only be placed under `/scratch`.
-
-Protection happens in three layers:
-
-1. The app prompt tells the model that `/professors` is read-only.
-2. DeepAgents permissions deny writes to `/professors/**`.
-3. Docker marks the packaged corpus read-only and keeps writable scratch separate.
-
-## Recommended Backend And Permission Configuration
-
-Recommended backend shape:
+The public agent uses a composite backend:
 
 ```python
-from deepagents.backends import CompositeBackend, FilesystemBackend, StateBackend
-
-backend = CompositeBackend(
+CompositeBackend(
     default=StateBackend(),
     routes={
-        "/professors/": FilesystemBackend(
-            root_dir=professors_dir,
-            virtual_mode=True,
-        ),
-        "/scratch/": FilesystemBackend(
-            root_dir=scratch_dir,
-            virtual_mode=True,
-        ),
+        "/professors/": FilesystemBackend(root_dir=profiles_dir, virtual_mode=True),
+        "/wiki/": ContextHubBackend(settings.context_hub_identifier),
     },
 )
 ```
 
-Recommended permissions:
+The `/wiki/` route is only present when Context Hub is enabled and configured. The `StateBackend` default is still important because DeepAgents can put internal large-result and conversation-history pointers under its own state-backed paths.
 
-```python
-from deepagents import FilesystemPermission
+## Permission Shape
 
-permissions = [
-    FilesystemPermission(
-        operations=["read"],
-        paths=["/", "/professors", "/professors/**", "/scratch", "/scratch/**"],
-        mode="allow",
-    ),
-    FilesystemPermission(
-        operations=["write"],
-        paths=["/scratch", "/scratch/**"],
-        mode="allow",
-    ),
-    FilesystemPermission(
-        operations=["write"],
-        paths=["/professors", "/professors/**"],
-        mode="deny",
-    ),
-    FilesystemPermission(
-        operations=["read", "write"],
-        paths=["/**", "/**/.*"],
-        mode="deny",
-    ),
-]
-```
+Permission rules are first-match-wins, so hidden-file denies come before broad read allows.
 
-Ordering matters. DeepAgents permissions are first-match-wins, and if nothing matches the default is allow. That is why the final deny-all rule is required. The extra `/**/.*` pattern is intentional so hidden files such as `.env` do not slip through the permissive default.
+Read allows:
 
-Permissions apply to built-in filesystem tools. They do not automatically secure custom tools, so custom professor tools must continue validating department slugs and profile IDs themselves.
+- `/`
+- `/professors`
+- `/professors/**`
+- `/large_tool_results`
+- `/large_tool_results/**`
+- `/conversation_history`
+- `/conversation_history/**`
+- `/wiki` and `/wiki/**` only when Context Hub is configured
 
-## Examples Of Safe And Unsafe Tool Calls
+Write denies:
 
-Safe reads:
+- `/professors`
+- `/professors/**`
+- `/wiki`
+- `/wiki/**`
+- all other paths
 
-```text
-ls(path="/")
-read_file(file_path="/professors/index.md")
-read_file(file_path="/professors/computer-science-and-technology/index.md")
-read_file(file_path="/professors/computer-science-and-technology/li-xin.md")
-grep(pattern="Machine Learning", path="/professors/computer-science-and-technology")
-```
+Host paths and hidden files are denied.
 
-Safe scratch writes:
+## Prompt Workflow
 
-```text
-write_file(file_path="/scratch/search-notes.md", content="Candidate notes...")
-edit_file(file_path="/scratch/search-notes.md", old_string="Candidate", new_string="Shortlisted candidate")
-```
+For broad or topic-based questions, the agent should:
 
-Safe planning:
+1. Read `/professors/index.md`.
+2. Read likely department indexes.
+3. Use `glob` or `grep` when indexes are not enough.
+4. Read individual professor dossiers before recommending or comparing candidates.
+5. Use publication indexes for paper, venue, journal, or representative-work questions.
 
-```text
-write_todos(todos=[...])
-```
-
-Unsafe corpus writes:
-
-```text
-write_file(file_path="/professors/computer-science-and-technology/li-xin.md", content="...")
-edit_file(file_path="/professors/index.md", old_string="753", new_string="754")
-write_file(file_path="/professors/new-department/new-professor.md", content="...")
-```
-
-Unsafe hidden tools:
-
-```text
-execute(command="rm -rf /professors")
-execute(command="cat /app/.env")
-task(description="Use a subagent to inspect files")
-```
-
-These should not appear as model-visible tools in this app.
-
-## How This Fits The App
-
-The backend loads professor dossiers recursively from:
-
-```text
-backend/app/corpus/professors/<department>/<professor>.md
-```
-
-It exposes canonical profile IDs:
-
-```text
-<department-slug>/<professor-slug>
-```
-
-The DeepAgent should route through indexes before dossiers:
-
-```mermaid
-flowchart LR
-    A["Student question"] --> B["/professors/index.md"]
-    B --> C["Department index.md"]
-    C --> D["Professor dossier"]
-    D --> E["Answer with corpus evidence"]
-    A --> F["write_todos for complex planning"]
-    F --> B
-    F --> G["/scratch notes if needed"]
-```
-
-If the model needs notes, they belong in `/scratch`. If it needs evidence, it must read `/professors`. Those two paths should never be confused.
+The final answer should say what was checked when evidence is thin or incomplete.

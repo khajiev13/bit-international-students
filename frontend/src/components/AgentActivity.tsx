@@ -66,62 +66,6 @@ const ACTIVITY_META: Record<
     subtitle: Record<keyof typeof COPY, string>;
   }
 > = {
-  "listing departments": {
-    code: "D",
-    label: (_count, locale) => (locale === "zh-CN" ? "查看可用院系" : "Checked available departments"),
-    phase: "explore",
-    subtitle: {
-      en: "Finding schools that may match the student's topic.",
-      "zh-CN": "先找到可能匹配学生问题的学院。"
-    }
-  },
-  "reading a department index": {
-    code: "I",
-    label: (count, locale) =>
-      locale === "zh-CN" ? `扫描了 ${count} 个院系索引` : `Scanned ${count} department ${count === 1 ? "index" : "indexes"}`,
-    phase: "explore",
-    subtitle: {
-      en: "Reviewing department overviews before choosing profiles.",
-      "zh-CN": "在选择教授资料前先查看院系概览。"
-    }
-  },
-  "listing professor profiles": {
-    code: "P",
-    label: (_count, locale) => (locale === "zh-CN" ? "查看教授资料列表" : "Checked professor profile list"),
-    phase: "explore",
-    subtitle: {
-      en: "Looking at the candidate pool available in the corpus.",
-      "zh-CN": "查看资料库中的候选教授范围。"
-    }
-  },
-  "searching professor profiles": {
-    code: "S",
-    label: (_count, locale) => (locale === "zh-CN" ? "搜索教授资料" : "Searched professor profiles"),
-    phase: "explore",
-    subtitle: {
-      en: "Looking across names, research interests, and profile text.",
-      "zh-CN": "从姓名、研究方向和资料正文中搜索线索。"
-    }
-  },
-  "reading a professor profile": {
-    code: "R",
-    label: (count, locale) =>
-      locale === "zh-CN" ? `读取了 ${count} 份教授资料` : `Read ${count} professor ${count === 1 ? "profile" : "profiles"}`,
-    phase: "evidence",
-    subtitle: {
-      en: "Checking individual dossiers for evidence before answering.",
-      "zh-CN": "回答前逐份检查教授资料中的证据。"
-    }
-  },
-  "reviewing selected professor profiles": {
-    code: "C",
-    label: (_count, locale) => (locale === "zh-CN" ? "查看已选教授资料" : "Reviewed selected professor profiles"),
-    phase: "evidence",
-    subtitle: {
-      en: "Checking selected profiles before writing the answer.",
-      "zh-CN": "在回答前检查已选教授资料。"
-    }
-  },
   "updating the agent todo list": {
     code: "T",
     label: (_count, locale) => (locale === "zh-CN" ? "更新任务计划" : "Updated the work plan"),
@@ -129,24 +73,6 @@ const ACTIVITY_META: Record<
     subtitle: {
       en: "Organizing the agent's next steps.",
       "zh-CN": "整理智能体接下来的行动。"
-    }
-  },
-  "writing a scratch file": {
-    code: "W",
-    label: (_count, locale) => (locale === "zh-CN" ? "记录临时笔记" : "Saved scratch notes"),
-    phase: "evidence",
-    subtitle: {
-      en: "Keeping temporary notes separate from the read-only professor corpus.",
-      "zh-CN": "把临时笔记与只读教授资料库分开保存。"
-    }
-  },
-  "editing a scratch file": {
-    code: "E",
-    label: (_count, locale) => (locale === "zh-CN" ? "整理临时笔记" : "Refined scratch notes"),
-    phase: "evidence",
-    subtitle: {
-      en: "Updating temporary notes before synthesis.",
-      "zh-CN": "在综合回答前整理临时笔记。"
     }
   },
   "listing support files": {

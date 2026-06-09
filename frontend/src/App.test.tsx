@@ -88,10 +88,10 @@ describe("BIT Professor Agent frontend", () => {
   });
 
   it("renders activity when events arrive", () => {
-    render(<AgentActivity title="Agent activity" items={["Searching professor profiles"]} />);
+    render(<AgentActivity title="Agent activity" items={["Searching support files"]} />);
 
     expect(screen.getByText("Agent activity")).toBeInTheDocument();
-    expect(screen.getByText("Searched professor profiles")).toBeInTheDocument();
+    expect(screen.getByText("Searched supporting material 1 time")).toBeInTheDocument();
   });
 
   it("restores a stored transcript from localStorage", () => {
@@ -143,7 +143,7 @@ describe("BIT Professor Agent frontend", () => {
             content: "Final answer.",
             createdAt: "2026-04-26T00:00:01.000Z",
             status: "complete",
-            activity: ["Searching professor profiles"]
+            activity: ["Searching support files"]
           }
         ]
       })
@@ -189,7 +189,7 @@ describe("BIT Professor Agent frontend", () => {
     const user = userEvent.setup();
     const stream = mockDeferredStreamingFetch([
       { type: "run_started", run_id: "run-1", thread_id: "conversation-test" },
-      { type: "activity", activity: "Searching professor profiles" }
+      { type: "activity", activity: "Searching support files" }
     ]);
 
     render(<App />);
@@ -197,7 +197,7 @@ describe("BIT Professor Agent frontend", () => {
     await user.click(screen.getByRole("button", { name: "ASK" }));
 
     expect(await screen.findByText("Agent activity")).toBeInTheDocument();
-    expect(screen.getByText("Searched professor profiles")).toBeInTheDocument();
+    expect(screen.getByText("Searched supporting material 1 time")).toBeInTheDocument();
 
     stream.enqueue({ type: "message_delta", delta: "Robotics answer." });
     stream.enqueue({ type: "run_finished", finish_reason: "completed" });
@@ -242,7 +242,7 @@ describe("BIT Professor Agent frontend", () => {
       content: `message ${index}`,
       createdAt: "2026-04-26T00:00:00.000Z",
       status: "complete",
-      activity: ["Searching professor profiles"]
+      activity: ["Searching support files"]
     }));
     localStorage.setItem(
       CHAT_STORAGE_KEY,
@@ -271,7 +271,7 @@ describe("BIT Professor Agent frontend", () => {
     expect(body.history).toHaveLength(12);
     expect(body.history[0]).toEqual({ role: "user", content: "message 2" });
     expect(body.history[11]).toEqual({ role: "assistant", content: "message 13" });
-    expect(JSON.stringify(body.history)).not.toContain("Searching professor profiles");
+    expect(JSON.stringify(body.history)).not.toContain("Searching support files");
   });
 
   it("clears the visible transcript and localStorage", async () => {

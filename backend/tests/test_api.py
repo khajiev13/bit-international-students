@@ -19,9 +19,13 @@ class FakeAgent:
     async def astream_events(self, input_state, *, config, version):
         self.calls.append({"input_state": input_state, "config": config, "version": version})
         yield {"event": "on_tool_start", "name": "write_todos", "data": {"input": "private planning"}}
+        yield {"event": "on_tool_start", "name": "ls", "data": {"input": "/professors"}}
         yield {"event": "on_tool_start", "name": "read_file", "data": {"input": "/professors/index.md"}}
+        yield {"event": "on_tool_start", "name": "glob", "data": {"input": "/professors/**/*.md"}}
+        yield {"event": "on_tool_start", "name": "grep", "data": {"input": "machine learning"}}
         yield {"event": "on_tool_start", "name": "write_file", "data": {"input": "/scratch/search-notes.md"}}
         yield {"event": "on_tool_start", "name": "search_professors", "data": {"input": "/Users/private/.env"}}
+        yield {"event": "on_tool_start", "name": "read_professor_profile", "data": {"input": "computer-science-and-technology/li-xin"}}
         yield {"event": "on_tool_start", "name": "execute", "data": {"input": "cat /Users/private/.env"}}
         yield {"event": "on_chat_model_stream", "data": {"chunk": FakeChunk()}}
 
@@ -43,6 +47,9 @@ def test_professor_api_endpoints() -> None:
     assert ready["status"] == "ready"
     assert ready["department_count"] == 22
     assert ready["professor_count"] == 753
+    assert ready["context_hub_enabled"] is False
+    assert ready["context_hub_configured"] is False
+    assert ready["langsmith_tracing_configured"] is False
 
     departments = client.get("/api/departments").json()
     assert len(departments) == 22
@@ -89,6 +96,7 @@ def test_stream_does_not_pre_guard_unrelated_prompts() -> None:
         "activity",
         "activity",
         "activity",
+        "activity",
         "message_delta",
         "run_finished",
     ]
@@ -119,10 +127,14 @@ def test_stream_activity_is_sanitized_for_valid_run() -> None:
     serialized = json.dumps(events)
     assert activities == [
         "Updating the agent todo list",
+        "Listing support files",
         "Reading a support file",
-        "Writing a scratch file",
-        "Searching professor profiles",
+        "Finding support files",
+        "Searching support files",
     ]
+    assert "write_file" not in serialized
+    assert "search_professors" not in serialized
+    assert "read_professor_profile" not in serialized
     assert "execute" not in serialized
     assert "/Users/private" not in serialized
     assert events[-1]["finish_reason"] == "completed"
