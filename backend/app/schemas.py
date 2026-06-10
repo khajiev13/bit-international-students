@@ -57,6 +57,9 @@ class ReadyResponse(BaseModel):
     department_count: int
     professor_count: int
     model_configured: bool
+    context_hub_enabled: bool
+    context_hub_configured: bool
+    langsmith_tracing_configured: bool
 
 
 class CreateSessionResponse(BaseModel):

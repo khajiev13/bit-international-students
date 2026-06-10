@@ -15,7 +15,6 @@ services:
     tmpfs:
       - /tmp:rw,noexec,nosuid,size=64m
     volumes:
-      - lab4_professor_scratch:/app/scratch
       - lab4_professor_analytics:/app/analytics
     healthcheck:
       test:
@@ -70,7 +69,6 @@ services:
       start_period: 5s
 
 volumes:
-  lab4_professor_scratch:
   lab4_professor_analytics:
   caddy_data:
   caddy_config:

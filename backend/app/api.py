@@ -58,12 +58,16 @@ def create_router() -> APIRouter:
         return HealthResponse(status="ok")
 
     @router.get("/readyz", response_model=ReadyResponse)
+    @router.get("/api/readyz", response_model=ReadyResponse)
     def readyz(request: Request) -> ReadyResponse:
         return ReadyResponse(
             status="ready",
             department_count=request.app.state.corpus.department_count,
             professor_count=request.app.state.corpus.count,
             model_configured=request.app.state.settings.model_configured,
+            context_hub_enabled=request.app.state.settings.context_hub_enabled,
+            context_hub_configured=request.app.state.settings.context_hub_configured,
+            langsmith_tracing_configured=request.app.state.settings.langsmith_tracing_configured,
         )
 
     @router.get("/api/departments")

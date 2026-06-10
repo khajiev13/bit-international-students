@@ -23,8 +23,6 @@ The public app is read-focused. It does not expose crawler workflows, uploads, p
 
 ## How It Works
 
-![DeepAgents architecture](docs/deepagents-architecture.png)
-
 The app follows a short request path:
 
 ```text
@@ -32,14 +30,15 @@ Student question
   -> React chat UI
   -> FastAPI streaming endpoint
   -> DeepAgents graph
-  -> corpus and index tools
-  -> professor dossier evidence
+  -> read-only file tools over /professors
+  -> optional /wiki Context Hub guidance
+  -> professor Markdown evidence
   -> streamed Markdown answer
 ```
 
-The DeepAgents setup lives in `backend/app/agent.py`. `ProfessorAgentService` builds one agent with the system prompt from `backend/app/prompts.py`, read-only professor-corpus tools from `backend/app/tools.py`, a virtual filesystem, and an in-memory LangGraph checkpointer.
+The DeepAgents setup lives in `backend/app/agent.py`. `ProfessorAgentService` builds one agent with the system prompt from `backend/app/prompts.py`, a virtual filesystem, optional LangSmith Context Hub support, and an in-memory LangGraph checkpointer.
 
-The model can inspect the corpus, search indexes, compare profiles, and write temporary notes in `/scratch`. It cannot use shell execution, subagents, delete tools, crawler routes, upload routes, or professor-editing routes.
+The model can only use `write_todos`, `ls`, `read_file`, `glob`, and `grep`. It reads the local `/professors` corpus directly and can read `/wiki` only when Context Hub is configured. It cannot use custom professor tools, public file writes, shell execution, subagents, delete tools, crawler routes, upload routes, or professor-editing routes.
 
 ## Corpus Files
 
@@ -79,6 +78,25 @@ Required model settings:
 BIT_PROF_LLM_API_KEY=your-llm-api-key
 BIT_PROF_LLM_BASE_URL=https://api.silra.cn/v1/
 BIT_PROF_LLM_MODEL=deepseek-v4-flash
+```
+
+Optional Context Hub and LangSmith settings:
+
+```env
+LAB4_CONTEXT_HUB_ENABLED=false
+LAB4_CONTEXT_HUB_IDENTIFIER=-/bit-professor-agent
+LANGSMITH_TRACING=true
+LANGSMITH_ENDPOINT=https://api.smith.langchain.com
+LANGSMITH_API_KEY=your-langsmith-api-key
+LANGSMITH_PROJECT=bit_agent_app
+LAB4_DEPLOYMENT_ENV=production
+```
+
+Optional server controls:
+
+```env
+LAB4_MAX_PROMPT_CHARS=2000
+LAB4_AGENT_RECURSION_LIMIT=80
 ```
 
 Run with Docker Compose:

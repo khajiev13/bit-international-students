@@ -12,6 +12,12 @@ class FakeChunk:
     content = "Li Xin works on machine learning."
 
 
+class FakeMessage:
+    def __init__(self, content: str, *, tool_calls=None) -> None:
+        self.content = content
+        self.tool_calls = tool_calls or []
+
+
 class FakeAgent:
     def __init__(self) -> None:
         self.calls = []
@@ -19,11 +25,64 @@ class FakeAgent:
     async def astream_events(self, input_state, *, config, version):
         self.calls.append({"input_state": input_state, "config": config, "version": version})
         yield {"event": "on_tool_start", "name": "write_todos", "data": {"input": "private planning"}}
+        yield {"event": "on_tool_start", "name": "ls", "data": {"input": "/professors"}}
         yield {"event": "on_tool_start", "name": "read_file", "data": {"input": "/professors/index.md"}}
+        yield {"event": "on_tool_start", "name": "glob", "data": {"input": "/professors/**/*.md"}}
+        yield {"event": "on_tool_start", "name": "grep", "data": {"input": "machine learning"}}
         yield {"event": "on_tool_start", "name": "write_file", "data": {"input": "/scratch/search-notes.md"}}
         yield {"event": "on_tool_start", "name": "search_professors", "data": {"input": "/Users/private/.env"}}
+        yield {"event": "on_tool_start", "name": "read_professor_profile", "data": {"input": "computer-science-and-technology/li-xin"}}
         yield {"event": "on_tool_start", "name": "execute", "data": {"input": "cat /Users/private/.env"}}
-        yield {"event": "on_chat_model_stream", "data": {"chunk": FakeChunk()}}
+        yield {"event": "on_chat_model_stream", "run_id": "final-model", "data": {"chunk": FakeChunk()}}
+        yield {
+            "event": "on_chat_model_end",
+            "run_id": "final-model",
+            "data": {"output": FakeMessage("Li Xin works on machine learning.")},
+        }
+
+
+class FlakyReadErrorAgent:
+    def __init__(self) -> None:
+        self.calls = 0
+
+    async def astream_events(self, input_state, *, config, version):
+        import httpx
+
+        self.calls += 1
+        if self.calls == 1:
+            yield {"event": "on_tool_start", "name": "read_file", "data": {"input": "/professors/index.md"}}
+            raise httpx.ReadError("upstream stream dropped")
+        yield {"event": "on_chat_model_stream", "run_id": "retry-final-model", "data": {"chunk": FakeChunk()}}
+        yield {
+            "event": "on_chat_model_end",
+            "run_id": "retry-final-model",
+            "data": {"output": FakeMessage("Li Xin works on machine learning.")},
+        }
+
+
+class PlanningNarrationAgent:
+    async def astream_events(self, input_state, *, config, version):
+        yield {
+            "event": "on_chat_model_stream",
+            "run_id": "planning-model",
+            "data": {"chunk": FakeMessage("Let me inspect files first.")},
+        }
+        yield {
+            "event": "on_chat_model_end",
+            "run_id": "planning-model",
+            "data": {"output": FakeMessage("Let me inspect files first.", tool_calls=[{"name": "read_file"}])},
+        }
+        yield {"event": "on_tool_start", "name": "read_file", "data": {"input": "/professors/index.md"}}
+        yield {
+            "event": "on_chat_model_stream",
+            "run_id": "final-model",
+            "data": {"chunk": FakeMessage("Li Xin works on machine learning.")},
+        }
+        yield {
+            "event": "on_chat_model_end",
+            "run_id": "final-model",
+            "data": {"output": FakeMessage("Li Xin works on machine learning.")},
+        }
 
 
 def wait_for_log_rows(log: QuestionAnswerLog, expected_count: int, *, timeout_seconds: float = 2.0):
@@ -43,6 +102,10 @@ def test_professor_api_endpoints() -> None:
     assert ready["status"] == "ready"
     assert ready["department_count"] == 22
     assert ready["professor_count"] == 753
+    assert ready["context_hub_enabled"] is False
+    assert ready["context_hub_configured"] is False
+    assert ready["langsmith_tracing_configured"] is False
+    assert client.get("/api/readyz").json() == ready
 
     departments = client.get("/api/departments").json()
     assert len(departments) == 22
@@ -89,6 +152,7 @@ def test_stream_does_not_pre_guard_unrelated_prompts() -> None:
         "activity",
         "activity",
         "activity",
+        "activity",
         "message_delta",
         "run_finished",
     ]
@@ -119,12 +183,68 @@ def test_stream_activity_is_sanitized_for_valid_run() -> None:
     serialized = json.dumps(events)
     assert activities == [
         "Updating the agent todo list",
+        "Listing support files",
         "Reading a support file",
-        "Writing a scratch file",
-        "Searching professor profiles",
+        "Finding support files",
+        "Searching support files",
     ]
+    assert "write_file" not in serialized
+    assert "search_professors" not in serialized
+    assert "read_professor_profile" not in serialized
     assert "execute" not in serialized
     assert "/Users/private" not in serialized
+    assert events[-1]["finish_reason"] == "completed"
+
+
+def test_stream_retries_transient_model_read_error_before_answer_text() -> None:
+    app = create_app()
+    app.state.settings.llm_api_key = SecretStr("test-key")
+    flaky_agent = FlakyReadErrorAgent()
+
+    async def fake_get_agent():
+        return flaky_agent
+
+    app.state.agent_service._get_agent = fake_get_agent
+    client = TestClient(app)
+    thread_id = client.post("/api/sessions").json()["thread_id"]
+
+    with client.stream(
+        "POST",
+        f"/api/sessions/{thread_id}/runs/stream",
+        json={"message": "Which professors work on machine learning robotics?"},
+    ) as response:
+        assert response.status_code == 200
+        events = [json.loads(line) for line in response.iter_lines() if line]
+
+    assert flaky_agent.calls == 2
+    assert any(event.get("delta") == "Li Xin works on machine learning." for event in events)
+    assert not any(event["type"] == "error" for event in events)
+    assert events[-1]["finish_reason"] == "completed"
+
+
+def test_stream_suppresses_planning_narration_before_final_answer() -> None:
+    app = create_app()
+    app.state.settings.llm_api_key = SecretStr("test-key")
+    planning_agent = PlanningNarrationAgent()
+
+    async def fake_get_agent():
+        return planning_agent
+
+    app.state.agent_service._get_agent = fake_get_agent
+    client = TestClient(app)
+    thread_id = client.post("/api/sessions").json()["thread_id"]
+
+    with client.stream(
+        "POST",
+        f"/api/sessions/{thread_id}/runs/stream",
+        json={"message": "Which professors work on machine learning robotics?"},
+    ) as response:
+        assert response.status_code == 200
+        events = [json.loads(line) for line in response.iter_lines() if line]
+
+    deltas = [event["delta"] for event in events if event["type"] == "message_delta"]
+    assert deltas == ["Li Xin works on machine learning."]
+    assert "Let me inspect files first." not in json.dumps(events)
     assert events[-1]["finish_reason"] == "completed"
 
 
@@ -186,6 +306,29 @@ def test_repeated_runs_use_isolated_graph_threads() -> None:
     assert len(graph_thread_ids) == 2
     assert graph_thread_ids[0] != graph_thread_ids[1]
     assert all(graph_thread_id.startswith(f"{thread_id}:run:") for graph_thread_id in graph_thread_ids)
+
+
+def test_stream_config_sets_file_reading_recursion_limit() -> None:
+    app = create_app()
+    app.state.settings.llm_api_key = SecretStr("test-key")
+    app.state.settings.agent_recursion_limit = 72
+    fake_agent = FakeAgent()
+
+    async def fake_get_agent():
+        return fake_agent
+
+    app.state.agent_service._get_agent = fake_get_agent
+    client = TestClient(app)
+
+    with client.stream(
+        "POST",
+        "/api/sessions/frontend-conversation/runs/stream",
+        json={"message": "Which professors work on robotics and machine learning?"},
+    ) as response:
+        assert response.status_code == 200
+        [json.loads(line) for line in response.iter_lines() if line]
+
+    assert fake_agent.calls[0]["config"]["recursion_limit"] == 72
 
 
 def test_history_is_bounded_before_agent_call() -> None:
