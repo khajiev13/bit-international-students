@@ -30,6 +30,7 @@ class Settings(BaseSettings):
     max_prompt_chars: int = Field(default=2000, ge=1, le=10000, validation_alias="LAB4_MAX_PROMPT_CHARS")
     max_history_messages: int = Field(default=12, ge=0, le=100, validation_alias="LAB4_MAX_HISTORY_MESSAGES")
     max_history_chars: int = Field(default=24000, ge=0, le=200000, validation_alias="LAB4_MAX_HISTORY_CHARS")
+    agent_recursion_limit: int = Field(default=80, ge=25, le=200, validation_alias="LAB4_AGENT_RECURSION_LIMIT")
     admin_username: str | None = Field(default=None, validation_alias="LAB4_ADMIN_USERNAME")
     admin_password: SecretStr | None = Field(default=None, validation_alias="LAB4_ADMIN_PASSWORD")
     context_hub_enabled: bool = Field(default=False, validation_alias="LAB4_CONTEXT_HUB_ENABLED")

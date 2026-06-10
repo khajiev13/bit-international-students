@@ -159,18 +159,35 @@ class ProfessorAgentService:
         try:
             agent = await self._get_agent()
             yielded_text = False
-            async for event in self._stream_agent_events(
-                agent=agent,
-                thread_id=thread_id,
-                run_id=run_id,
-                message=message,
-                history=history or [],
-            ):
-                if event.type == "message_delta":
-                    yielded_text = True
-                    if event.delta:
-                        answer_parts.append(event.delta)
-                yield _encode_event(event.model_copy(update={"run_id": run_id, "thread_id": thread_id}))
+            for attempt_index in range(2):
+                try:
+                    graph_run_id = run_id if attempt_index == 0 else f"{run_id}:retry:{attempt_index}"
+                    async for event in self._stream_agent_events(
+                        agent=agent,
+                        thread_id=thread_id,
+                        run_id=graph_run_id,
+                        message=message,
+                        history=history or [],
+                    ):
+                        if event.type == "message_delta":
+                            yielded_text = True
+                            if event.delta:
+                                answer_parts.append(event.delta)
+                        yield _encode_event(event.model_copy(update={"run_id": run_id, "thread_id": thread_id}))
+                    break
+                except Exception as exc:
+                    if attempt_index == 0 and not yielded_text and _is_transient_model_stream_error(exc):
+                        logger.warning("Transient model stream read failed before answer text; retrying.", exc_info=True)
+                        yield _encode_event(
+                            StreamEvent(
+                                type="activity",
+                                run_id=run_id,
+                                thread_id=thread_id,
+                                activity="Retrying model connection",
+                            )
+                        )
+                        continue
+                    raise
             if not yielded_text:
                 fallback_message = "I could not produce a response for this professor-corpus question."
                 answer_parts.append(fallback_message)
@@ -295,11 +312,12 @@ class ProfessorAgentService:
     ) -> AsyncIterator[StreamEvent]:
         input_state = {"messages": [*self._bounded_history(history), {"role": "user", "content": message}]}
         config = self._sessions.config_for(thread_id, run_id=run_id)
+        config["recursion_limit"] = self._settings.agent_recursion_limit
 
         if hasattr(agent, "astream_events"):
+            translator = LangChainStreamTranslator()
             async for raw_event in agent.astream_events(input_state, config=config, version="v2"):
-                event = _event_from_langchain(raw_event)
-                if event is not None:
+                for event in translator.events_from(raw_event):
                     yield event
             return
 
@@ -335,16 +353,47 @@ def _tool_name(tool: "BaseTool | dict[str, Any]") -> str | None:
     return name if isinstance(name, str) else None
 
 
-def _event_from_langchain(raw_event: dict[str, Any]) -> StreamEvent | None:
-    event_name = raw_event.get("event")
-    tool_name = str(raw_event.get("name") or "")
-    if event_name == "on_tool_start" and tool_name in SAFE_ACTIVITY_BY_TOOL:
-        return StreamEvent(type="activity", activity=SAFE_ACTIVITY_BY_TOOL[tool_name])
-    if event_name == "on_chat_model_stream":
-        delta = _content_to_text(raw_event.get("data", {}).get("chunk"))
-        if delta:
-            return StreamEvent(type="message_delta", delta=delta)
-    return None
+class LangChainStreamTranslator:
+    def __init__(self) -> None:
+        self._model_buffers: dict[str, list[str]] = {}
+
+    def events_from(self, raw_event: dict[str, Any]) -> list[StreamEvent]:
+        event_name = raw_event.get("event")
+        tool_name = str(raw_event.get("name") or "")
+        if event_name == "on_tool_start" and tool_name in SAFE_ACTIVITY_BY_TOOL:
+            return [StreamEvent(type="activity", activity=SAFE_ACTIVITY_BY_TOOL[tool_name])]
+
+        if event_name == "on_chat_model_stream":
+            delta = _content_to_text(raw_event.get("data", {}).get("chunk"))
+            if delta:
+                self._model_buffers.setdefault(_event_run_id(raw_event), []).append(delta)
+            return []
+
+        if event_name == "on_chat_model_end":
+            model_run_id = _event_run_id(raw_event)
+            text = "".join(self._model_buffers.pop(model_run_id, []))
+            output = raw_event.get("data", {}).get("output")
+            if not text:
+                text = _content_to_text(output)
+            if text and not _message_has_tool_calls(output):
+                return [StreamEvent(type="message_delta", delta=text)]
+        return []
+
+
+def _event_run_id(raw_event: dict[str, Any]) -> str:
+    return str(raw_event.get("run_id") or "__default__")
+
+
+def _message_has_tool_calls(value: Any) -> bool:
+    if isinstance(value, dict):
+        return bool(value.get("tool_calls") or value.get("tool_call_chunks") or value.get("invalid_tool_calls"))
+
+    for attr in ("tool_calls", "tool_call_chunks", "invalid_tool_calls"):
+        if getattr(value, attr, None):
+            return True
+
+    additional_kwargs = getattr(value, "additional_kwargs", None)
+    return isinstance(additional_kwargs, dict) and bool(additional_kwargs.get("tool_calls"))
 
 
 def _extract_final_text(result: Any) -> str:
@@ -375,6 +424,15 @@ def _content_to_text(value: Any) -> str:
 
 def _history_char_count(messages: list[dict[str, str]]) -> int:
     return sum(len(message["content"]) for message in messages)
+
+
+def _is_transient_model_stream_error(exc: BaseException) -> bool:
+    current: BaseException | None = exc
+    while current is not None:
+        if current.__class__.__name__ in {"ReadError", "RemoteProtocolError"} and current.__class__.__module__.startswith(("httpx", "httpcore")):
+            return True
+        current = current.__cause__ or current.__context__
+    return False
 
 
 def _register_pure_file_reading_harness_profile(

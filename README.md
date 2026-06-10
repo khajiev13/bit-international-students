@@ -92,6 +92,13 @@ LANGSMITH_PROJECT=bit_agent_app
 LAB4_DEPLOYMENT_ENV=production
 ```
 
+Optional server controls:
+
+```env
+LAB4_MAX_PROMPT_CHARS=2000
+LAB4_AGENT_RECURSION_LIMIT=80
+```
+
 Run with Docker Compose:
 
 ```bash

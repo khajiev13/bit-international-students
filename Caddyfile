@@ -18,7 +18,10 @@ http:// {
 	}
 
 	respond /healthz "ok" 200
-	reverse_proxy /readyz backend:8000
+
+	handle /readyz {
+		reverse_proxy backend:8000
+	}
 
 	handle /api/* {
 		reverse_proxy backend:8000

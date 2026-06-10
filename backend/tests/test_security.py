@@ -180,8 +180,8 @@ def test_system_prompt_owns_scope_and_read_only_policy() -> None:
     assert "write_todos" in prompt
     assert "detail_url" in prompt
     assert "Do not invent URLs" in prompt
-    assert "read every professor Markdown file that is needed" in prompt
-    assert "inspect each candidate's dossier" in prompt
+    assert "read only enough dossiers to verify a concise shortlist" in prompt
+    assert "inspect the dossiers for the candidates you actively recommend" in prompt
     assert "/professors/<department>/publications-index.md" in prompt
     assert "publication-related questions" in prompt
     assert "verify the `## Publications` section" in prompt
@@ -195,6 +195,14 @@ def test_system_prompt_owns_scope_and_read_only_policy() -> None:
     assert "Shell execution" not in prompt
     for removed_tool in REMOVED_AGENT_TOOLS:
         assert removed_tool not in prompt
+
+
+def test_system_prompt_bounds_broad_file_reading_workflows() -> None:
+    prompt = DEEP_AGENT_SYSTEM_PROMPT
+
+    assert "default to a shortlist of 3 to 5 professor candidates" in prompt
+    assert "Do not attempt an exhaustive corpus review unless the student explicitly asks for it" in prompt
+    assert "Do not narrate tool use, planning, or progress" in prompt
 
 
 def test_default_prompt_excludes_context_hub_when_unconfigured() -> None:
