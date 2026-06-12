@@ -37,9 +37,9 @@ Student question
   -> streamed Markdown answer
 ```
 
-The DeepAgents setup lives in `backend/app/agent.py`. `ProfessorAgentService` builds one agent with the system prompt from `backend/app/prompts.py`, read-only professor-corpus tools from `backend/app/tools.py`, a virtual filesystem, and an in-memory LangGraph checkpointer.
+The DeepAgents setup lives in `backend/app/agent.py`. `ProfessorAgentService` builds one agent with the system prompt from `backend/app/prompts.py`, read-only professor-corpus tools from `backend/app/tools.py`, a read-only virtual filesystem, and an in-memory LangGraph checkpointer.
 
-The model can inspect the corpus, search indexes, compare profiles, and write temporary notes in `/scratch`. It cannot use shell execution, subagents, delete tools, crawler routes, upload routes, or professor-editing routes.
+The model can inspect the corpus, search indexes, and compare profiles. It cannot write files, use shell execution, call subagents, delete files, run crawler routes, upload files, or edit professor data.
 
 ## Corpus Files
 

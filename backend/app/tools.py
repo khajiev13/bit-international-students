@@ -22,13 +22,10 @@ PROFESSOR_TOOL_NAMES = frozenset(
 
 DEEPAGENT_WORKSPACE_TOOL_NAMES = frozenset(
     {
-        "write_todos",
         "ls",
         "read_file",
         "glob",
         "grep",
-        "write_file",
-        "edit_file",
     }
 )
 

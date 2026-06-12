@@ -3,14 +3,12 @@
 .env.*
 !.env.example
 .wrangler/
-.superpowers/
 
 # Python
 backend/.venv/
 backend/.pytest_cache/
 backend/**/__pycache__/
 backend/**/*.py[cod]
-backend/scratch/
 backend/analytics/
 
 # Frontend
@@ -20,7 +18,6 @@ frontend/coverage/
 frontend/.vite/
 
 # Runtime data
-scratch/
 analytics/
 *.sqlite
 *.sqlite3

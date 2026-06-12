@@ -12,7 +12,7 @@ COPY app ./app
 
 RUN groupadd --system app \
     && useradd --system --gid app --home-dir /app --shell /usr/sbin/nologin app \
-    && mkdir -p /app/scratch /app/analytics \
+    && mkdir -p /app/analytics \
     && chown -R app:app /app \
     && chmod -R a-w /app/app/corpus
 

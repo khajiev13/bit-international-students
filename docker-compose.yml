@@ -3,19 +3,24 @@ services:
     build: ./backend
     container_name: lab4_professor_backend
     restart: unless-stopped
-    env_file:
-      - .env
     read_only: true
     cap_drop:
       - ALL
     security_opt:
       - no-new-privileges:true
     environment:
+      BIT_PROF_LLM_API_KEY: ${BIT_PROF_LLM_API_KEY:-}
+      BIT_PROF_LLM_BASE_URL: ${BIT_PROF_LLM_BASE_URL:-https://api.silra.cn/v1/}
+      BIT_PROF_LLM_MODEL: ${BIT_PROF_LLM_MODEL:-deepseek-v4-flash}
+      LAB4_ALLOWED_ORIGINS: ${LAB4_ALLOWED_ORIGINS:-http://localhost:8081,http://127.0.0.1:8081}
+      LAB4_ALLOWED_HOSTS: ${LAB4_ALLOWED_HOSTS:-localhost,127.0.0.1,testserver,lab4_professor_caddy}
+      LAB4_MAX_PROMPT_CHARS: ${LAB4_MAX_PROMPT_CHARS:-2000}
+      LAB4_ADMIN_USERNAME: ${LAB4_ADMIN_USERNAME:-}
+      LAB4_ADMIN_PASSWORD: ${LAB4_ADMIN_PASSWORD:-}
       LAB4_QA_LOG_DB_PATH: /app/analytics/question_answer_log.sqlite3
     tmpfs:
       - /tmp:rw,noexec,nosuid,size=64m
     volumes:
-      - lab4_professor_scratch:/app/scratch
       - lab4_professor_analytics:/app/analytics
     healthcheck:
       test:
@@ -70,7 +75,6 @@ services:
       start_period: 5s
 
 volumes:
-  lab4_professor_scratch:
   lab4_professor_analytics:
   caddy_data:
   caddy_config:

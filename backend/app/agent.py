@@ -25,13 +25,10 @@ if TYPE_CHECKING:
 
 
 SAFE_ACTIVITY_BY_TOOL = {
-    "write_todos": "Updating the agent todo list",
     "ls": "Listing support files",
     "read_file": "Reading a support file",
     "glob": "Finding support files",
     "grep": "Searching support files",
-    "write_file": "Writing a scratch file",
-    "edit_file": "Editing a scratch file",
     "list_departments": "Listing departments",
     "read_department_index": "Reading a department index",
     "list_professors": "Listing professor profiles",
@@ -244,10 +241,7 @@ class ProfessorAgentService:
         from langgraph.checkpoint.memory import InMemorySaver
 
         tools = ProfessorToolFactory(self._corpus).build()
-        backend = _build_agent_backend(
-            profiles_dir=self._corpus.profiles_dir,
-            scratch_dir=self._settings.agent_scratch_dir,
-        )
+        backend = _build_agent_backend(profiles_dir=self._corpus.profiles_dir)
         model = ChatOpenAI(
             model=self._settings.llm_model,
             api_key=self._settings.llm_api_key.get_secret_value() if self._settings.llm_api_key else None,
@@ -357,15 +351,13 @@ def _history_char_count(messages: list[dict[str, str]]) -> int:
     return sum(len(message["content"]) for message in messages)
 
 
-def _build_agent_backend(*, profiles_dir: Path, scratch_dir: Path) -> Any:
+def _build_agent_backend(*, profiles_dir: Path) -> Any:
     from deepagents.backends import CompositeBackend, FilesystemBackend, StateBackend
 
-    scratch_dir.mkdir(parents=True, exist_ok=True)
     return CompositeBackend(
         default=StateBackend(),
         routes={
             "/professors/": FilesystemBackend(root_dir=profiles_dir, virtual_mode=True),
-            "/scratch/": FilesystemBackend(root_dir=scratch_dir, virtual_mode=True),
         },
     )
 
@@ -379,10 +371,9 @@ def _filesystem_permissions(filesystem_permission_cls: type[Any] | None = None) 
     return [
         filesystem_permission_cls(
             operations=["read"],
-            paths=["/", "/professors", "/professors/**", "/scratch", "/scratch/**"],
+            paths=["/", "/professors", "/professors/**"],
             mode="allow",
         ),
-        filesystem_permission_cls(operations=["write"], paths=["/scratch", "/scratch/**"], mode="allow"),
         filesystem_permission_cls(operations=["write"], paths=["/professors", "/professors/**"], mode="deny"),
         filesystem_permission_cls(operations=["read", "write"], paths=["/**", "/**/.*"], mode="deny"),
     ]

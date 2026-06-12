@@ -87,8 +87,6 @@ def test_stream_does_not_pre_guard_unrelated_prompts() -> None:
         "run_started",
         "activity",
         "activity",
-        "activity",
-        "activity",
         "message_delta",
         "run_finished",
     ]
@@ -118,11 +116,12 @@ def test_stream_activity_is_sanitized_for_valid_run() -> None:
     activities = [event.get("activity") for event in events if event["type"] == "activity"]
     serialized = json.dumps(events)
     assert activities == [
-        "Updating the agent todo list",
         "Reading a support file",
-        "Writing a scratch file",
         "Searching professor profiles",
     ]
+    assert "write_todos" not in serialized
+    assert "write_file" not in serialized
+    assert "scratch" not in serialized.lower()
     assert "execute" not in serialized
     assert "/Users/private" not in serialized
     assert events[-1]["finish_reason"] == "completed"

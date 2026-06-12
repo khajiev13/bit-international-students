@@ -4,5 +4,4 @@ __pycache__/
 *.pyc
 tests/
 uv.lock
-scratch/
 analytics/

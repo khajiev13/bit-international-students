@@ -122,33 +122,6 @@ const ACTIVITY_META: Record<
       "zh-CN": "在回答前检查已选教授资料。"
     }
   },
-  "updating the agent todo list": {
-    code: "T",
-    label: (_count, locale) => (locale === "zh-CN" ? "更新任务计划" : "Updated the work plan"),
-    phase: "understand",
-    subtitle: {
-      en: "Organizing the agent's next steps.",
-      "zh-CN": "整理智能体接下来的行动。"
-    }
-  },
-  "writing a scratch file": {
-    code: "W",
-    label: (_count, locale) => (locale === "zh-CN" ? "记录临时笔记" : "Saved scratch notes"),
-    phase: "evidence",
-    subtitle: {
-      en: "Keeping temporary notes separate from the read-only professor corpus.",
-      "zh-CN": "把临时笔记与只读教授资料库分开保存。"
-    }
-  },
-  "editing a scratch file": {
-    code: "E",
-    label: (_count, locale) => (locale === "zh-CN" ? "整理临时笔记" : "Refined scratch notes"),
-    phase: "evidence",
-    subtitle: {
-      en: "Updating temporary notes before synthesis.",
-      "zh-CN": "在综合回答前整理临时笔记。"
-    }
-  },
   "listing support files": {
     code: "F",
     label: (_count, locale) => (locale === "zh-CN" ? "查看辅助资料" : "Checked supporting files"),

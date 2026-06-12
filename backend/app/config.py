@@ -20,7 +20,6 @@ class Settings(BaseSettings):
         validation_alias="LAB4_ALLOWED_HOSTS",
     )
     corpus_dir: Path = Field(default_factory=lambda: Path(__file__).resolve().parent / "corpus")
-    agent_scratch_dir: Path = Field(default_factory=lambda: BACKEND_ROOT / "scratch", validation_alias="LAB4_AGENT_SCRATCH_DIR")
     qa_log_db_path: Path = Field(
         default_factory=lambda: BACKEND_ROOT / "analytics" / "question_answer_log.sqlite3",
         validation_alias="LAB4_QA_LOG_DB_PATH",

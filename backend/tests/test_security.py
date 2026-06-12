@@ -11,6 +11,7 @@ from app.tools import PROFESSOR_TOOL_NAMES, SAFE_TOOL_NAMES, ProfessorToolFactor
 
 BACKEND_ROOT = Path(__file__).resolve().parents[1]
 DANGEROUS_TOOL_NAMES = {"execute", "task", "delete_file"}
+NON_PUBLIC_WORKSPACE_TOOL_NAMES = {"write_todos", "write_file", "edit_file"}
 
 
 def test_custom_tool_allowlist_contains_no_dangerous_tools() -> None:
@@ -21,7 +22,7 @@ def test_custom_tool_allowlist_contains_no_dangerous_tools() -> None:
 
     assert tool_names == PROFESSOR_TOOL_NAMES
     assert not (tool_names & DANGEROUS_TOOL_NAMES)
-    assert {"write_todos", "write_file", "edit_file"} <= SAFE_TOOL_NAMES
+    assert not (SAFE_TOOL_NAMES & NON_PUBLIC_WORKSPACE_TOOL_NAMES)
     assert isinstance(AllowListedToolsMiddleware(SAFE_TOOL_NAMES), AllowListedToolsMiddleware)
 
 
@@ -51,10 +52,7 @@ def test_allowlist_middleware_filters_default_deepagent_tools() -> None:
 
     assert [tool["name"] for tool in filtered_tools] == [
         "list_professors",
-        "write_file",
-        "edit_file",
         "read_file",
-        "write_todos",
         "read_professor_profile",
     ]
 
@@ -83,29 +81,21 @@ def test_deepagents_filesystem_permissions_are_first_match_safe() -> None:
 
     assert _check_fs_permission(rules, "read", "/") == "allow"
     assert _check_fs_permission(rules, "read", "/professors/index.md") == "allow"
-    assert _check_fs_permission(rules, "read", "/scratch/search-notes.md") == "allow"
-    assert _check_fs_permission(rules, "write", "/scratch/search-notes.md") == "allow"
+    assert _check_fs_permission(rules, "read", "/scratch/search-notes.md") == "deny"
+    assert _check_fs_permission(rules, "write", "/scratch/search-notes.md") == "deny"
     assert _check_fs_permission(rules, "write", "/professors/computer-science-and-technology/li-xin.md") == "deny"
     assert _check_fs_permission(rules, "read", "/Users/private/.env") == "deny"
     assert _check_fs_permission(rules, "write", "/tmp/escape.md") == "deny"
 
 
-def test_composite_backend_routes_corpus_read_and_scratch_write(tmp_path: Path) -> None:
+def test_composite_backend_routes_corpus_read_only() -> None:
     corpus = ProfessorCorpus(Path("app/corpus"))
-    backend = _build_agent_backend(profiles_dir=corpus.profiles_dir, scratch_dir=tmp_path / "scratch")
+    backend = _build_agent_backend(profiles_dir=corpus.profiles_dir)
 
     corpus_read = backend.read("/professors/index.md")
     assert corpus_read.error is None
     assert corpus_read.file_data is not None
     assert "BIT Professor Corpus Index" in corpus_read.file_data["content"]
-
-    scratch_write = backend.write("/scratch/search-notes.md", "first note")
-    assert scratch_write.error is None
-    assert (tmp_path / "scratch" / "search-notes.md").read_text(encoding="utf-8") == "first note"
-
-    scratch_edit = backend.edit("/scratch/search-notes.md", "first", "updated")
-    assert scratch_edit.error is None
-    assert (tmp_path / "scratch" / "search-notes.md").read_text(encoding="utf-8") == "updated note"
 
 
 def test_system_prompt_owns_scope_and_read_only_policy() -> None:
@@ -121,8 +111,10 @@ def test_system_prompt_owns_scope_and_read_only_policy() -> None:
     assert "Lab 4" not in prompt
     assert "read-only" in prompt
     assert "/professors/index.md" in prompt
-    assert "/scratch" in prompt
-    assert "write_todos" in prompt
+    assert "/scratch" not in prompt
+    assert "write_todos" not in prompt
+    assert "write_file" not in prompt
+    assert "edit_file" not in prompt
     assert "detail_url" in prompt
     assert "Do not invent URLs" in prompt
     assert "read every professor Markdown file that is needed" in prompt
